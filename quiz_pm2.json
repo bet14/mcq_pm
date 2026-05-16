@@ -1,0 +1,945 @@
+{
+"title": "Project Management Class 2 Exam Review Quiz",
+"subtitle": "Phase-Gate, initiation, scope, requirements, goals, and business case concepts",
+"totalQuestions": 60,
+"questions": [
+{
+"question": "What is the primary purpose of the Phase-Gate Process?",
+"options": [
+"To divide a project into phases separated by review gates",
+"To assign tasks to departments",
+"To create sprint backlogs",
+"To eliminate the need for project approval"
+],
+"answerIndex": 0,
+"explanation": "The Phase-Gate Process splits a project into phases that are reviewed at gates.",
+"category": "Phase-Gate Process",
+"level": "Easy",
+"tags": ["phase-gate", "milestones", "project lifecycle"]
+},
+{
+"question": "In the Phase-Gate Process, what is a gate most closely equivalent to?",
+"options": [
+"A task dependency",
+"A milestone",
+"A resource pool",
+"A work package"
+],
+"answerIndex": 1,
+"explanation": "A gate is treated as a milestone used to review progress and decide next steps.",
+"category": "Phase-Gate Process",
+"level": "Easy",
+"tags": ["gate", "milestone", "review"]
+},
+{
+"question": "How many criteria must each gate have according to the class notes?",
+"options": [
+"Exactly one",
+"At least two",
+"Exactly three",
+"No minimum requirement"
+],
+"answerIndex": 1,
+"explanation": "Each gate should have at least two criteria for evaluation.",
+"category": "Phase-Gate Process",
+"level": "Medium",
+"tags": ["gate criteria", "evaluation", "phase-gate"]
+},
+{
+"question": "Which option is not a valid gate decision?",
+"options": [
+"GO",
+"KILL",
+"PAUSE",
+"RECYCLE"
+],
+"answerIndex": 2,
+"explanation": "The valid decisions are GO, KILL, HOLD, and RECYCLE.",
+"category": "Phase-Gate Process",
+"level": "Easy",
+"tags": ["decision", "gate", "control"]
+},
+{
+"question": "What does a GO gate decision mean?",
+"options": [
+"Stop the project permanently",
+"Proceed to the next phase",
+"Return to the previous phase",
+"Suspend the project indefinitely"
+],
+"answerIndex": 1,
+"explanation": "GO means the project can continue into the next phase.",
+"category": "Phase-Gate Process",
+"level": "Easy",
+"tags": ["go decision", "phase-gate", "approval"]
+},
+{
+"question": "What does a KILL gate decision mean?",
+"options": [
+"The project is approved with minor changes",
+"The stage is delayed for more analysis",
+"The project or deployment is stopped",
+"The team must create a new charter"
+],
+"answerIndex": 2,
+"explanation": "KILL means the project or product deployment is stopped.",
+"category": "Phase-Gate Process",
+"level": "Easy",
+"tags": ["kill", "termination", "gate decision"]
+},
+{
+"question": "What does a HOLD decision indicate?",
+"options": [
+"The stage is validated and can move forward",
+"The stage is not validated and more work is needed",
+"The project is permanently canceled",
+"The team must restart ideation"
+],
+"answerIndex": 1,
+"explanation": "HOLD means more work is required before proceeding.",
+"category": "Phase-Gate Process",
+"level": "Medium",
+"tags": ["hold", "review", "phase-gate"]
+},
+{
+"question": "What does a RECYCLE decision require?",
+"options": [
+"Proceed immediately to closure",
+"Return to a previous stage",
+"Increase the budget",
+"Rewrite the business case only"
+],
+"answerIndex": 1,
+"explanation": "RECYCLE means the team must go back to a previous stage.",
+"category": "Phase-Gate Process",
+"level": "Medium",
+"tags": ["recycle", "iteration", "gate decision"]
+},
+{
+"question": "Which sequence best matches the journey from idea to project?",
+"options": [
+"Feasibility Study → Ideation → Charter → Business Case",
+"Ideation → Initial Screening → Feasibility Study → Business Case Development → Project Charter Development",
+"Business Case → Ideation → Charter → Screening",
+"Charter → Business Case → Feasibility Study → Ideation"
+],
+"answerIndex": 1,
+"explanation": "The notes present ideation first, followed by screening, feasibility, business case, and charter.",
+"category": "Project Initiation",
+"level": "Medium",
+"tags": ["idea to project", "initiation", "sequence"]
+},
+{
+"question": "What is the first step in the idea-to-project journey?",
+"options": [
+"Feasibility Study",
+"Business Case Development",
+"Ideation",
+"Project Charter Development"
+],
+"answerIndex": 2,
+"explanation": "Ideation comes first in the initiation sequence.",
+"category": "Project Initiation",
+"level": "Easy",
+"tags": ["ideation", "initiation", "idea generation"]
+},
+{
+"question": "What follows Ideation in the initiation sequence?",
+"options": [
+"Project Charter Development",
+"Initial Screening",
+"Execution",
+"Scope Control"
+],
+"answerIndex": 1,
+"explanation": "Initial Screening is the step immediately after ideation.",
+"category": "Project Initiation",
+"level": "Easy",
+"tags": ["screening", "initiation", "early evaluation"]
+},
+{
+"question": "What is the purpose of Initial Screening?",
+"options": [
+"To execute the project deliverables",
+"To perform an early evaluation after ideation",
+"To close the project",
+"To verify final scope"
+],
+"answerIndex": 1,
+"explanation": "Initial screening is an early advisory or evaluation step after ideation.",
+"category": "Project Initiation",
+"level": "Medium",
+"tags": ["screening", "evaluation", "initiation"]
+},
+{
+"question": "What is a Feasibility Study mainly used to assess?",
+"options": [
+"Whether the team likes the idea",
+"Whether technology, budget, and other factors make the project feasible",
+"Whether the project is already closed",
+"Whether the schedule has no slack"
+],
+"answerIndex": 1,
+"explanation": "A feasibility study checks whether the project can realistically be done.",
+"category": "Project Initiation",
+"level": "Easy",
+"tags": ["feasibility", "viability", "approval"]
+},
+{
+"question": "What is the main function of a Business Case?",
+"options": [
+"To justify whether a project is profitable or viable",
+"To list all tasks in the WBS",
+"To assign individual responsibilities",
+"To record daily project issues"
+],
+"answerIndex": 0,
+"explanation": "A business case explains why the project should be done.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["business case", "viability", "profitability"]
+},
+{
+"question": "Which item is most associated with a Business Case rather than a Project Charter?",
+"options": [
+"Authorization signatures",
+"Problem or opportunity justification",
+"Formal project introduction",
+"Project approval"
+],
+"answerIndex": 1,
+"explanation": "The business case focuses on the problem, opportunity, and justification.",
+"category": "Business Case",
+"level": "Medium",
+"tags": ["business case", "justification", "problem statement"]
+},
+{
+"question": "Which is a tangible benefit in a business case?",
+"options": [
+"Customer satisfaction",
+"Better marketing image",
+"Revenue and cost savings",
+"Employee morale"
+],
+"answerIndex": 2,
+"explanation": "Revenue and cost savings are measurable tangible benefits.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["tangible benefit", "ROI", "cost savings"]
+},
+{
+"question": "Which is an intangible benefit in a business case?",
+"options": [
+"Cost avoidance",
+"Revenue increase",
+"Customer satisfaction",
+"Return on investment"
+],
+"answerIndex": 2,
+"explanation": "Customer satisfaction is an intangible benefit.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["intangible benefit", "customer satisfaction", "value"]
+},
+{
+"question": "What does ROI stand for?",
+"options": [
+"Rate of Implementation",
+"Return on Investment",
+"Review of Issues",
+"Risk of Investment"
+],
+"answerIndex": 1,
+"explanation": "ROI means Return on Investment.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["ROI", "finance", "business case"]
+},
+{
+"question": "Which item is included in a strong business case?",
+"options": [
+"Only technical specifications",
+"Problem/opportunity, benefits, costs, risks, alignment, timing, and alternatives",
+"Only the schedule baseline",
+"Only the project team structure"
+],
+"answerIndex": 1,
+"explanation": "A business case should cover justification, value, and major constraints.",
+"category": "Business Case",
+"level": "Medium",
+"tags": ["business case", "analysis", "decision making"]
+},
+{
+"question": "What does strategic alignment mean in a business case?",
+"options": [
+"The project uses the newest software",
+"The project matches the broader business strategy and objectives",
+"The project has the largest budget",
+"The project is completed quickly"
+],
+"answerIndex": 1,
+"explanation": "Strategic alignment means the project supports organizational goals.",
+"category": "Business Case",
+"level": "Medium",
+"tags": ["strategic alignment", "business strategy", "value"]
+},
+{
+"question": "What is the main purpose of a Project Charter?",
+"options": [
+"To provide authorization and formally introduce the project",
+"To close the project",
+"To replace the business case",
+"To define every detailed task"
+],
+"answerIndex": 0,
+"explanation": "The charter authorizes the project and introduces it formally.",
+"category": "Project Charter",
+"level": "Easy",
+"tags": ["project charter", "authorization", "initiation"]
+},
+{
+"question": "How many components does the Project Charter typically contain in the class notes?",
+"options": [
+"3",
+"4",
+"6",
+"10"
+],
+"answerIndex": 2,
+"explanation": "The notes state that the project charter contains 6 components.",
+"category": "Project Charter",
+"level": "Medium",
+"tags": ["project charter", "components", "document"]
+},
+{
+"question": "Which document formally introduces the project and includes required signatures?",
+"options": [
+"Business Case",
+"Project Charter",
+"WBS",
+"Risk Register"
+],
+"answerIndex": 1,
+"explanation": "The charter formally introduces the project and provides authorization.",
+"category": "Project Charter",
+"level": "Easy",
+"tags": ["charter", "signatures", "authorization"]
+},
+{
+"question": "What is the paradox of project management?",
+"options": [
+"Projects are always over budget",
+"At the start, key decisions must be made when information is limited",
+"Teams always resist change",
+"Risk management is unnecessary early on"
+],
+"answerIndex": 1,
+"explanation": "The paradox is making important decisions early with limited information.",
+"category": "Project Management Fundamentals",
+"level": "Medium",
+"tags": ["paradox", "uncertainty", "decision making"]
+},
+{
+"question": "Which strategy helps address the paradox of project management?",
+"options": [
+"Delay big decisions and take small steps",
+"Ignore uncertainty",
+"Commit all resources immediately",
+"Avoid learning until execution ends"
+],
+"answerIndex": 0,
+"explanation": "Breaking work into smaller steps helps reduce early uncertainty.",
+"category": "Project Management Fundamentals",
+"level": "Medium",
+"tags": ["strategy", "uncertainty", "learning"]
+},
+{
+"question": "Which additional strategy is paired with delaying big decisions?",
+"options": [
+"Learn faster",
+"Spend less at all costs",
+"Remove all stakeholders",
+"Avoid documentation"
+],
+"answerIndex": 0,
+"explanation": "The notes emphasize not just delaying decisions, but delaying to learn faster.",
+"category": "Project Management Fundamentals",
+"level": "Medium",
+"tags": ["learning", "decision making", "project strategy"]
+},
+{
+"question": "What does scope management include?",
+"options": [
+"Only defining what is included in the project",
+"Collecting requirements, defining scope, creating WBS, verifying and controlling scope",
+"Only estimating cost",
+"Only assigning team roles"
+],
+"answerIndex": 1,
+"explanation": "Scope management covers the full set of scope-related activities.",
+"category": "Scope Management",
+"level": "Medium",
+"tags": ["scope", "WBS", "requirements"]
+},
+{
+"question": "What is WBS short for?",
+"options": [
+"Work Breakdown Structure",
+"Weekly Budget Summary",
+"Workflow Business System",
+"Work-Based Schedule"
+],
+"answerIndex": 0,
+"explanation": "WBS stands for Work Breakdown Structure.",
+"category": "Scope Management",
+"level": "Easy",
+"tags": ["WBS", "scope", "deliverables"]
+},
+{
+"question": "What is the purpose of a WBS?",
+"options": [
+"To group work into manageable components",
+"To approve the final budget",
+"To define the sponsor",
+"To replace stakeholder validation"
+],
+"answerIndex": 0,
+"explanation": "A WBS organizes project work into smaller, manageable parts.",
+"category": "Scope Management",
+"level": "Medium",
+"tags": ["WBS", "breakdown", "planning"]
+},
+{
+"question": "Why is the telephone game analogy used in the notes?",
+"options": [
+"To show how budgets are negotiated",
+"To illustrate how requirements can get distorted and must be confirmed",
+"To explain project closure",
+"To demonstrate the role of the sponsor"
+],
+"answerIndex": 1,
+"explanation": "It shows that information can change as it passes between people.",
+"category": "Requirements Gathering",
+"level": "Medium",
+"tags": ["telephone game", "requirements", "communication"]
+},
+{
+"question": "Which technique involves rounds of anonymous questionnaires sent to experts until consensus is reached?",
+"options": [
+"Brainstorming",
+"Focus Group",
+"Delphi Technique",
+"Interviews"
+],
+"answerIndex": 2,
+"explanation": "The Delphi Technique uses iterative anonymous questionnaires.",
+"category": "Requirements Gathering",
+"level": "Easy",
+"tags": ["Delphi", "consensus", "experts"]
+},
+{
+"question": "What is a key difference between Delphi and Brainstorming?",
+"options": [
+"Delphi focuses on consensus, while brainstorming focuses on idea generation",
+"Brainstorming requires anonymity, while Delphi does not",
+"Delphi is used only for budgeting",
+"Brainstorming requires expert panels only"
+],
+"answerIndex": 0,
+"explanation": "Delphi aims for consensus; brainstorming aims for creativity and many ideas.",
+"category": "Requirements Gathering",
+"level": "Medium",
+"tags": ["Delphi", "brainstorming", "consensus"]
+},
+{
+"question": "What role does anonymity play in the Delphi Technique?",
+"options": [
+"It lets the facilitator hide the final answer",
+"It prevents experts from knowing each other's responses, reducing bias",
+"It is used only after consensus is reached",
+"It replaces the need for a facilitator"
+],
+"answerIndex": 1,
+"explanation": "Anonymity reduces bias and groupthink during expert feedback.",
+"category": "Requirements Gathering",
+"level": "Medium",
+"tags": ["anonymity", "Delphi", "bias reduction"]
+},
+{
+"question": "What does SCAMPER stand for?",
+"options": [
+"Schedule, Cost, Analyze, Manage, Plan, Execute, Review",
+"Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse",
+"Scope, Charter, Assess, Monitor, Prioritize, Evaluate, Report",
+"Strategy, Communication, Approval, Measurement, Planning, Execution, Review"
+],
+"answerIndex": 1,
+"explanation": "SCAMPER is a creative brainstorming acronym.",
+"category": "Brainstorming Techniques",
+"level": "Medium",
+"tags": ["SCAMPER", "brainstorming", "creativity"]
+},
+{
+"question": "What is an Affinity Diagram used for?",
+"options": [
+"To calculate project profit",
+"To organize ideas into categories",
+"To assign tasks to developers",
+"To define the project charter"
+],
+"answerIndex": 1,
+"explanation": "Affinity diagrams help group ideas or data into natural categories.",
+"category": "Brainstorming Techniques",
+"level": "Easy",
+"tags": ["affinity diagram", "categorization", "ideas"]
+},
+{
+"question": "Which of the following is a group creativity technique?",
+"options": [
+"Interviews",
+"Surveys",
+"Mind Mapping",
+"ROI Analysis"
+],
+"answerIndex": 2,
+"explanation": "Mind mapping is listed as a group creativity technique.",
+"category": "Brainstorming Techniques",
+"level": "Easy",
+"tags": ["mind mapping", "group creativity", "requirements"]
+},
+{
+"question": "What is the main purpose of brainstorming in requirements gathering?",
+"options": [
+"To generate as many ideas as possible",
+"To approve the budget",
+"To stop requirement changes",
+"To create the risk register"
+],
+"answerIndex": 0,
+"explanation": "Brainstorming emphasizes creativity and idea generation.",
+"category": "Requirements Gathering",
+"level": "Easy",
+"tags": ["brainstorming", "idea generation", "creativity"]
+},
+{
+"question": "Which technique is most appropriate when expert consensus is needed?",
+"options": [
+"Brainstorming",
+"Delphi Technique",
+"Observation",
+"Document review"
+],
+"answerIndex": 1,
+"explanation": "Delphi is designed to reach consensus among experts.",
+"category": "Requirements Gathering",
+"level": "Medium",
+"tags": ["Delphi", "expert opinion", "consensus"]
+},
+{
+"question": "What is the main difference between a goal and an objective?",
+"options": [
+"Goals are general; objectives are specific and measurable",
+"Goals are always numeric; objectives are always verbal",
+"Goals are short-term only",
+"Objectives are less important than goals"
+],
+"answerIndex": 0,
+"explanation": "Goals are broad intentions, while objectives are specific and measurable.",
+"category": "Goals and Objectives",
+"level": "Easy",
+"tags": ["goal", "objective", "SMART"]
+},
+{
+"question": "In the road trip analogy, what represents the objective?",
+"options": [
+"The destination only",
+"Specific milestones such as refueling stops",
+"The map itself",
+"The cost of fuel"
+],
+"answerIndex": 1,
+"explanation": "Objectives are the measurable stops along the way.",
+"category": "Goals and Objectives",
+"level": "Medium",
+"tags": ["road trip", "objective", "milestones"]
+},
+{
+"question": "In the five-course meal analogy, what is the goal?",
+"options": [
+"Preparing each dish on time",
+"Serving a delicious five-course meal",
+"Buying ingredients",
+"Setting the table"
+],
+"answerIndex": 1,
+"explanation": "The goal is the overall desired outcome, not the individual steps.",
+"category": "Goals and Objectives",
+"level": "Medium",
+"tags": ["goal", "analogy", "five-course meal"]
+},
+{
+"question": "What does the 'A' in SMART stand for?",
+"options": [
+"Accurate",
+"Achievable",
+"Automatic",
+"Aligned"
+],
+"answerIndex": 1,
+"explanation": "A in SMART means Achievable.",
+"category": "SMART Goals",
+"level": "Easy",
+"tags": ["SMART", "achievable", "goal setting"]
+},
+{
+"question": "What does the 'R' in SMART stand for?",
+"options": [
+"Relevant",
+"Realistic",
+"Rapid",
+"Recorded"
+],
+"answerIndex": 0,
+"explanation": "R in SMART means Relevant.",
+"category": "SMART Goals",
+"level": "Easy",
+"tags": ["SMART", "relevant", "goal setting"]
+},
+{
+"question": "Which example is the best SMART objective?",
+"options": [
+"Make the project better",
+"Improve customer satisfaction",
+"Reduce delivery time by 20% within 6 months",
+"Work harder on marketing"
+],
+"answerIndex": 2,
+"explanation": "It is specific, measurable, achievable, relevant, and time-bound.",
+"category": "SMART Goals",
+"level": "Medium",
+"tags": ["SMART", "objective", "measurement"]
+},
+{
+"question": "Why is a SMART objective stronger than a general goal?",
+"options": [
+"It is easier to ignore",
+"It can be measured and tracked",
+"It does not need stakeholders",
+"It removes the need for planning"
+],
+"answerIndex": 1,
+"explanation": "SMART objectives are measurable and easier to manage.",
+"category": "SMART Goals",
+"level": "Medium",
+"tags": ["SMART", "tracking", "measurable"]
+},
+{
+"question": "What is the first step listed in the project management process in the notes?",
+"options": [
+"Collect requirements",
+"Plan the project",
+"Identify risks",
+"Launch execution"
+],
+"answerIndex": 0,
+"explanation": "The notes begin the process with collecting requirements.",
+"category": "Project Management Process",
+"level": "Easy",
+"tags": ["requirements", "process", "sequence"]
+},
+{
+"question": "What comes immediately after collecting requirements?",
+"options": [
+"Validate with stakeholders",
+"Close the project",
+"Create the charter",
+"Set the budget baseline"
+],
+"answerIndex": 0,
+"explanation": "Requirements should be validated with stakeholders next.",
+"category": "Project Management Process",
+"level": "Easy",
+"tags": ["stakeholders", "validation", "requirements"]
+},
+{
+"question": "What is the purpose of validating requirements with stakeholders?",
+"options": [
+"To make requirements harder to understand",
+"To ensure accuracy and alignment",
+"To finalize project closure",
+"To replace the business case"
+],
+"answerIndex": 1,
+"explanation": "Validation checks that requirements are correct and agreed upon.",
+"category": "Project Management Process",
+"level": "Medium",
+"tags": ["validation", "stakeholders", "requirements"]
+},
+{
+"question": "What does 'Monitor and Adjust' represent?",
+"options": [
+"An ongoing control activity during execution",
+"A final document submission",
+"A pre-project screening step",
+"A formal charter approval"
+],
+"answerIndex": 0,
+"explanation": "Monitoring and adjusting happen throughout execution.",
+"category": "Project Management Process",
+"level": "Easy",
+"tags": ["monitoring", "control", "execution"]
+},
+{
+"question": "What is the project life cycle described as spanning?",
+"options": [
+"From planning to execution only",
+"From concept to closure",
+"From approval to delivery only",
+"From budget to reporting"
+],
+"answerIndex": 1,
+"explanation": "The project life cycle covers the full journey from concept to closure.",
+"category": "Project Life Cycle",
+"level": "Easy",
+"tags": ["life cycle", "concept", "closure"]
+},
+{
+"question": "What is a reference document in project initiation?",
+"options": [
+"A technical specification only",
+"A document that formally introduces the project, such as PID or POS",
+"A project risk response plan",
+"A daily progress report"
+],
+"answerIndex": 1,
+"explanation": "Reference documents like PID or POS formally introduce the project.",
+"category": "Project Initiation",
+"level": "Medium",
+"tags": ["PID", "POS", "reference document"]
+},
+{
+"question": "What does governance define in a project?",
+"options": [
+"Who decides, approves, reports, and escalates issues",
+"Only the technical architecture",
+"Only the marketing plan",
+"Only the project title"
+],
+"answerIndex": 0,
+"explanation": "Governance covers decision-making, reporting, escalation, and review gates.",
+"category": "Governance and Sponsorship",
+"level": "Medium",
+"tags": ["governance", "escalation", "approval"]
+},
+{
+"question": "What is the role of a project sponsor?",
+"options": [
+"To act as the champion or advocate of the project",
+"To write all user stories",
+"To manage every daily task",
+"To replace the project manager"
+],
+"answerIndex": 0,
+"explanation": "The sponsor supports and champions the project at a high level.",
+"category": "Governance and Sponsorship",
+"level": "Easy",
+"tags": ["sponsor", "champion", "support"]
+},
+{
+"question": "What are escalation routes used for?",
+"options": [
+"To deliver project outputs faster",
+"To raise unresolved issues to higher authority",
+"To create the WBS",
+"To approve business cases"
+],
+"answerIndex": 1,
+"explanation": "Escalation routes define how issues are raised upward when needed.",
+"category": "Governance and Sponsorship",
+"level": "Medium",
+"tags": ["escalation routes", "governance", "issues"]
+},
+{
+"question": "Which statement best describes a project sponsor?",
+"options": [
+"A person who owns the business case and supports the project",
+"A person who writes all tests",
+"A person who performs all scope verification",
+"A person who only attends daily standups"
+],
+"answerIndex": 0,
+"explanation": "The sponsor is the project champion who supports the initiative.",
+"category": "Governance and Sponsorship",
+"level": "Medium",
+"tags": ["sponsor", "business case", "governance"]
+},
+{
+"question": "Which of the following best describes a project charter component set in the notes?",
+"options": [
+"Problem statement, business case, goal statement, and related initiation details",
+"Daily tasks, timesheets, and sprint burndown charts",
+"Only budget tables and resource allocation",
+"Only risk responses and procurement contracts"
+],
+"answerIndex": 0,
+"explanation": "The charter contains key initiation information, including problem, business case, and goals.",
+"category": "Project Charter",
+"level": "Medium",
+"tags": ["charter components", "initiation", "project document"]
+},
+{
+"question": "Which benefit is most likely intangible?",
+"options": [
+"Cost savings",
+"Revenue increase",
+"Better marketing image",
+"ROI improvement"
+],
+"answerIndex": 2,
+"explanation": "A better marketing image is difficult to quantify and is intangible.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["intangible", "image", "benefits"]
+},
+{
+"question": "Which benefit is most likely tangible?",
+"options": [
+"Employee satisfaction",
+"Customer satisfaction",
+"Revenue increase",
+"Brand reputation"
+],
+"answerIndex": 2,
+"explanation": "Revenue increase is measurable and therefore tangible.",
+"category": "Business Case",
+"level": "Easy",
+"tags": ["tangible", "revenue", "benefits"]
+},
+{
+"question": "Which statement best reflects the purpose of a feasibility study?",
+"options": [
+"To determine whether the project should be formally closed",
+"To assess whether the project is practical before approval",
+"To control scope during execution",
+"To assign the project sponsor"
+],
+"answerIndex": 1,
+"explanation": "Feasibility studies evaluate practicality before approval decisions are made.",
+"category": "Project Initiation",
+"level": "Medium",
+"tags": ["feasibility", "approval", "practicality"]
+},
+{
+"question": "Which option best describes the difference between a goal and an objective in project management?",
+"options": [
+"A goal is specific and measurable; an objective is broad",
+"A goal is broad; an objective is specific and measurable",
+"They are identical and interchangeable",
+"Objectives are only used after project closure"
+],
+"answerIndex": 1,
+"explanation": "Goals describe the destination; objectives describe measurable steps toward it.",
+"category": "Goals and Objectives",
+"level": "Easy",
+"tags": ["goal", "objective", "specific"]
+},
+{
+"question": "Which of the following is the strongest reason to use SMART criteria?",
+"options": [
+"To make goals harder to interpret",
+"To ensure goals are actionable and trackable",
+"To eliminate stakeholder involvement",
+"To replace business analysis"
+],
+"answerIndex": 1,
+"explanation": "SMART criteria make goals clearer, measurable, and easier to manage.",
+"category": "SMART Goals",
+"level": "Medium",
+"tags": ["SMART", "actionable", "trackable"]
+},
+{
+"question": "What is the main function of monitoring and adjustment in the project lifecycle?",
+"options": [
+"To change the project sponsor",
+"To track progress and correct deviations during execution",
+"To rewrite the business case",
+"To perform final closure"
+],
+"answerIndex": 1,
+"explanation": "Monitoring and adjusting are ongoing control activities.",
+"category": "Project Management Process",
+"level": "Medium",
+"tags": ["monitoring", "adjustment", "control"]
+},
+{
+"question": "Which concept best matches 'learn faster' in the paradox strategy?",
+"options": [
+"Gather information quickly through iterative small steps",
+"Wait until the end to analyze risks",
+"Avoid any experimentation",
+"Finalize scope immediately"
+],
+"answerIndex": 0,
+"explanation": "Learning faster means using small steps to gain knowledge early.",
+"category": "Project Management Fundamentals",
+"level": "Medium",
+"tags": ["learning", "iteration", "uncertainty"]
+},
+{
+"question": "Which of the following is most closely tied to scope management?",
+"options": [
+"Creating a Work Breakdown Structure",
+"Running a feasibility study",
+"Writing the sponsor's approval email",
+"Selecting the project's logo"
+],
+"answerIndex": 0,
+"explanation": "A WBS is a core scope management deliverable.",
+"category": "Scope Management",
+"level": "Easy",
+"tags": ["WBS", "scope", "planning"]
+},
+{
+"question": "Which requirement-gathering approach is most structured around expert panels and repeated feedback?",
+"options": [
+"Delphi Technique",
+"Interview",
+"Survey",
+"Observation"
+],
+"answerIndex": 0,
+"explanation": "Delphi uses a structured panel process with iterative feedback rounds.",
+"category": "Requirements Gathering",
+"level": "Medium",
+"tags": ["Delphi", "expert panel", "feedback"]
+},
+{
+"question": "Which technique is most directly associated with creativity and quantity of ideas?",
+"options": [
+"Brainstorming",
+"Feasibility study",
+"Project charter",
+"Gate review"
+],
+"answerIndex": 0,
+"explanation": "Brainstorming focuses on creativity and generating many ideas.",
+"category": "Brainstorming Techniques",
+"level": "Easy",
+"tags": ["brainstorming", "creativity", "ideas"]
+},
+{
+"question": "Which item is a valid part of project governance?",
+"options": [
+"Escalation routes",
+"Color scheme of the report",
+"Team lunch schedule",
+"Personal work preferences"
+],
+"answerIndex": 0,
+"explanation": "Governance includes how issues escalate and who approves decisions.",
+"category": "Governance and Sponsorship",
+"level": "Medium",
+"tags": ["governance", "escalation", "decision making"]
+}
+]
+}
