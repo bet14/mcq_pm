@@ -1,0 +1,1276 @@
+{
+  "title": "Project Management Principles - Module 6: Agile and Hybrid Project Management",
+  "subtitle": "Comprehensive exam review covering Agile methodologies, frameworks, and hybrid approaches",
+  "totalQuestions": 71,
+  "questions": [
+    {
+      "question": "Which of the following best defines Agile Project Management according to the module?",
+      "options": [
+        "An iterative approach to software development that emphasizes flexibility, collaboration, and continuous improvement",
+        "A rigid planning methodology that requires all requirements to be defined upfront",
+        "A traditional approach focused solely on predictive planning",
+        "A method that eliminates the need for project planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile methodology is defined as an iterative approach emphasizing flexibility, collaboration, and continuous improvement, breaking projects into manageable cycles called sprints.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Agile",
+        "Definition",
+        "Core Concepts"
+      ]
+    },
+    {
+      "question": "What is the primary advantage of Agile's approach to frequent delivery?",
+      "options": [
+        "It eliminates the need for testing",
+        "It reduces risk by delivering value incrementally",
+        "It guarantees project success",
+        "It removes the need for project managers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Frequent delivery in Agile reduces risk by allowing teams to deliver incremental value and adapt to changes early in the project lifecycle.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Agile",
+        "Risk Management",
+        "Delivery"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT mentioned as a suitable application for Agile methodology?",
+      "options": [
+        "Software product development",
+        "Mobile app development",
+        "Large-scale infrastructure construction projects",
+        "AI/analytics products with evolving needs"
+      ],
+      "answerIndex": 2,
+      "explanation": "Large-scale infrastructure construction projects typically require predictive/traditional approaches due to fixed requirements and strict planning needs, unlike software and digital products which benefit from Agile's flexibility.",
+      "category": "Agile Applications",
+      "level": "Medium",
+      "tags": [
+        "Agile",
+        "Project Types",
+        "Methodology Selection"
+      ]
+    },
+    {
+      "question": "What are the 3 C's in Agile methodology?",
+      "options": [
+        "Code, Collaboration, Continuous Integration",
+        "The module mentions the 3 C's but does not explicitly define them",
+        "Change, Communication, Commitment",
+        "Customer, Cost, Cycle"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module references the 3 C's in Agile but does not explicitly define what they are in the provided content.",
+      "category": "Agile Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Agile",
+        "Core Concepts"
+      ]
+    },
+    {
+      "question": "Scrum is described as which type of framework?",
+      "options": [
+        "A heavyweight framework with extensive documentation",
+        "A lightweight Agile framework that delivers value in fixed-length sprints",
+        "A predictive framework based on waterfall principles",
+        "A framework exclusively for large enterprises"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scrum is defined as a lightweight Agile framework that delivers value in fixed-length sprints through defined roles, events, and artifacts.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Agile Frameworks",
+        "Definition"
+      ]
+    },
+    {
+      "question": "What is the typical sprint duration in Scrum methodology?",
+      "options": [
+        "1-2 weeks",
+        "2-4 weeks",
+        "4-6 weeks",
+        "6-8 weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to the module, Scrum uses iteration-based sprints that typically last 2-4 weeks.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Sprint Duration",
+        "Agile Events"
+      ]
+    },
+    {
+      "question": "In Scrum, who is responsible for owning the product vision and prioritizing the backlog?",
+      "options": [
+        "Scrum Master",
+        "Development Team Lead",
+        "Product Owner",
+        "Project Sponsor"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Product Owner owns the product vision and prioritizes the backlog to maximize value in the Scrum framework.",
+      "category": "Scrum Roles",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Roles",
+        "Product Owner"
+      ]
+    },
+    {
+      "question": "What is the primary responsibility of the Scrum Master?",
+      "options": [
+        "To write all the code for the project",
+        "To make all technical decisions",
+        "To facilitate the Scrum process and remove impediments",
+        "To manage the project budget"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Scrum Master facilitates the Scrum process and removes impediments to support the team's effectiveness.",
+      "category": "Scrum Roles",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Roles",
+        "Scrum Master"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a Scrum artifact?",
+      "options": [
+        "Product Backlog",
+        "Sprint Backlog",
+        "Increment",
+        "Sprint Timeline"
+      ],
+      "answerIndex": 3,
+      "explanation": "The three main Scrum artifacts are Product Backlog, Sprint Backlog, and Increment. Sprint Timeline is not a formally defined Scrum artifact.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Artifacts"
+      ]
+    },
+    {
+      "question": "What does the Product Backlog contain?",
+      "options": [
+        "Only the tasks for the current sprint",
+        "An ordered list of everything needed to improve or build the product",
+        "A list of completed work items",
+        "The budget allocation for each sprint"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Product Backlog is an ordered list of everything needed to improve or build the product, managed by the Product Owner.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Artifacts",
+        "Product Backlog"
+      ]
+    },
+    {
+      "question": "What is the Sprint Backlog in Scrum?",
+      "options": [
+        "A list of all potential features for the product",
+        "The selected backlog items and tasks the team commits to delivering in the current sprint",
+        "A historical record of completed sprints",
+        "The budget for the entire project"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Sprint Backlog consists of the selected backlog items and tasks that the team commits to delivering during the current sprint.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Artifacts",
+        "Sprint Backlog"
+      ]
+    },
+    {
+      "question": "What is the Increment in Scrum?",
+      "options": [
+        "The increase in team size during a sprint",
+        "The sum of all completed work in a sprint that meets the Definition of Done and is usable",
+        "The budget increase for the next sprint",
+        "The additional features requested by stakeholders"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Increment is the sum of all completed work in a sprint that meets the Definition of Done and is usable/potentially shippable.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Artifacts",
+        "Increment"
+      ]
+    },
+    {
+      "question": "Which of the following is a Scrum event?",
+      "options": [
+        "Budget Review",
+        "Stakeholder Approval",
+        "Sprint Planning",
+        "Quality Assurance Meeting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sprint Planning is one of the four main Scrum events, along with Daily Scrum, Sprint Review, and Retrospective.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Events"
+      ]
+    },
+    {
+      "question": "Kanban is best described as which type of Agile method?",
+      "options": [
+        "A sprint-based iterative framework",
+        "A visual Agile method focused on continuous flow and limiting work in progress",
+        "A predictive planning methodology",
+        "A framework exclusively for software development"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kanban is a visual Agile method focused on continuous flow, limiting work in progress (WIP), and improving efficiency through incremental change.",
+      "category": "Kanban Framework",
+      "level": "Easy",
+      "tags": [
+        "Kanban",
+        "Agile Frameworks",
+        "Definition"
+      ]
+    },
+    {
+      "question": "What is a key characteristic of Kanban that distinguishes it from Scrum?",
+      "options": [
+        "Kanban uses fixed-length sprints",
+        "Kanban uses continuous flow with no sprints",
+        "Kanban requires a Product Owner",
+        "Kanban is only for software development"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kanban operates on continuous flow without fixed-length sprints, unlike Scrum which uses 2-4 week iterations.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "Scrum Comparison",
+        "Continuous Flow"
+      ]
+    },
+    {
+      "question": "What does WIP stand for in Kanban?",
+      "options": [
+        "Work In Process",
+        "Work In Progress",
+        "Weekly Integration Plan",
+        "Work Item Priority"
+      ],
+      "answerIndex": 1,
+      "explanation": "WIP stands for Work In Progress, and Kanban emphasizes limiting WIP to improve efficiency and flow.",
+      "category": "Kanban Framework",
+      "level": "Easy",
+      "tags": [
+        "Kanban",
+        "WIP Limits",
+        "Terminology"
+      ]
+    },
+    {
+      "question": "Which environments are mentioned as suitable for Kanban implementation?",
+      "options": [
+        "Only software development teams",
+        "Operations, support teams, manufacturing, and DevOps",
+        "Only large enterprises",
+        "Only startup companies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kanban works well in operations, support teams, manufacturing, and DevOps environments where continuous flow is beneficial.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "Applications",
+        "Environments"
+      ]
+    },
+    {
+      "question": "What is Extreme Programming (XP) primarily focused on?",
+      "options": [
+        "Project scheduling and resource allocation",
+        "Budget management and cost control",
+        "Technical excellence through practices like TDD, pair programming, and continuous integration",
+        "Stakeholder communication and reporting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Extreme Programming (XP) is an Agile software development methodology emphasizing technical excellence through practices like Test-Driven Development, pair programming, continuous integration, and refactoring.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Agile Frameworks",
+        "Technical Practices"
+      ]
+    },
+    {
+      "question": "Which of the following is a key practice in Extreme Programming?",
+      "options": [
+        "Waterfall planning",
+        "Test-Driven Development (TDD)",
+        "Individual code ownership",
+        "Minimal documentation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Test-Driven Development (TDD) is one of the key practices in XP, along with pair programming, continuous integration, and refactoring.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Technical Practices",
+        "TDD"
+      ]
+    },
+    {
+      "question": "How is Extreme Programming often combined in real-world environments?",
+      "options": [
+        "XP replaces Scrum entirely",
+        "XP is combined with Scrum",
+        "XP is never used with other methodologies",
+        "XP is only used for small projects"
+      ],
+      "answerIndex": 1,
+      "explanation": "Extreme Programming is often combined with Scrum in real-world environments to enhance both project management and technical excellence.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Scrum",
+        "Integration"
+      ]
+    },
+    {
+      "question": "What does Lean Software Development originate from?",
+      "options": [
+        "Microsoft Project Management",
+        "Toyota Production System",
+        "Six Sigma methodology",
+        "ISO 9001 standards"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lean Software Development originates from the Toyota Production System and focuses on eliminating waste, fast delivery, and respect for people.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "Lean",
+        "Agile Frameworks",
+        "Origins"
+      ]
+    },
+    {
+      "question": "Which Agile framework is described as human-centric and color-coded by project size?",
+      "options": [
+        "Lean Software Development",
+        "Crystal Methodology",
+        "Feature-Driven Development",
+        "DSDM"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crystal Methodology is human-centric and flexible, with different color-coded variants based on project size (Crystal Clear, Crystal Yellow, Crystal Orange, etc.).",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "Crystal",
+        "Agile Frameworks"
+      ]
+    },
+    {
+      "question": "What is the primary focus of Feature-Driven Development (FDD)?",
+      "options": [
+        "Continuous integration and testing",
+        "Model-driven approach that focuses on building features systematically",
+        "Eliminating all documentation",
+        "Maximizing team size"
+      ],
+      "answerIndex": 1,
+      "explanation": "Feature-Driven Development (FDD) is a model-driven approach that focuses on building features systematically and incrementally.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "FDD",
+        "Agile Frameworks",
+        "Feature-Driven"
+      ]
+    },
+    {
+      "question": "Which Agile framework emphasizes thorough governance and strong timeboxing?",
+      "options": [
+        "Lean Software Development",
+        "Crystal Methodology",
+        "Dynamic Systems Development Method (DSDM)",
+        "Feature-Driven Development"
+      ],
+      "answerIndex": 2,
+      "explanation": "DSDM emphasizes thorough governance, project lifecycle management, strong timeboxing, and stakeholder engagement.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "DSDM",
+        "Agile Frameworks",
+        "Governance"
+      ]
+    },
+    {
+      "question": "What is a User Story according to the module?",
+      "options": [
+        "A detailed technical specification document",
+        "A short, simple, value-focused description of a requirement from the perspective of the end-user",
+        "A historical record of project activities",
+        "A budget allocation document"
+      ],
+      "answerIndex": 1,
+      "explanation": "A User Story is a short, simple, value-focused description of a requirement from the end-user's perspective, capturing who wants something, what they want, and why they want it.",
+      "category": "Agile Concepts",
+      "level": "Easy",
+      "tags": [
+        "User Stories",
+        "Requirements",
+        "Agile"
+      ]
+    },
+    {
+      "question": "What is the typical format for writing a User Story?",
+      "options": [
+        "As a [developer], I want [code], so that [it works]",
+        "As a [customer], I want [feature], so that [benefit]",
+        "As a [manager], I want [report], so that [control]",
+        "As a [system], I want [data], so that [storage]"
+      ],
+      "answerIndex": 1,
+      "explanation": "User Stories follow the format: 'As a [customer/user], I want [feature/capability], so that [benefit/reason]' to capture requirements from the end-user perspective.",
+      "category": "Agile Concepts",
+      "level": "Easy",
+      "tags": [
+        "User Stories",
+        "Requirements",
+        "Format"
+      ]
+    },
+    {
+      "question": "According to PMI, how are user stories defined?",
+      "options": [
+        "As detailed technical specifications",
+        "As small, independent increments of value that help teams understand customer needs and deliver features iteratively",
+        "As project constraints and limitations",
+        "As budget allocation items"
+      ],
+      "answerIndex": 1,
+      "explanation": "PMI defines user stories as small, independent increments of value that help teams understand customer needs and deliver features iteratively.",
+      "category": "Agile Concepts",
+      "level": "Medium",
+      "tags": [
+        "User Stories",
+        "PMI",
+        "Requirements"
+      ]
+    },
+    {
+      "question": "What is a project sponsor?",
+      "options": [
+        "A team member who writes code",
+        "An individual or group at senior management level responsible for ensuring a project is delivered successfully and remains aligned with business objectives",
+        "A person who manages daily team activities",
+        "A vendor providing external services"
+      ],
+      "answerIndex": 1,
+      "explanation": "A project sponsor is an individual or group at senior management level responsible for ensuring successful project delivery and alignment with business objectives.",
+      "category": "Project Roles",
+      "level": "Easy",
+      "tags": [
+        "Project Sponsor",
+        "Roles",
+        "Management"
+      ]
+    },
+    {
+      "question": "According to the module, what is the relationship between a project sponsor and a project owner?",
+      "options": [
+        "They are completely different roles with no overlap",
+        "The sponsor is subordinate to the owner",
+        "Essentially, they are the same thing",
+        "The owner reports to the sponsor"
+      ],
+      "answerIndex": 2,
+      "explanation": "The module states that a project sponsor and project owner are essentially the same thing, referring to senior management responsible for project success.",
+      "category": "Project Roles",
+      "level": "Medium",
+      "tags": [
+        "Project Sponsor",
+        "Project Owner",
+        "Roles"
+      ]
+    },
+    {
+      "question": "What is Hybrid Project Management?",
+      "options": [
+        "Using only Agile methodologies",
+        "Using only predictive/traditional methodologies",
+        "A combination of predictive/traditional, agile, and other approaches tailored to project needs",
+        "A methodology that eliminates planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hybrid Project Management combines predictive/traditional, agile, and other approaches based on specific project requirements and phases.",
+      "category": "Hybrid Approaches",
+      "level": "Easy",
+      "tags": [
+        "Hybrid",
+        "Methodology",
+        "Definition"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of an Agile-Predictive Hybrid model?",
+      "options": [
+        "Using only Scrum for the entire project",
+        "A software project with predictive upfront regulatory requirements and fixed deliverables, but iterative development for design uncertainty",
+        "Using waterfall for all phases",
+        "Eliminating all planning activities"
+      ],
+      "answerIndex": 1,
+      "explanation": "An Agile-Predictive Hybrid uses predictive approaches for regulatory requirements and fixed deliverables, while using Agile for iterative development and design uncertainty.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Agile-Predictive",
+        "Examples"
+      ]
+    },
+    {
+      "question": "What is the Predictive-Agile Hybrid approach?",
+      "options": [
+        "Using Agile first, then predictive after uncertainty reduces",
+        "Using predictive approaches exclusively",
+        "Eliminating all planning",
+        "Using only Scrum methodology"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the Predictive-Agile Hybrid, Agile is used first to explore options and prototype, then predictive approaches are applied after uncertainty reduces.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Predictive-Agile",
+        "Approach"
+      ]
+    },
+    {
+      "question": "What characterizes a Blended Hybrid model?",
+      "options": [
+        "Using only one methodology throughout the project",
+        "Agile and predictive processes run in parallel, with hardware delivered predictively and software delivered with Scrum",
+        "Eliminating all project planning",
+        "Using Kanban exclusively"
+      ],
+      "answerIndex": 1,
+      "explanation": "In a Blended Hybrid, Agile and predictive processes run in parallel, such as software developed with Scrum while hardware is delivered predictively.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Blended",
+        "Parallel"
+      ]
+    },
+    {
+      "question": "In a hybrid software project example, which elements are typically handled with traditional/predictive approaches?",
+      "options": [
+        "Feature development and user feedback",
+        "Project charter, scope baseline, budget approval, milestone plan, and stakeholder reporting",
+        "Daily standups and sprint planning",
+        "Continuous integration and testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Traditional elements like project charter, scope baseline, budget approval, milestone planning, and stakeholder reporting are handled predictively in a hybrid approach.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Traditional Elements",
+        "Examples"
+      ]
+    },
+    {
+      "question": "In a hybrid software project, which elements are typically handled with Agile approaches?",
+      "options": [
+        "Budget approval and milestone planning",
+        "Scope baseline and project charter",
+        "Regular demos, features built in sprints, evolving backlog, and user feedback after each iteration",
+        "Stakeholder reporting and governance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile elements in hybrid projects include regular demos, features built in sprints, evolving backlogs, and user feedback collection after each iteration.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Agile Elements",
+        "Examples"
+      ]
+    },
+    {
+      "question": "Why do many real organizations use a hybrid model?",
+      "options": [
+        "Because it is always simpler than pure Agile or predictive approaches",
+        "Because different projects and phases have different needs that require different management approaches",
+        "Because it eliminates the need for project planning",
+        "Because it is mandated by PMI"
+      ],
+      "answerIndex": 1,
+      "explanation": "Organizations use hybrid models because different projects and phases have varying requirements - some need strict planning while others benefit from flexibility and incremental delivery.",
+      "category": "Hybrid Approaches",
+      "level": "Medium",
+      "tags": [
+        "Hybrid",
+        "Rationale",
+        "Project Needs"
+      ]
+    },
+    {
+      "question": "What is the primary difference between predictive/traditional and Agile approaches?",
+      "options": [
+        "Predictive is faster than Agile",
+        "Predictive defines requirements upfront with strict planning; Agile accepts evolving requirements and learns during the project",
+        "Agile is only for small projects",
+        "Predictive is only for software projects"
+      ],
+      "answerIndex": 1,
+      "explanation": "The key difference is that predictive approaches define requirements upfront with strict planning, while Agile accepts that requirements may evolve and learning happens during the project.",
+      "category": "Methodology Comparison",
+      "level": "Medium",
+      "tags": [
+        "Predictive",
+        "Agile",
+        "Comparison"
+      ]
+    },
+    {
+      "question": "When is predictive/traditional project management most appropriate?",
+      "options": [
+        "When requirements are uncertain and changing",
+        "When projects have clear requirements from the beginning and need strict planning",
+        "When teams are inexperienced",
+        "When budgets are unlimited"
+      ],
+      "answerIndex": 1,
+      "explanation": "Predictive/traditional management is appropriate when projects have clear requirements from the beginning and require strict planning and control.",
+      "category": "Methodology Selection",
+      "level": "Medium",
+      "tags": [
+        "Predictive",
+        "When to Use",
+        "Project Characteristics"
+      ]
+    },
+    {
+      "question": "When is Agile project management most appropriate?",
+      "options": [
+        "When all requirements are known upfront",
+        "When projects have uncertain or changing requirements and benefit from incremental delivery and feedback",
+        "When there is no need for planning",
+        "When teams are very large"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile is appropriate when projects have uncertain or changing requirements and benefit from incremental delivery, feedback, and continuous improvement.",
+      "category": "Methodology Selection",
+      "level": "Medium",
+      "tags": [
+        "Agile",
+        "When to Use",
+        "Project Characteristics"
+      ]
+    },
+    {
+      "question": "What is the Agile Manifesto primarily about?",
+      "options": [
+        "Detailed project planning procedures",
+        "Budget management techniques",
+        "The module references the Agile Manifesto but does not provide its specific details",
+        "Risk management strategies"
+      ],
+      "answerIndex": 2,
+      "explanation": "While the module references the Agile Manifesto, it does not provide the specific details of what the manifesto contains in the provided content.",
+      "category": "Agile Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Agile Manifesto",
+        "Agile Principles"
+      ]
+    },
+    {
+      "question": "What is the main principle behind accepting changing requirements in Agile?",
+      "options": [
+        "It makes projects more expensive",
+        "It reduces team productivity",
+        "Requirements may evolve, users may change their minds, and learning happens during the project",
+        "It eliminates the need for planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile accepts that requirements may evolve, users may change their minds, and learning happens during the project, making it adaptable to change.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Agile",
+        "Change Management",
+        "Flexibility"
+      ]
+    },
+    {
+      "question": "How does Scrum's Daily Scrum contribute to project success?",
+      "options": [
+        "It eliminates the need for other meetings",
+        "It is a Scrum event that facilitates communication and synchronization among team members",
+        "It replaces the need for sprint planning",
+        "It determines the project budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Daily Scrum is a Scrum event that facilitates daily communication and synchronization among team members, helping identify and resolve impediments quickly.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Daily Scrum",
+        "Events"
+      ]
+    },
+    {
+      "question": "What is the purpose of a Sprint Review in Scrum?",
+      "options": [
+        "To plan the next sprint",
+        "To review the work completed in the sprint and gather feedback from stakeholders",
+        "To fire underperforming team members",
+        "To determine the project budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Sprint Review is a Scrum event where the team demonstrates completed work and gathers feedback from stakeholders to inform future sprints.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Sprint Review",
+        "Events"
+      ]
+    },
+    {
+      "question": "What is the purpose of a Sprint Retrospective?",
+      "options": [
+        "To demonstrate completed work to stakeholders",
+        "To plan the next sprint's features",
+        "To reflect on the sprint process and identify improvements for future sprints",
+        "To allocate the project budget"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Sprint Retrospective is a Scrum event where the team reflects on how they worked together and identifies improvements for future sprints.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Retrospective",
+        "Events",
+        "Continuous Improvement"
+      ]
+    },
+    {
+      "question": "What is the Definition of Done in Scrum?",
+      "options": [
+        "When the project is completely finished",
+        "The criteria that work must meet to be considered complete and usable within a sprint",
+        "When the team decides to stop working",
+        "The end of the project timeline"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Definition of Done is the set of criteria that work must meet to be considered complete, usable, and included in the Increment of a sprint.",
+      "category": "Scrum Framework",
+      "level": "Medium",
+      "tags": [
+        "Scrum",
+        "Definition of Done",
+        "Quality"
+      ]
+    },
+    {
+      "question": "How does Kanban's visual board typically work?",
+      "options": [
+        "It shows the project budget allocation",
+        "It displays work items flowing through stages: To Do \u2192 Doing \u2192 Done",
+        "It tracks employee performance",
+        "It manages project timelines"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kanban uses visual boards that show work items flowing through stages (typically To Do \u2192 Doing \u2192 Done), making work progress transparent.",
+      "category": "Kanban Framework",
+      "level": "Easy",
+      "tags": [
+        "Kanban",
+        "Visual Management",
+        "Board"
+      ]
+    },
+    {
+      "question": "What does limiting Work In Progress (WIP) in Kanban achieve?",
+      "options": [
+        "It increases the number of tasks team members handle simultaneously",
+        "It improves flow and efficiency by preventing overload and bottlenecks",
+        "It eliminates the need for planning",
+        "It increases project costs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Limiting WIP in Kanban improves efficiency and flow by preventing team members from being overloaded and helping identify bottlenecks early.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "WIP Limits",
+        "Efficiency"
+      ]
+    },
+    {
+      "question": "What is cycle time in Kanban?",
+      "options": [
+        "The duration of a sprint",
+        "The time it takes for work to move from To Do to Done",
+        "The project timeline",
+        "The budget cycle"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cycle time in Kanban is the time it takes for work to move from the beginning (To Do) to completion (Done), a key metric for measuring efficiency.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "Cycle Time",
+        "Metrics"
+      ]
+    },
+    {
+      "question": "What is throughput in Kanban?",
+      "options": [
+        "The number of team members",
+        "The amount of work completed in a given time period",
+        "The project budget",
+        "The number of sprints completed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Throughput in Kanban is the amount of work completed in a given time period, a key metric for measuring productivity and flow.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "Throughput",
+        "Metrics"
+      ]
+    },
+    {
+      "question": "Which statement about Kanban and hybrid approaches is true according to the module?",
+      "options": [
+        "Kanban cannot be used in hybrid approaches",
+        "Kanban is highly compatible with hybrid approaches",
+        "Kanban is only for software development",
+        "Kanban requires fixed-length sprints"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module states that Kanban is highly compatible with hybrid approaches, making it suitable for combining with other methodologies.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "Hybrid",
+        "Compatibility"
+      ]
+    },
+    {
+      "question": "What does PMI highlight about Kanban?",
+      "options": [
+        "That it is inferior to Scrum",
+        "That it is a method for improving flow systems",
+        "That it cannot be used in enterprises",
+        "That it requires extensive documentation"
+      ],
+      "answerIndex": 1,
+      "explanation": "PMI highlights Kanban as a method for improving flow systems, recognizing its value in optimizing workflow and efficiency.",
+      "category": "Kanban Framework",
+      "level": "Medium",
+      "tags": [
+        "Kanban",
+        "PMI",
+        "Flow Systems"
+      ]
+    },
+    {
+      "question": "What is pair programming in Extreme Programming?",
+      "options": [
+        "Two project managers working together",
+        "Two developers working on the same code simultaneously",
+        "Two teams competing on tasks",
+        "Two separate coding sessions"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pair programming is an XP practice where two developers work on the same code simultaneously, improving code quality and knowledge sharing.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Pair Programming",
+        "Technical Practices"
+      ]
+    },
+    {
+      "question": "What is continuous integration in Extreme Programming?",
+      "options": [
+        "Integrating team members into the project",
+        "Frequently integrating code changes into a shared repository to detect issues early",
+        "Integrating new team members",
+        "Integrating budgets across departments"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous integration in XP is the practice of frequently integrating code changes into a shared repository to detect and fix issues early.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Continuous Integration",
+        "Technical Practices"
+      ]
+    },
+    {
+      "question": "What is refactoring in Extreme Programming?",
+      "options": [
+        "Removing team members from the project",
+        "Improving existing code without changing its external behavior",
+        "Restarting the project",
+        "Changing project requirements"
+      ],
+      "answerIndex": 1,
+      "explanation": "Refactoring in XP is the practice of improving existing code structure and quality without changing its external behavior or functionality.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "XP",
+        "Refactoring",
+        "Technical Practices"
+      ]
+    },
+    {
+      "question": "What is the primary goal of Lean Software Development?",
+      "options": [
+        "To maximize project budget",
+        "To eliminate waste, ensure fast delivery, and show respect for people",
+        "To increase project duration",
+        "To minimize team communication"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lean Software Development aims to eliminate waste, ensure fast delivery, and show respect for people, originating from Toyota's lean manufacturing principles.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": [
+        "Lean",
+        "Agile Frameworks",
+        "Goals"
+      ]
+    },
+    {
+      "question": "What does the module suggest about selecting the right project management methodology?",
+      "options": [
+        "All projects should use the same methodology",
+        "The choice depends on the project's requirements and phases",
+        "Methodology selection is not important",
+        "Only Agile should be used for all projects"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module emphasizes that selecting the right methodology depends on the project's specific requirements and phases, as different projects have different needs.",
+      "category": "Methodology Selection",
+      "level": "Easy",
+      "tags": [
+        "Methodology Selection",
+        "Project Management"
+      ]
+    },
+    {
+      "question": "What are the key ethical principles for project managers according to the module?",
+      "options": [
+        "Maximizing profit at any cost",
+        "Responsibility, Respect, Fairness, and Honesty",
+        "Following only company directives",
+        "Minimizing team involvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module identifies four key ethical principles: Responsibility (taking accountability for decisions and actions), Respect (showing regard for people and resources), Fairness (making impartial decisions), and Honesty (acting truthfully).",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Professional Conduct",
+        "Principles"
+      ]
+    },
+    {
+      "question": "What does Responsibility mean in the context of project management ethics?",
+      "options": [
+        "Blaming others for failures",
+        "Taking accountability for decisions made, actions taken, and consequences that result",
+        "Avoiding decision-making",
+        "Delegating all tasks to team members"
+      ],
+      "answerIndex": 1,
+      "explanation": "Responsibility means taking accountability for the decisions made, actions taken or not taken, and the consequences that result from those choices.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Responsibility"
+      ]
+    },
+    {
+      "question": "What does Respect mean in the context of project management ethics?",
+      "options": [
+        "Ignoring team member opinions",
+        "Showing high regard for oneself, others, and resources entrusted, including human resources, safety, and environmental resources",
+        "Prioritizing only profit",
+        "Minimizing stakeholder communication"
+      ],
+      "answerIndex": 1,
+      "explanation": "Respect means showing high regard for oneself, others, and the resources entrusted to us, including human resources, safety, reputation, and environmental resources.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Respect"
+      ]
+    },
+    {
+      "question": "What does Fairness mean in the context of project management ethics?",
+      "options": [
+        "Favoring certain team members",
+        "Making decisions and acting impartially and objectively, free from personal interests and prejudice",
+        "Treating all projects the same regardless of context",
+        "Ignoring stakeholder needs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fairness means making decisions and acting impartially and objectively, with conduct free from competition of personal interests, prejudice, and favoritism.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Fairness"
+      ]
+    },
+    {
+      "question": "What does Honesty mean in the context of project management ethics?",
+      "options": [
+        "Hiding problems from stakeholders",
+        "Understanding the truth and acting honestly in communications and conduct",
+        "Exaggerating project progress",
+        "Withholding information from team members"
+      ],
+      "answerIndex": 1,
+      "explanation": "Honesty means understanding the truth and acting honestly both in communications and through conduct, being truthful with all stakeholders.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Honesty"
+      ]
+    },
+    {
+      "question": "What should a project manager do if they discover financial information is incorrect before presenting to management?",
+      "options": [
+        "Continue the meeting hoping no one notices the mistake",
+        "Cancel the meeting without explanation",
+        "Tell management that the meeting must be postponed until correct numbers and information are verified",
+        "Present the optimistic view anyway"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to the ethical scenario presented, the correct action is to postpone the meeting until you have verified the correct numbers and information, demonstrating honesty and responsibility.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Professional Conduct",
+        "Decision-Making"
+      ]
+    },
+    {
+      "question": "What ethical issues might a project manager encounter regarding team members?",
+      "options": [
+        "None, all team members are always treated equally",
+        "Favoritism between subordinates",
+        "Team members always agree with management",
+        "No conflicts ever arise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Favoritism between subordinates is one of the ethical issues project managers may encounter, requiring fair and equal treatment of all team members.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Team Management",
+        "Favoritism"
+      ]
+    },
+    {
+      "question": "How should a project manager handle requests from the company to do something unethical?",
+      "options": [
+        "Always comply with company requests",
+        "Refuse and risk losing the job",
+        "Make conscious decisions based on ethical principles, not being influenced by pressure",
+        "Delegate the decision to team members"
+      ],
+      "answerIndex": 2,
+      "explanation": "A project manager must not be influenced by pressure and should make conscious decisions based on ethical principles, even if the company requests something unethical.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Professional Conduct",
+        "Integrity"
+      ]
+    },
+    {
+      "question": "What is an example of an ethical dilemma related to international business mentioned in the module?",
+      "options": [
+        "Choosing between two software tools",
+        "Deciding between different team members",
+        "Doing business in a different country where practices may be ambiguous and contradict home country practices",
+        "Selecting a project methodology"
+      ],
+      "answerIndex": 2,
+      "explanation": "The module mentions that doing business in a different country is ambiguous and may contradict practices performed at home, presenting an ethical dilemma.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "International Business",
+        "Dilemmas"
+      ]
+    },
+    {
+      "question": "What should a project manager do when discovering errors or omissions made by others?",
+      "options": [
+        "Ignore them and let others discover them",
+        "Immediately inform the appropriate authorities",
+        "Wait and see if anyone notices",
+        "Blame the person who made the error"
+      ],
+      "answerIndex": 1,
+      "explanation": "When discovering errors or omissions made by others, a project manager should immediately inform the appropriate authorities to maintain integrity and transparency.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Ethics",
+        "Professional Conduct",
+        "Transparency"
+      ]
+    },
+    {
+      "question": "What is the project manager's duty regarding proprietary or confidential information?",
+      "options": [
+        "Share it freely with anyone who asks",
+        "Protect the proprietary or confidential information entrusted to them",
+        "Use it for personal gain",
+        "Discuss it in public forums"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project managers have a duty to protect proprietary or confidential information entrusted to them, maintaining confidentiality and security.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Easy",
+      "tags": [
+        "Ethics",
+        "Confidentiality",
+        "Information Security"
+      ]
+    },
+    {
+      "question": "According to the module, what should project managers do regarding the code of ethics?",
+      "options": [
+        "Ignore it as it is not mandatory",
+        "Endorse the code and consider themselves subject to it",
+        "Follow it only when convenient",
+        "Recommend it only to others"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project managers should endorse the code of ethics and consider themselves subject to it, making it a personal commitment to professional conduct.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Easy",
+      "tags": [
+        "Ethics",
+        "Code of Conduct",
+        "Professional Commitment"
+      ]
+    },
+    {
+      "question": "What is the relationship between different project management approaches according to the module?",
+      "options": [
+        "Only one approach should ever be used",
+        "Different projects need different management approaches based on their characteristics",
+        "All projects are identical in their needs",
+        "Methodology choice is irrelevant"
+      ],
+      "answerIndex": 1,
+      "explanation": "The module emphasizes that different projects have different characteristics and therefore need different management approaches - some need clear upfront requirements, others need flexibility.",
+      "category": "Project Management Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Project Management",
+        "Methodology",
+        "Approach Selection"
+      ]
+    },
+    {
+      "question": "What is the role of the Development Team in Scrum?",
+      "options": [
+        "To manage the project budget",
+        "To deliver potentially shippable increments of product each sprint",
+        "To approve all project decisions",
+        "To communicate with external vendors only"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Development Team in Scrum is responsible for delivering potentially shippable increments of product each sprint that meet the Definition of Done.",
+      "category": "Scrum Roles",
+      "level": "Easy",
+      "tags": [
+        "Scrum",
+        "Development Team",
+        "Roles"
+      ]
+    },
+    {
+      "question": "How does Agile's iterative approach help with risk management?",
+      "options": [
+        "It eliminates all risks",
+        "Frequent delivery reduces risk by allowing early detection and adaptation to changes",
+        "It ignores risks",
+        "It increases project risk"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile's frequent delivery reduces risk by allowing teams to detect issues early, gather feedback, and adapt to changes before they become major problems.",
+      "category": "Agile Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Agile",
+        "Risk Management",
+        "Iterative Delivery"
+      ]
+    }
+  ]
+}

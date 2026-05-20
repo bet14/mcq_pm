@@ -1,0 +1,1188 @@
+{
+  "title": "Earned Value Analysis (EVA) Comprehensive Quiz",
+  "subtitle": "Master the concepts, formulas, and applications of Earned Value Management",
+  "totalQuestions": 69,
+  "questions": [
+    {
+      "question": "What does PV stand for in Earned Value Analysis?",
+      "options": [
+        "Planned Value (Budgeted Cost of Work Scheduled)",
+        "Project Value",
+        "Performance Variance",
+        "Projected Valuation"
+      ],
+      "answerIndex": 0,
+      "explanation": "PV (Planned Value) is also known as Budgeted Cost of Work Scheduled (BCWS). It represents the amount of the task that is supposed to have been completed in terms of the task budget.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Inputs",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "What does EV stand for in Earned Value Analysis?",
+      "options": [
+        "Earned Value (Budgeted Cost of Work Performed)",
+        "Expected Value",
+        "Estimated Variance",
+        "Evaluation Velocity"
+      ],
+      "answerIndex": 0,
+      "explanation": "EV (Earned Value) is also known as Budgeted Cost of Work Performed (BCWP). It represents the actual value of the work that has been completed.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Inputs",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "What does AC stand for in Earned Value Analysis?",
+      "options": [
+        "Actual Cost (Actual Cost of Work Performed)",
+        "Allocated Cost",
+        "Approved Completion",
+        "Adjusted Calculation"
+      ],
+      "answerIndex": 0,
+      "explanation": "AC (Actual Cost) is also known as Actual Cost of Work Performed (ACWP). It represents the actual to-date cost of the task.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Inputs",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT one of the three primary inputs in Earned Value Analysis?",
+      "options": [
+        "Schedule Variance (SV)",
+        "Planned Value (PV)",
+        "Earned Value (EV)",
+        "Actual Cost (AC)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Schedule Variance (SV) is a calculated output, not an input. The three primary inputs are PV, EV, and AC. All other metrics are derived from these.",
+      "category": "Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Inputs",
+        "Outputs",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "What is the formula for Schedule Variance (SV)?",
+      "options": [
+        "SV = EV - PV",
+        "SV = PV - AC",
+        "SV = EV - AC",
+        "SV = AC - PV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Schedule Variance (SV) is calculated as EV minus PV. It shows the amount that the task is ahead or behind schedule in terms of budgeted value.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "Schedule Variance",
+        "Formulas",
+        "Calculations"
+      ]
+    },
+    {
+      "question": "What is the formula for Cost Variance (CV)?",
+      "options": [
+        "CV = EV - AC",
+        "CV = AC - EV",
+        "CV = PV - AC",
+        "CV = EV - PV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost Variance (CV) is calculated as EV minus AC. It shows the amount that the task is over or under budget in terms of value.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "Cost Variance",
+        "Formulas",
+        "Calculations"
+      ]
+    },
+    {
+      "question": "If Schedule Variance (SV) is negative, what does this indicate?",
+      "options": [
+        "The task is behind schedule",
+        "The task is ahead of schedule",
+        "The task is on schedule",
+        "The task has no schedule impact"
+      ],
+      "answerIndex": 0,
+      "explanation": "A negative SV means EV < PV, indicating that less work has been completed than planned. This means the task is behind schedule.",
+      "category": "Interpretation",
+      "level": "Easy",
+      "tags": [
+        "Schedule Variance",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "If Cost Variance (CV) is positive, what does this indicate?",
+      "options": [
+        "The task is under budget",
+        "The task is over budget",
+        "The task is on budget",
+        "The task has no cost impact"
+      ],
+      "answerIndex": 0,
+      "explanation": "A positive CV means EV > AC, indicating that more value has been earned than actual cost spent. This means the task is under budget.",
+      "category": "Interpretation",
+      "level": "Easy",
+      "tags": [
+        "Cost Variance",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "What is the formula for Schedule Performance Index (SPI)?",
+      "options": [
+        "SPI = EV / PV",
+        "SPI = PV / EV",
+        "SPI = EV / AC",
+        "SPI = AC / PV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Schedule Performance Index (SPI) is calculated as EV divided by PV. It provides a relative measure of schedule performance as a percentage.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "Schedule Performance Index",
+        "Formulas",
+        "Performance Indices"
+      ]
+    },
+    {
+      "question": "What is the formula for Cost Performance Index (CPI)?",
+      "options": [
+        "CPI = EV / AC",
+        "CPI = AC / EV",
+        "CPI = EV / PV",
+        "CPI = PV / AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cost Performance Index (CPI) is calculated as EV divided by AC. It provides a relative measure of cost performance as a percentage.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "Cost Performance Index",
+        "Formulas",
+        "Performance Indices"
+      ]
+    },
+    {
+      "question": "If SPI = 1.25, what does this mean?",
+      "options": [
+        "The task is 25% ahead of schedule",
+        "The task is 25% behind schedule",
+        "The task is 125% complete",
+        "The task will cost 25% more"
+      ],
+      "answerIndex": 0,
+      "explanation": "An SPI of 1.25 means the task is performing at 125% of the planned schedule rate, which indicates it is 25% ahead of schedule.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Schedule Performance Index",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "If CPI = 0.85, what does this mean?",
+      "options": [
+        "The task is 15% over budget",
+        "The task is 15% under budget",
+        "The task is 85% complete",
+        "The task will finish in 85% of planned time"
+      ],
+      "answerIndex": 0,
+      "explanation": "A CPI of 0.85 means the task is performing at 85% of the planned cost rate, which indicates it is 15% over budget.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Cost Performance Index",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, if 4 drivers are completed out of 10 planned at week 5, what is the Earned Value (EV)?",
+      "options": [
+        "$40,000",
+        "$47,500",
+        "$50,000",
+        "$100,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "With a total budget of $100,000 for 10 drivers ($10K each), 4 completed drivers represent 40% completion. EV = 40% \u00d7 $100,000 = $40,000.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "EVA Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, at week 5 with 10 weeks planned, what is the Planned Value (PV)?",
+      "options": [
+        "$50,000",
+        "$40,000",
+        "$47,500",
+        "$100,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "At week 5 of 10 weeks, the project should be 50% complete. PV = 50% \u00d7 $100,000 = $50,000.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "EVA Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, what is the Actual Cost (AC)?",
+      "options": [
+        "$47,500",
+        "$40,000",
+        "$50,000",
+        "$100,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "The problem states that $47,500 has been spent to date. This is the Actual Cost (AC).",
+      "category": "Calculations",
+      "level": "Easy",
+      "tags": [
+        "EVA Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, what is the Cost Variance (CV)?",
+      "options": [
+        "-$7,500",
+        "$7,500",
+        "-$10,000",
+        "$10,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV = EV - AC = $40,000 - $47,500 = -$7,500. The negative value indicates the project is over budget.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Cost Variance",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, what is the Schedule Variance (SV)?",
+      "options": [
+        "-$10,000",
+        "-$7,500",
+        "$10,000",
+        "$7,500"
+      ],
+      "answerIndex": 0,
+      "explanation": "SV = EV - PV = $40,000 - $50,000 = -$10,000. The negative value indicates the project is behind schedule.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Schedule Variance",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, what is the Cost Performance Index (CPI)?",
+      "options": [
+        "0.84",
+        "1.19",
+        "0.80",
+        "1.25"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPI = EV / AC = $40,000 / $47,500 = 0.84. This indicates the project is over budget by approximately 16%.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Cost Performance Index",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver exercise, what is the Schedule Performance Index (SPI)?",
+      "options": [
+        "0.80",
+        "0.84",
+        "1.19",
+        "1.25"
+      ],
+      "answerIndex": 0,
+      "explanation": "SPI = EV / PV = $40,000 / $50,000 = 0.80. This indicates the project is behind schedule by 20%.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Schedule Performance Index",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "What does BAC stand for?",
+      "options": [
+        "Budget at Completion",
+        "Baseline Actual Cost",
+        "Budget Allocation Chart",
+        "Budgeted Annual Cost"
+      ],
+      "answerIndex": 0,
+      "explanation": "BAC (Budget at Completion) is the total overall project budget, which is the aggregate of all task budgets.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Budget Metrics"
+      ]
+    },
+    {
+      "question": "What does EAC stand for?",
+      "options": [
+        "Estimate at Completion",
+        "Earned Actual Cost",
+        "Estimated Annual Cost",
+        "Expected Achievement Cost"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC (Estimate at Completion) represents the estimated project budget at the end of the project, given current project status.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Forecast Metrics"
+      ]
+    },
+    {
+      "question": "Which formula for EAC assumes that current variances are typical of future variances?",
+      "options": [
+        "EAC = BAC / CPI",
+        "EAC = AC + (BAC - EV)",
+        "EAC = AC + ETC",
+        "EAC = AC + [(BAC - EV) / (SPI \u00d7 CPI)]"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC = BAC / CPI assumes that the current cost performance (CPI) will continue throughout the project, making current variances typical of future ones.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "EAC Formulas",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "Which formula for EAC assumes that current variances are atypical and will not continue?",
+      "options": [
+        "EAC = AC + (BAC - EV)",
+        "EAC = BAC / CPI",
+        "EAC = AC + ETC",
+        "EAC = AC + [(BAC - EV) / (SPI \u00d7 CPI)]"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC = AC + (BAC - EV) assumes that remaining work will be completed at the planned budget rate, treating current variances as one-time events.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "EAC Formulas",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "What does the hybrid EAC formula account for?",
+      "options": [
+        "Both schedule and cost performance impacts on future work",
+        "Only cost performance",
+        "Only schedule performance",
+        "Neither schedule nor cost performance"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hybrid formula EAC = AC + [(BAC - EV) / (SPI \u00d7 CPI)] considers both schedule performance (SPI) and cost performance (CPI) when projecting completion.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "EAC Formulas",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "What does ETC stand for?",
+      "options": [
+        "Estimate to Complete",
+        "Earned Total Cost",
+        "Expected Time to Completion",
+        "Estimated Task Cost"
+      ],
+      "answerIndex": 0,
+      "explanation": "ETC (Estimate to Complete) represents how much money must be spent from the current point forward to complete the project.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Forecast Metrics"
+      ]
+    },
+    {
+      "question": "What is the relationship between EAC, AC, and ETC?",
+      "options": [
+        "EAC = AC + ETC",
+        "ETC = AC + EAC",
+        "AC = EAC + ETC",
+        "EAC = ETC - AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC (Estimate at Completion) equals the Actual Cost to date plus the Estimate to Complete. This is the total expected project cost.",
+      "category": "Formulas",
+      "level": "Medium",
+      "tags": [
+        "Forecast Metrics",
+        "Relationships"
+      ]
+    },
+    {
+      "question": "What does VAC stand for?",
+      "options": [
+        "Variance at Completion",
+        "Value Allocation Cost",
+        "Variance Analysis Chart",
+        "Valuation at Completion"
+      ],
+      "answerIndex": 0,
+      "explanation": "VAC (Variance at Completion) represents the forecasted cost variance at the completion of the project.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Forecast Metrics"
+      ]
+    },
+    {
+      "question": "What is the formula for Variance at Completion (VAC)?",
+      "options": [
+        "VAC = BAC - EAC",
+        "VAC = EAC - BAC",
+        "VAC = BAC - AC",
+        "VAC = EAC - AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "VAC = BAC - EAC. A positive VAC means the project will finish under budget, while a negative VAC means additional funds are needed.",
+      "category": "Formulas",
+      "level": "Medium",
+      "tags": [
+        "VAC",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "If VAC is negative, what does this indicate?",
+      "options": [
+        "Additional funding is needed to complete the project",
+        "The project will finish with a surplus",
+        "The project is on budget",
+        "The project has no variance"
+      ],
+      "answerIndex": 0,
+      "explanation": "A negative VAC means BAC < EAC, indicating that the estimated final cost exceeds the original budget. Additional funds are required.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "VAC",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "What does TCPI stand for?",
+      "options": [
+        "To Complete Performance Index",
+        "Total Cost Performance Indicator",
+        "Task Completion Performance Index",
+        "Time Completion Performance Index"
+      ],
+      "answerIndex": 0,
+      "explanation": "TCPI (To Complete Performance Index) indicates what CPI would be necessary to finish the project on budget.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Performance Indices"
+      ]
+    },
+    {
+      "question": "What is the formula for TCPI when the project budget is fixed?",
+      "options": [
+        "TCPI = (BAC - EV) / (BAC - AC)",
+        "TCPI = (BAC - EV) / (EAC - AC)",
+        "TCPI = BAC / CPI",
+        "TCPI = EV / AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "When the original budget is fixed and cannot be changed, TCPI = (BAC - EV) / (BAC - AC) shows the efficiency needed for remaining work.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "TCPI",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "What is the formula for TCPI when the project budget is flexible?",
+      "options": [
+        "TCPI = (BAC - EV) / (EAC - AC)",
+        "TCPI = (BAC - EV) / (BAC - AC)",
+        "TCPI = BAC / CPI",
+        "TCPI = EV / AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "When the budget can be adjusted to accommodate past variances, TCPI = (BAC - EV) / (EAC - AC) reflects the required efficiency based on the new estimate.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "TCPI",
+        "Forecast Calculations"
+      ]
+    },
+    {
+      "question": "If TCPI > 1, what does this indicate?",
+      "options": [
+        "The project needs to improve efficiency to finish on budget",
+        "The project can afford to reduce efficiency and still finish on budget",
+        "The project is currently on budget",
+        "The project will definitely finish on budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "A TCPI greater than 1 means the remaining work must be completed at a better rate than the current CPI to finish on budget.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "TCPI",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "If TCPI < 1, what does this indicate?",
+      "options": [
+        "The project can afford to reduce efficiency and still finish on budget",
+        "The project needs to improve efficiency to finish on budget",
+        "The project is currently over budget",
+        "The project will definitely go over budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "A TCPI less than 1 means the remaining work can be completed at a worse rate than the current CPI and still finish on budget.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "TCPI",
+        "Status Interpretation"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Earned Value Analysis?",
+      "options": [
+        "To measure project performance from both schedule and cost perspectives",
+        "To eliminate project risks",
+        "To reduce project scope",
+        "To increase team motivation"
+      ],
+      "answerIndex": 0,
+      "explanation": "EVA provides objective data on whether a project is behind or ahead of schedule and over or under budget, enabling informed decision-making.",
+      "category": "Fundamentals",
+      "level": "Easy",
+      "tags": [
+        "Purpose",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "How is Planned Value (PV) calculated?",
+      "options": [
+        "PV = Percent Complete (planned) \u00d7 Task Budget",
+        "PV = Percent Complete (actual) \u00d7 Task Budget",
+        "PV = Actual Cost \u00d7 Percent Complete",
+        "PV = Task Budget / Percent Complete"
+      ],
+      "answerIndex": 0,
+      "explanation": "PV is calculated by multiplying the planned percentage of work that should be complete by the total task budget.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "PV Calculation",
+        "Formulas"
+      ]
+    },
+    {
+      "question": "How is Earned Value (EV) calculated?",
+      "options": [
+        "EV = Percent Complete (actual) \u00d7 Task Budget",
+        "EV = Percent Complete (planned) \u00d7 Task Budget",
+        "EV = Actual Cost \u00d7 Percent Complete",
+        "EV = Task Budget / Actual Cost"
+      ],
+      "answerIndex": 0,
+      "explanation": "EV is calculated by multiplying the actual percentage of work completed by the total task budget.",
+      "category": "Formulas",
+      "level": "Easy",
+      "tags": [
+        "EV Calculation",
+        "Formulas"
+      ]
+    },
+    {
+      "question": "What does it mean when a project has a positive SV and positive CV?",
+      "options": [
+        "The project is ahead of schedule and under budget",
+        "The project is behind schedule and over budget",
+        "The project is ahead of schedule but over budget",
+        "The project is behind schedule but under budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Positive SV means EV > PV (ahead of schedule), and positive CV means EV > AC (under budget). This is the best possible scenario.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Status Interpretation",
+        "Combined Analysis"
+      ]
+    },
+    {
+      "question": "What does it mean when a project has a negative SV and positive CV?",
+      "options": [
+        "The project is behind schedule but under budget",
+        "The project is ahead of schedule and under budget",
+        "The project is behind schedule and over budget",
+        "The project is on schedule and on budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Negative SV means the project is behind schedule, but positive CV means it is spending less than planned. This could indicate efficiency issues or scope problems.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Status Interpretation",
+        "Combined Analysis"
+      ]
+    },
+    {
+      "question": "What does it mean when a project has a positive SV and negative CV?",
+      "options": [
+        "The project is ahead of schedule but over budget",
+        "The project is behind schedule but under budget",
+        "The project is ahead of schedule and under budget",
+        "The project is behind schedule and over budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Positive SV means the project is ahead of schedule, but negative CV means it is spending more than planned. This could indicate quality or resource issues.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Status Interpretation",
+        "Combined Analysis"
+      ]
+    },
+    {
+      "question": "What does it mean when a project has a negative SV and negative CV?",
+      "options": [
+        "The project is behind schedule and over budget",
+        "The project is ahead of schedule and under budget",
+        "The project is ahead of schedule but over budget",
+        "The project is behind schedule but under budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Negative SV means the project is behind schedule, and negative CV means it is over budget. This is the worst possible scenario.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Status Interpretation",
+        "Combined Analysis"
+      ]
+    },
+    {
+      "question": "In the printer driver example, if the project continues at the current CPI, what would be the EAC using the formula EAC = BAC / CPI?",
+      "options": [
+        "$119,047",
+        "$100,000",
+        "$84,000",
+        "$47,500"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC = $100,000 / 0.84 = $119,047. This assumes the current cost performance continues for the remainder of the project.",
+      "category": "Calculations",
+      "level": "Hard",
+      "tags": [
+        "EAC Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver example, if the snowstorm is a one-time event and won't affect future work, what would be the EAC using EAC = AC + (BAC - EV)?",
+      "options": [
+        "$107,500",
+        "$100,000",
+        "$119,047",
+        "$87,500"
+      ],
+      "answerIndex": 0,
+      "explanation": "EAC = $47,500 + ($100,000 - $40,000) = $107,500. This assumes remaining work will be completed at the planned budget rate.",
+      "category": "Calculations",
+      "level": "Hard",
+      "tags": [
+        "EAC Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "What does Cost Variance Percentage (CV%) measure?",
+      "options": [
+        "The percentage by which the project is over or under budget",
+        "The percentage of work completed",
+        "The percentage of budget spent",
+        "The percentage of schedule variance"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV% = CV / EV, expressed as a percentage. It shows the relative cost variance compared to the earned value.",
+      "category": "Metrics",
+      "level": "Medium",
+      "tags": [
+        "Cost Variance",
+        "Percentage Metrics"
+      ]
+    },
+    {
+      "question": "What is the formula for Cost Variance Percentage (CV%)?",
+      "options": [
+        "CV% = CV / EV",
+        "CV% = CV / AC",
+        "CV% = CV / PV",
+        "CV% = CV / BAC"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV% = CV / EV expresses the cost variance as a percentage of the earned value, providing a relative measure of cost performance.",
+      "category": "Formulas",
+      "level": "Medium",
+      "tags": [
+        "Cost Variance",
+        "Percentage Metrics"
+      ]
+    },
+    {
+      "question": "In the printer driver example, what is the CV%?",
+      "options": [
+        "-19%",
+        "-20%",
+        "19%",
+        "20%"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV% = CV / EV = -$7,500 / $40,000 = -0.1875 = -18.75%, which rounds to -19%. The project is over budget by approximately 19%.",
+      "category": "Calculations",
+      "level": "Hard",
+      "tags": [
+        "CV% Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "What does Schedule Variance Percentage (SV%) measure?",
+      "options": [
+        "The percentage by which the project is ahead or behind schedule",
+        "The percentage of work completed",
+        "The percentage of time spent",
+        "The percentage of cost variance"
+      ],
+      "answerIndex": 0,
+      "explanation": "SV% = SV / PV, expressed as a percentage. It shows the relative schedule variance compared to the planned value.",
+      "category": "Metrics",
+      "level": "Medium",
+      "tags": [
+        "Schedule Variance",
+        "Percentage Metrics"
+      ]
+    },
+    {
+      "question": "What is the formula for Schedule Variance Percentage (SV%)?",
+      "options": [
+        "SV% = SV / PV",
+        "SV% = SV / EV",
+        "SV% = SV / AC",
+        "SV% = SV / BAC"
+      ],
+      "answerIndex": 0,
+      "explanation": "SV% = SV / PV expresses the schedule variance as a percentage of the planned value, providing a relative measure of schedule performance.",
+      "category": "Formulas",
+      "level": "Medium",
+      "tags": [
+        "Schedule Variance",
+        "Percentage Metrics"
+      ]
+    },
+    {
+      "question": "In the printer driver example, what is the SV%?",
+      "options": [
+        "-20%",
+        "-19%",
+        "20%",
+        "19%"
+      ],
+      "answerIndex": 0,
+      "explanation": "SV% = SV / PV = -$10,000 / $50,000 = -0.20 = -20%. The project is behind schedule by 20%.",
+      "category": "Calculations",
+      "level": "Hard",
+      "tags": [
+        "SV% Calculations",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "What is the relationship between CPI and the project's budget status?",
+      "options": [
+        "CPI < 1 indicates over budget; CPI > 1 indicates under budget",
+        "CPI < 1 indicates under budget; CPI > 1 indicates over budget",
+        "CPI only measures schedule, not budget",
+        "CPI is independent of budget status"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPI = EV / AC. When CPI < 1, it means AC > EV, indicating spending more than earned value, which is over budget.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "CPI",
+        "Budget Analysis"
+      ]
+    },
+    {
+      "question": "What is the relationship between SPI and the project's schedule status?",
+      "options": [
+        "SPI < 1 indicates behind schedule; SPI > 1 indicates ahead of schedule",
+        "SPI < 1 indicates ahead of schedule; SPI > 1 indicates behind schedule",
+        "SPI only measures cost, not schedule",
+        "SPI is independent of schedule status"
+      ],
+      "answerIndex": 0,
+      "explanation": "SPI = EV / PV. When SPI < 1, it means EV < PV, indicating less work completed than planned, which is behind schedule.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "SPI",
+        "Schedule Analysis"
+      ]
+    },
+    {
+      "question": "What is the primary advantage of using Performance Indices (CPI and SPI) over Variances (CV and SV)?",
+      "options": [
+        "They provide relative measures that are easier to compare across different projects",
+        "They are simpler to calculate",
+        "They eliminate the need for actual cost data",
+        "They are always positive values"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance indices normalize variances, making them comparable across projects of different sizes. A $500 variance means different things for a $10K project vs. a $1M project.",
+      "category": "Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Performance Indices",
+        "Comparative Analysis"
+      ]
+    },
+    {
+      "question": "What does the WBS stand for in project management?",
+      "options": [
+        "Work Breakdown Structure",
+        "Weekly Budget Summary",
+        "Work-Based Scheduling",
+        "Weighted Budget Score"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Work Breakdown Structure (WBS) is a hierarchical decomposition of the project into manageable components, which is the starting point for Earned Value Analysis.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Project Management",
+        "EVA Basics"
+      ]
+    },
+    {
+      "question": "What is the first step in performing Earned Value Analysis?",
+      "options": [
+        "Develop the WBS and identify activities",
+        "Calculate the CPI and SPI",
+        "Determine the EAC",
+        "Measure actual costs"
+      ],
+      "answerIndex": 0,
+      "explanation": "Before any EVA calculations can be performed, the project must have a defined Work Breakdown Structure and identified activities.",
+      "category": "Process",
+      "level": "Easy",
+      "tags": [
+        "EVA Process",
+        "Planning"
+      ]
+    },
+    {
+      "question": "If a project has CPI = 1.0 and SPI = 1.0, what is the project status?",
+      "options": [
+        "The project is on schedule and on budget",
+        "The project is ahead of schedule and under budget",
+        "The project is behind schedule and over budget",
+        "The project status cannot be determined"
+      ],
+      "answerIndex": 0,
+      "explanation": "When both CPI and SPI equal 1.0, it means EV = AC and EV = PV, indicating the project is performing exactly as planned.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Status Interpretation",
+        "Combined Analysis"
+      ]
+    },
+    {
+      "question": "What does the term 'Budgeted Cost of Work Scheduled' refer to?",
+      "options": [
+        "Planned Value (PV)",
+        "Earned Value (EV)",
+        "Actual Cost (AC)",
+        "Budget at Completion (BAC)"
+      ],
+      "answerIndex": 0,
+      "explanation": "BCWS is another name for Planned Value (PV), representing the budgeted cost of work that should have been completed.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Alternative Terminology"
+      ]
+    },
+    {
+      "question": "What does the term 'Budgeted Cost of Work Performed' refer to?",
+      "options": [
+        "Earned Value (EV)",
+        "Planned Value (PV)",
+        "Actual Cost (AC)",
+        "Budget at Completion (BAC)"
+      ],
+      "answerIndex": 0,
+      "explanation": "BCWP is another name for Earned Value (EV), representing the budgeted cost of work that has actually been completed.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Alternative Terminology"
+      ]
+    },
+    {
+      "question": "What does the term 'Actual Cost of Work Performed' refer to?",
+      "options": [
+        "Actual Cost (AC)",
+        "Planned Value (PV)",
+        "Earned Value (EV)",
+        "Budget at Completion (BAC)"
+      ],
+      "answerIndex": 0,
+      "explanation": "ACWP is another name for Actual Cost (AC), representing the actual cost of work that has been performed.",
+      "category": "Terminology",
+      "level": "Easy",
+      "tags": [
+        "Definitions",
+        "Alternative Terminology"
+      ]
+    },
+    {
+      "question": "In a project with divergent progress (like Project Beta), what is typically happening?",
+      "options": [
+        "The project is improving in one area but deteriorating in another",
+        "The project is consistently improving in all areas",
+        "The project is consistently deteriorating in all areas",
+        "The project has no measurable progress"
+      ],
+      "answerIndex": 0,
+      "explanation": "Divergent progress means that while one metric (e.g., schedule) may be improving, another (e.g., cost) may be worsening, indicating the project needs attention in specific areas.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Trend Analysis",
+        "Project Monitoring"
+      ]
+    },
+    {
+      "question": "In a project that is 'losing ground' (like Project Charlie), what is the typical pattern?",
+      "options": [
+        "Both CPI and SPI are decreasing over time",
+        "Both CPI and SPI are increasing over time",
+        "CPI is increasing while SPI is decreasing",
+        "The project has no measurable trend"
+      ],
+      "answerIndex": 0,
+      "explanation": "When a project is losing ground, both cost and schedule performance indices are declining, indicating worsening performance in both areas.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Trend Analysis",
+        "Project Monitoring"
+      ]
+    },
+    {
+      "question": "What is the significance of tracking PV, EV, and AC curves over time?",
+      "options": [
+        "They reveal trends in project performance and help predict future outcomes",
+        "They eliminate the need for project management",
+        "They guarantee project success",
+        "They are only useful at project completion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tracking these curves over time allows project managers to identify trends early and take corrective action before problems become critical.",
+      "category": "Process",
+      "level": "Medium",
+      "tags": [
+        "Monitoring",
+        "Trend Analysis"
+      ]
+    },
+    {
+      "question": "If a project's EAC is significantly higher than BAC, what does this indicate?",
+      "options": [
+        "The project is expected to significantly exceed the original budget",
+        "The project is expected to finish under budget",
+        "The project is on track",
+        "The project has no cost issues"
+      ],
+      "answerIndex": 0,
+      "explanation": "When EAC > BAC, it means the estimated final cost will exceed the original budget, indicating a significant cost overrun is expected.",
+      "category": "Interpretation",
+      "level": "Medium",
+      "tags": [
+        "Budget Forecasting",
+        "Risk Indicators"
+      ]
+    },
+    {
+      "question": "What is the relationship between CV and CPI?",
+      "options": [
+        "CV is an absolute measure while CPI is a relative measure of the same cost performance",
+        "CV and CPI measure different aspects of project performance",
+        "CV is more important than CPI",
+        "CPI is more important than CV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Both CV and CPI measure cost performance, but CV provides an absolute dollar amount while CPI provides a ratio. They complement each other.",
+      "category": "Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Metrics Relationship",
+        "Comparative Analysis"
+      ]
+    },
+    {
+      "question": "What is the relationship between SV and SPI?",
+      "options": [
+        "SV is an absolute measure while SPI is a relative measure of the same schedule performance",
+        "SV and SPI measure different aspects of project performance",
+        "SV is more important than SPI",
+        "SPI is more important than SV"
+      ],
+      "answerIndex": 0,
+      "explanation": "Both SV and SPI measure schedule performance, but SV provides an absolute value while SPI provides a ratio. They complement each other.",
+      "category": "Fundamentals",
+      "level": "Medium",
+      "tags": [
+        "Metrics Relationship",
+        "Comparative Analysis"
+      ]
+    },
+    {
+      "question": "In the printer driver example, what percentage of the original budget has been spent?",
+      "options": [
+        "47.5%",
+        "40%",
+        "50%",
+        "84%"
+      ],
+      "answerIndex": 0,
+      "explanation": "AC / BAC = $47,500 / $100,000 = 0.475 = 47.5%. The project has spent 47.5% of the budget.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Budget Analysis",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "In the printer driver example, what percentage of the work has been completed?",
+      "options": [
+        "40%",
+        "47.5%",
+        "50%",
+        "80%"
+      ],
+      "answerIndex": 0,
+      "explanation": "EV / BAC = $40,000 / $100,000 = 0.40 = 40%. Only 40% of the work has been completed.",
+      "category": "Calculations",
+      "level": "Medium",
+      "tags": [
+        "Progress Analysis",
+        "Worked Examples"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of calculating ETC?",
+      "options": [
+        "To determine how much more money is needed to complete the project",
+        "To eliminate project risks",
+        "To increase team motivation",
+        "To reduce project scope"
+      ],
+      "answerIndex": 0,
+      "explanation": "ETC (Estimate to Complete) helps project managers understand the remaining budget needed and plan for resource allocation.",
+      "category": "Purpose",
+      "level": "Easy",
+      "tags": [
+        "Forecast Metrics",
+        "Budget Planning"
+      ]
+    },
+    {
+      "question": "When should a project manager use the formula EAC = AC + ETC?",
+      "options": [
+        "When project assumptions have changed and a new estimate is required",
+        "When current variances are expected to continue",
+        "When current variances are not expected to continue",
+        "When the project is on schedule and on budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "This formula is used when the original estimates are no longer valid and a completely new estimate must be developed based on changed circumstances.",
+      "category": "Formulas",
+      "level": "Hard",
+      "tags": [
+        "EAC Formulas",
+        "Estimate Changes"
+      ]
+    },
+    {
+      "question": "What is the significance of comparing CPI and SPI values?",
+      "options": [
+        "It reveals whether cost or schedule is the primary problem area",
+        "It determines the project's total budget",
+        "It eliminates the need for variance analysis",
+        "It guarantees project success"
+      ],
+      "answerIndex": 0,
+      "explanation": "By comparing CPI and SPI, project managers can identify whether they should focus corrective efforts on cost control or schedule recovery.",
+      "category": "Analysis",
+      "level": "Medium",
+      "tags": [
+        "Performance Analysis",
+        "Decision Making"
+      ]
+    }
+  ]
+}

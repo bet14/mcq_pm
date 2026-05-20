@@ -1,0 +1,1112 @@
+{
+  "title": "Project Management Principles - Module 4 Quiz",
+  "subtitle": "Comprehensive review of Risk and Human Resource Management",
+  "totalQuestions": 65,
+  "questions": [
+    {
+      "question": "What is the definition of a risk in project management?",
+      "options": [
+        "A guaranteed event that will negatively impact the project.",
+        "An uncertain event or condition that affects at least one project objective.",
+        "A problem that has already occurred.",
+        "An unidentifiable virtual event."
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk is defined as an uncertain event or condition that, if it occurs, affects at least one project objective.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What is the primary objective of risk management regarding positive events?",
+      "options": [
+        "To ignore them as they are not threats.",
+        "To increase their likelihood and impact.",
+        "To eliminate them entirely.",
+        "To transfer them to a third party."
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk management aims to increase the likelihood and impact of positive events (opportunities).",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which term describes a lack of knowledge about an event that reduces confidence?",
+      "options": [
+        "Risk aversion",
+        "Risk threshold",
+        "Risk tolerance",
+        "Uncertainty"
+      ],
+      "answerIndex": 3,
+      "explanation": "Uncertainty is defined as a lack of knowledge about an event that reduces confidence.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What does 'risk aversion' refer to?",
+      "options": [
+        "An identifiable and quantifiable virtual event.",
+        "The area of risk that is acceptable.",
+        "Someone who does not want to take risks.",
+        "The point at which a risk becomes unacceptable."
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk aversion refers to someone who does not want to take risks.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "How is 'risk tolerance' defined?",
+      "options": [
+        "A lack of knowledge about an event.",
+        "The area of risk that is acceptable or unacceptable.",
+        "An unidentifiable virtual event.",
+        "The point at which a risk becomes unacceptable."
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk tolerance is the area of risk that is acceptable or unacceptable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What is a 'risk threshold'?",
+      "options": [
+        "The area of risk that is acceptable.",
+        "Someone who does not want to take risks.",
+        "The point at which a risk becomes unacceptable.",
+        "A virtual event already realized."
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk thresholds are the point at which a risk becomes unacceptable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which of the following is the first step in the Risk Management Process?",
+      "options": [
+        "Qualitative risk analysis",
+        "Risk identification",
+        "Risk Management Planning",
+        "Risk mitigation plan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first step is Risk Management Planning, which decides how to manage the risk of a project.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Risk identification'?",
+      "options": [
+        "To determine what risks might impact the project and document their characteristics.",
+        "To track identified risks and identify new ones.",
+        "To prioritize risks according to their probability.",
+        "To perform numerical analysis of the effects of risks."
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk identification determines what risks might impact the project and documents their characteristics.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which process involves prioritizing risks according to their probability of occurrence and impacts?",
+      "options": [
+        "Control risks",
+        "Qualitative risk analysis",
+        "Quantitative risk analysis",
+        "Risk mitigation plan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Qualitative risk analysis involves prioritization of risks according to their probability of occurrence and impacts.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What does 'Quantitative risk analysis' entail?",
+      "options": [
+        "Prioritization of risks according to their probability.",
+        "Numerical analysis of the effects of risks on all project objectives.",
+        "Tracking identified risks.",
+        "Development of options and actions to promote positive risks."
+      ],
+      "answerIndex": 1,
+      "explanation": "Quantitative risk analysis is the numerical analysis of the effects of risks on all project objectives.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What is the goal of a 'Risk mitigation plan'?",
+      "options": [
+        "Deciding how to manage the risk of a project.",
+        "Numerical analysis of the effects of risks.",
+        "Development of options and actions to promote positive risks and control negative risks.",
+        "Prioritization of risks."
+      ],
+      "answerIndex": 2,
+      "explanation": "A risk mitigation plan involves the development of options and actions to promote positive risks and control negative risks.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which step involves tracking identified risks, identifying new ones, and evaluating effectiveness?",
+      "options": [
+        "Risk identification",
+        "Control risks",
+        "Risk Management Planning",
+        "Qualitative risk analysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Control risks involves tracking identified risks, identifying new ones, executing risk response plans, and evaluating their effectiveness.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "How is an 'Unexpected' event defined in risk management?",
+      "options": [
+        "An identifiable and quantifiable virtual event.",
+        "An unidentifiable virtual event.",
+        "A virtual event already realized.",
+        "An identifiable but not quantifiable event."
+      ],
+      "answerIndex": 1,
+      "explanation": "An unexpected event is an unidentifiable virtual event.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What characterizes 'Virtual Events'?",
+      "options": [
+        "They are identifiable but not quantifiable.",
+        "They are identifiable and quantifiable.",
+        "They are unidentifiable.",
+        "They are already realized."
+      ],
+      "answerIndex": 0,
+      "explanation": "Virtual events are identifiable but not quantifiable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "How does a 'Risk' differ from a 'Virtual Event'?",
+      "options": [
+        "A risk is unidentifiable.",
+        "A risk is identifiable and quantifiable.",
+        "A risk is already realized.",
+        "A risk cannot be quantified."
+      ],
+      "answerIndex": 1,
+      "explanation": "A risk is an identifiable and quantifiable virtual event.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "What is a 'Problem' in the context of risk management?",
+      "options": [
+        "An identifiable but not quantifiable event.",
+        "An unidentifiable virtual event.",
+        "An identifiable and quantifiable virtual event.",
+        "A virtual event already realized."
+      ],
+      "answerIndex": 3,
+      "explanation": "A problem is a virtual event that has already been realized.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of Exogenous Risk Management?",
+      "options": [
+        "Poor project planning",
+        "Meteorological risks",
+        "Lack of budget",
+        "Team conflict"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exogenous risks include Political, Meteorological, Social, Regulations, and Suppliers.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Can a risk have a positive impact on a project objective?",
+      "options": [
+        "Only if it is a problem.",
+        "Only if it is an unexpected event.",
+        "No, risks are always negative.",
+        "Yes, a risk can have a positive or negative impact."
+      ],
+      "answerIndex": 3,
+      "explanation": "A risk can have a positive or negative impact on at least one objective of the project.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "How many causes can a risk have?",
+      "options": [
+        "Exactly one cause.",
+        "One or more causes.",
+        "Only external causes.",
+        "No causes, it is random."
+      ],
+      "answerIndex": 1,
+      "explanation": "A risk can have one or more causes, and if it is realized, one or more impacts.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT considered an exogenous risk?",
+      "options": [
+        "New regulations",
+        "Supplier bankruptcy",
+        "Internal team disputes",
+        "Political changes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Internal team disputes are endogenous, while political, regulations, and suppliers are exogenous risks.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Risk"
+      ]
+    },
+    {
+      "question": "According to Tuckman's model, what is the correct order of team development phases?",
+      "options": [
+        "Storming, forming, norming, performing, adjourning",
+        "Storming, norming, forming, performing, adjourning",
+        "Forming, storming, norming, performing, adjourning",
+        "Norming, storming, forming, performing, adjourning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tuckman's model phases are Forming, storming, norming, performing, adjourning.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "If two team members are in deep disagreement and you ask them to continue working and ignore the problem, which conflict resolution technique are you using?",
+      "options": [
+        "Collaborative",
+        "Constraint",
+        "Compromise",
+        "Retirement"
+      ],
+      "answerIndex": 3,
+      "explanation": "According to the provided material, ignoring the problem corresponds to the 'Retirement' technique.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "What is a characteristic of a 'Skilled' manager in motivating others?",
+      "options": [
+        "Is reluctant to assign work with tough deadlines.",
+        "Has simplistic models of motivation.",
+        "Empowers others and shares ownership.",
+        "Provides inequitable treatment."
+      ],
+      "answerIndex": 2,
+      "explanation": "A skilled manager empowers others, invites input, and shares ownership and visibility.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "Which behavior indicates an 'Unskilled' manager in motivating others?",
+      "options": [
+        "Pushes tasks and decisions down.",
+        "Makes each individual feel his/her work is important.",
+        "Creates a climate in which people want to do their best.",
+        "Doesn't know what motivates others or how to do it."
+      ],
+      "answerIndex": 3,
+      "explanation": "An unskilled manager doesn't know what motivates others or how to do it and is not empowering.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "What might be a sign of an 'Overused Skill' in motivating others?",
+      "options": [
+        "May not take tough stands when the situation calls for it.",
+        "Intentionally demotivates others.",
+        "Has simplistic models of motivation.",
+        "Empowers others effectively."
+      ],
+      "answerIndex": 0,
+      "explanation": "An overused skill may result in not taking tough stands when the situation calls for it or taking too long getting input.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "In the Leadership Architect Competency Sort Cards, which competency number is 'Motivating Others'?",
+      "options": [
+        "36",
+        "24",
+        "12",
+        "48"
+      ],
+      "answerIndex": 0,
+      "explanation": "Motivating Others is competency number 36.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "Which conflict resolution technique involves finding a middle ground where both parties give up something?",
+      "options": [
+        "Constraint",
+        "Retirement",
+        "Collaborative",
+        "Compromise"
+      ],
+      "answerIndex": 3,
+      "explanation": "Compromise involves both parties giving up something to reach a mutually acceptable solution.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "Which conflict resolution technique focuses on working together to find a win-win solution?",
+      "options": [
+        "Retirement",
+        "Constraint",
+        "Compromise",
+        "Collaborative"
+      ],
+      "answerIndex": 3,
+      "explanation": "Collaborative conflict resolution aims for a win-win outcome by working together.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "In Tuckman's model, during which phase do team members typically experience the most conflict?",
+      "options": [
+        "Forming",
+        "Performing",
+        "Storming",
+        "Norming"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Storming phase is characterized by conflict and competition as individual personalities emerge.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "What is the primary focus of the 'Norming' phase in Tuckman's model?",
+      "options": [
+        "Establishing rules and shared values.",
+        "Initial introductions and orientation.",
+        "High performance and task completion.",
+        "Disbanding the team."
+      ],
+      "answerIndex": 0,
+      "explanation": "During Norming, the team establishes rules, shared values, and begins to work cohesively.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Human"
+      ]
+    },
+    {
+      "question": "Which phase of the project life cycle involves defining the project and obtaining authorization?",
+      "options": [
+        "Closure",
+        "Execution",
+        "Planning",
+        "Initiation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Initiation is the phase where the project is defined and authorized.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "In which process group does 'Risk Management Planning' occur?",
+      "options": [
+        "Initiation",
+        "Planning",
+        "Execution",
+        "Monitoring & Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk Management Planning is part of the Planning process group.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "During which process group are risk response plans executed?",
+      "options": [
+        "Monitoring & Control",
+        "Planning",
+        "Initiation",
+        "Closure"
+      ],
+      "answerIndex": 0,
+      "explanation": "Executing risk response plans and evaluating their effectiveness occurs during Monitoring & Control (Control Risks).",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "What is the main purpose of the 'Monitoring & Control' process group?",
+      "options": [
+        "To acquire the project team.",
+        "To track, review, and regulate the progress and performance of the project.",
+        "To define the project scope.",
+        "To formally close the project."
+      ],
+      "answerIndex": 1,
+      "explanation": "Monitoring & Control tracks, reviews, and regulates project progress and performance.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "Which process group is responsible for formally completing the project or phase?",
+      "options": [
+        "Planning",
+        "Execution",
+        "Closure",
+        "Initiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Closure is the process group that formally completes the project or phase.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "In the context of risk management, when does 'Risk identification' primarily take place?",
+      "options": [
+        "Execution",
+        "Initiation",
+        "Closure",
+        "Planning"
+      ],
+      "answerIndex": 3,
+      "explanation": "Risk identification is a key activity within the Planning process group.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "Which of the following is a Knowledge Field in project management?",
+      "options": [
+        "Execution",
+        "Closure",
+        "Risk Management",
+        "Initiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk Management is a Knowledge Field, while the others are Process Groups.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "What connects the 'Execution' and 'Monitoring & Control' processes in the project life cycle?",
+      "options": [
+        "They are completely independent.",
+        "Only the project sponsor.",
+        "Continuous feedback loops.",
+        "A linear, one-way progression."
+      ],
+      "answerIndex": 2,
+      "explanation": "Execution and Monitoring & Control are highly iterative and connected by continuous feedback loops.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "Which process group consumes the most project budget and resources?",
+      "options": [
+        "Initiation",
+        "Execution",
+        "Closure",
+        "Planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Execution process group typically consumes the most budget and resources as the actual work is performed.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "What is a key output of the 'Initiation' process group?",
+      "options": [
+        "Project Schedule",
+        "Risk Register",
+        "Lessons Learned",
+        "Project Charter"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Project Charter is a key output of the Initiation process group.",
+      "category": "Project Management Processes",
+      "level": "Medium",
+      "tags": [
+        "Project Management",
+        "Project"
+      ]
+    },
+    {
+      "question": "If a project manager identifies a risk but cannot quantify its impact, how is this event classified?",
+      "options": [
+        "Virtual Event",
+        "Risk",
+        "Problem",
+        "Unexpected"
+      ],
+      "answerIndex": 0,
+      "explanation": "A virtual event is identifiable but not quantifiable.",
+      "category": "Risk Management",
+      "level": "Hard",
+      "tags": [
+        "Risk",
+        "Classification"
+      ]
+    },
+    {
+      "question": "Which of the following best describes a 'Problem' in project management?",
+      "options": [
+        "An event that might happen in the future.",
+        "A virtual event that has already been realized.",
+        "An unidentifiable event.",
+        "A positive opportunity."
+      ],
+      "answerIndex": 1,
+      "explanation": "A problem is defined as a virtual event already realized.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Problem"
+      ]
+    },
+    {
+      "question": "When a manager empowers others and shares ownership, they are demonstrating which level of skill in 'Motivating Others'?",
+      "options": [
+        "Overused Skill",
+        "Unskilled",
+        "Developing",
+        "Skilled"
+      ],
+      "answerIndex": 3,
+      "explanation": "Empowering others and sharing ownership are traits of a Skilled manager.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "HR",
+        "Motivation"
+      ]
+    },
+    {
+      "question": "A manager who treats everyone exactly the same, using a 'one-style-fits-all' approach, is likely:",
+      "options": [
+        "Skilled in motivating others",
+        "Practicing collaborative conflict resolution",
+        "Overusing their skills",
+        "Unskilled in motivating others"
+      ],
+      "answerIndex": 3,
+      "explanation": "An unskilled manager may have a one-style-fits-all person approach.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "HR",
+        "Motivation"
+      ]
+    },
+    {
+      "question": "What is the consequence of overusing the 'Motivating Others' skill?",
+      "options": [
+        "Causes immediate project failure.",
+        "Increases project budget significantly.",
+        "Empowers team members too much.",
+        "May not take tough stands when the situation calls for it."
+      ],
+      "answerIndex": 3,
+      "explanation": "An overused skill may lead to reluctance in taking tough stands or assigning work with tough deadlines.",
+      "category": "Human Resource Management",
+      "level": "Hard",
+      "tags": [
+        "HR",
+        "Motivation"
+      ]
+    },
+    {
+      "question": "In risk management, what is the purpose of 'Qualitative risk analysis'?",
+      "options": [
+        "To assign a specific monetary value to each risk.",
+        "To identify all possible risks.",
+        "To prioritize risks based on probability and impact.",
+        "To create a risk mitigation plan."
+      ],
+      "answerIndex": 2,
+      "explanation": "Qualitative risk analysis prioritizes risks according to their probability of occurrence and impacts.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Analysis"
+      ]
+    },
+    {
+      "question": "Which risk analysis technique involves numerical analysis of the effects of risks?",
+      "options": [
+        "Quantitative risk analysis",
+        "Qualitative risk analysis",
+        "Risk identification",
+        "Risk mitigation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Quantitative risk analysis is the numerical analysis of the effects of risks on all project objectives.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Analysis"
+      ]
+    },
+    {
+      "question": "Developing options and actions to promote positive risks is part of which process?",
+      "options": [
+        "Control risks",
+        "Risk mitigation plan",
+        "Risk identification",
+        "Qualitative analysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The risk mitigation plan involves developing options and actions to promote positive risks and control negative risks.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Mitigation"
+      ]
+    },
+    {
+      "question": "Tracking identified risks and evaluating the effectiveness of response plans is done during:",
+      "options": [
+        "Control risks",
+        "Risk mitigation plan",
+        "Risk Management Planning",
+        "Risk identification"
+      ],
+      "answerIndex": 0,
+      "explanation": "Control risks involves tracking identified risks, executing response plans, and evaluating their effectiveness.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Control"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a positive risk?",
+      "options": [
+        "A supplier going bankrupt.",
+        "An opportunity to complete the project ahead of schedule.",
+        "A key team member resigning.",
+        "A sudden increase in material costs."
+      ],
+      "answerIndex": 1,
+      "explanation": "A positive risk (opportunity) is an event that can positively impact project objectives, like finishing early.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "Risk",
+        "Opportunity"
+      ]
+    },
+    {
+      "question": "What does 'Risk Tolerance' define for a project or organization?",
+      "options": [
+        "The area of risk that is acceptable or unacceptable.",
+        "The exact monetary value of a risk.",
+        "The lack of knowledge about an event.",
+        "The probability of a risk occurring."
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk tolerance is the area of risk that is acceptable or unacceptable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Tolerance"
+      ]
+    },
+    {
+      "question": "If a stakeholder is described as having 'Risk Aversion', what does this mean?",
+      "options": [
+        "They are willing to take high risks for high rewards.",
+        "They only accept positive risks.",
+        "They do not want to take risks.",
+        "They ignore all risks."
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk aversion refers to someone who does not want to take risks.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "Risk",
+        "Aversion"
+      ]
+    },
+    {
+      "question": "At what point does a risk become unacceptable to an organization?",
+      "options": [
+        "At the Risk threshold",
+        "At the Risk tolerance level",
+        "When it becomes a Problem",
+        "During Risk identification"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk thresholds are the point at which a risk becomes unacceptable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Threshold"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a phase in Tuckman's model of team development?",
+      "options": [
+        "Forming",
+        "Transforming",
+        "Norming",
+        "Storming"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tuckman's model phases are Forming, Storming, Norming, Performing, and Adjourning. Transforming is not one of them.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "HR",
+        "Team"
+      ]
+    },
+    {
+      "question": "During which phase of Tuckman's model is the team performing at its highest level?",
+      "options": [
+        "Norming",
+        "Performing",
+        "Storming",
+        "Forming"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Performing phase is when the team is highly functional and focused on achieving goals.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "HR",
+        "Team"
+      ]
+    },
+    {
+      "question": "What is the final phase of Tuckman's model, where the team disbands?",
+      "options": [
+        "Closing",
+        "Performing",
+        "Adjourning",
+        "Retirement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adjourning is the final phase where the team disbands after project completion.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "HR",
+        "Team"
+      ]
+    },
+    {
+      "question": "If a project manager resolves a conflict by finding a solution that fully satisfies all parties, which technique was used?",
+      "options": [
+        "Compromise",
+        "Collaborative",
+        "Constraint",
+        "Retirement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Collaborative conflict resolution aims for a win-win solution that satisfies all parties.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "HR",
+        "Conflict"
+      ]
+    },
+    {
+      "question": "Which conflict resolution technique is often described as a 'lose-lose' scenario because both parties must give something up?",
+      "options": [
+        "Collaborative",
+        "Constraint",
+        "Compromise",
+        "Retirement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Compromise requires both parties to give up something, often resulting in a lose-lose or partial win-win.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "HR",
+        "Conflict"
+      ]
+    },
+    {
+      "question": "In the context of the provided material, what does the 'Retirement' conflict resolution technique imply?",
+      "options": [
+        "Compromising on the technical design.",
+        "Collaborating to find a solution.",
+        "Forcing a decision on the team.",
+        "Ignoring the problem and asking the team to continue working."
+      ],
+      "answerIndex": 3,
+      "explanation": "According to the specific course material, asking the team to ignore the problem is the 'Retirement' technique.",
+      "category": "Human Resource Management",
+      "level": "Hard",
+      "tags": [
+        "HR",
+        "Conflict"
+      ]
+    },
+    {
+      "question": "Which of the following is an exogenous risk related to weather?",
+      "options": [
+        "Regulations",
+        "Political",
+        "Social",
+        "Meteorological"
+      ],
+      "answerIndex": 3,
+      "explanation": "Meteorological risks are exogenous risks related to weather and climate.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "Risk",
+        "Exogenous"
+      ]
+    },
+    {
+      "question": "Changes in government laws that affect a project are classified as which type of exogenous risk?",
+      "options": [
+        "Social",
+        "Suppliers",
+        "Regulations",
+        "Meteorological"
+      ],
+      "answerIndex": 2,
+      "explanation": "Changes in laws are regulatory exogenous risks.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "Risk",
+        "Exogenous"
+      ]
+    },
+    {
+      "question": "A strike by the workers of a key supplier is an example of which type of exogenous risk?",
+      "options": [
+        "Political",
+        "Suppliers",
+        "Meteorological",
+        "Regulations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Issues with suppliers, such as strikes or bankruptcy, are supplier-related exogenous risks.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Exogenous"
+      ]
+    },
+    {
+      "question": "What is the primary difference between a Risk and an Unexpected event?",
+      "options": [
+        "A risk is identifiable and quantifiable, while an unexpected event is unidentifiable.",
+        "A risk is unidentifiable, while an unexpected event is identifiable.",
+        "A risk has already occurred, while an unexpected event has not.",
+        "There is no difference; they are the same."
+      ],
+      "answerIndex": 0,
+      "explanation": "A risk is identifiable and quantifiable, whereas an unexpected event is an unidentifiable virtual event.",
+      "category": "Risk Management",
+      "level": "Hard",
+      "tags": [
+        "Risk",
+        "Definitions"
+      ]
+    },
+    {
+      "question": "If an event is identifiable but its impact cannot be quantified, it is a:",
+      "options": [
+        "Unexpected Event",
+        "Virtual Event",
+        "Problem",
+        "Risk"
+      ],
+      "answerIndex": 1,
+      "explanation": "Virtual events are identifiable but not quantifiable.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk",
+        "Definitions"
+      ]
+    },
+    {
+      "question": "Which process group includes 'Risk Management Planning'?",
+      "options": [
+        "Execution",
+        "Monitoring & Control",
+        "Initiation",
+        "Planning"
+      ],
+      "answerIndex": 3,
+      "explanation": "Risk Management Planning is part of the Planning process group.",
+      "category": "Project Management Processes",
+      "level": "Easy",
+      "tags": [
+        "Processes",
+        "Planning"
+      ]
+    }
+  ]
+}
