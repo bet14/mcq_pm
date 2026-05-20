@@ -1,0 +1,836 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Path Analysis in Project Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            flex-wrap: wrap;
+        }
+        
+        .nav-tabs button {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            color: #666;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .nav-tabs button:hover {
+            background: #e9ecef;
+            color: #667eea;
+        }
+        
+        .nav-tabs button.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            background: white;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .success-box {
+            background: #d4edda;
+            padding: 20px;
+            border-left: 4px solid #28a745;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .formula {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .diagram {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            overflow-x: auto;
+        }
+        
+        .network-node {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            line-height: 80px;
+            text-align: center;
+            margin: 10px;
+            font-weight: bold;
+            position: relative;
+        }
+        
+        .network-node.critical {
+            background: #ff6b6b;
+        }
+        
+        .arrow {
+            display: inline-block;
+            margin: 0 10px;
+            color: #667eea;
+            font-size: 1.5em;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .comparison-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .use-case {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #764ba2;
+        }
+        
+        .use-case h4 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+        
+        .key-point {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 4px solid #ff9800;
+        }
+        
+        .calculator {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .input-group {
+            margin: 15px 0;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        
+        button.calc-btn {
+            background: #667eea;
+            color: white;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        button.calc-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .result {
+            background: #d4edda;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #28a745;
+            display: none;
+        }
+        
+        .result.show {
+            display: block;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-tabs {
+                flex-direction: column;
+            }
+            
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Critical Path Analysis</h1>
+            <p>Master Project Management with CPA</p>
+        </header>
+        
+        <div class="nav-tabs">
+            <button class="tab-btn active" onclick="switchTab('concept')">Concept</button>
+            <button class="tab-btn" onclick="switchTab('calculation')">Calculation</button>
+            <button class="tab-btn" onclick="switchTab('remember')">Key Points</button>
+            <button class="tab-btn" onclick="switchTab('usecase')">Use Cases</button>
+            <button class="tab-btn" onclick="switchTab('tools')">Tools & Tips</button>
+        </div>
+        
+        <div class="content">
+            <!-- CONCEPT TAB -->
+            <div id="concept" class="tab-content active">
+                <h2>📚 Understanding Critical Path Analysis</h2>
+                
+                <h3>What is Critical Path Analysis (CPA)?</h3>
+                <p>Critical Path Analysis is a project management technique used to identify the longest sequence of dependent tasks that determines the minimum project duration. It helps project managers understand which activities are critical to project success and which have flexibility.</p>
+                
+                <div class="info-box">
+                    <strong>Simple Definition:</strong> The critical path is the longest path through a project network diagram, representing the minimum time needed to complete the project.
+                </div>
+                
+                <h3>Key Components</h3>
+                <div class="grid-2">
+                    <div>
+                        <h4 style="color: #667eea;">Activities</h4>
+                        <p>Tasks that must be completed. Each has a duration and dependencies.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #667eea;">Dependencies</h4>
+                        <p>Relationships between activities showing which must be completed before others.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #667eea;">Slack/Float</h4>
+                        <p>Extra time available for non-critical activities without delaying the project.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #667eea;">Milestones</h4>
+                        <p>Key events marking significant project progress points.</p>
+                    </div>
+                </div>
+                
+                <h3>Why is it Important?</h3>
+                <ul>
+                    <li><strong>Risk Identification:</strong> Pinpoints activities that could delay the entire project</li>
+                    <li><strong>Resource Allocation:</strong> Helps prioritize resources to critical activities</li>
+                    <li><strong>Time Management:</strong> Determines realistic project completion dates</li>
+                    <li><strong>Cost Control:</strong> Focuses attention on activities that impact project cost</li>
+                    <li><strong>Schedule Optimization:</strong> Identifies opportunities to compress the timeline</li>
+                </ul>
+                
+                <div class="highlight">
+                    <strong>💡 Key Insight:</strong> Activities on the critical path have zero slack. Any delay in these activities directly delays the project completion. Non-critical activities have slack and can be delayed without affecting the project deadline.
+                </div>
+                
+                <h3>Network Diagram Example</h3>
+                <div class="diagram">
+                    <div class="network-node">A<br><small>3 days</small></div>
+                    <span class="arrow">→</span>
+                    <div class="network-node critical">B<br><small>5 days</small></div>
+                    <span class="arrow">→</span>
+                    <div class="network-node critical">D<br><small>4 days</small></div>
+                    <br><br>
+                    <div class="network-node">C<br><small>2 days</small></div>
+                    <span class="arrow">→</span>
+                    <div class="network-node">E<br><small>1 day</small></div>
+                    <br><br>
+                    <p style="margin-top: 20px; color: #666;"><strong>Red nodes = Critical Path</strong> | Path: A → B → D (12 days)</p>
+                </div>
+            </div>
+            
+            <!-- CALCULATION TAB -->
+            <div id="calculation" class="tab-content">
+                <h2>🧮 How to Calculate Critical Path</h2>
+                
+                <h3>Step-by-Step Process</h3>
+                
+                <h3>Step 1: Identify All Activities</h3>
+                <p>List all tasks required to complete the project with their durations.</p>
+                
+                <h3>Step 2: Determine Dependencies</h3>
+                <p>Establish which activities must be completed before others can start.</p>
+                
+                <h3>Step 3: Create Network Diagram</h3>
+                <p>Draw a visual representation showing activities and their relationships.</p>
+                
+                <h3>Step 4: Calculate Forward Pass (Earliest Times)</h3>
+                <div class="formula">
+                    ES (Earliest Start) = 0 for first activity<br>
+                    EF (Earliest Finish) = ES + Duration<br>
+                    ES (next activity) = EF (previous activity)
+                </div>
+                
+                <h3>Step 5: Calculate Backward Pass (Latest Times)</h3>
+                <div class="formula">
+                    LF (Latest Finish) = EF of final activity<br>
+                    LS (Latest Start) = LF - Duration<br>
+                    LF (previous activity) = LS (next activity)
+                </div>
+                
+                <h3>Step 6: Calculate Slack</h3>
+                <div class="formula">
+                    Slack = LS - ES (or LF - EF)<br>
+                    If Slack = 0, activity is on critical path
+                </div>
+                
+                <h3>Step 7: Identify Critical Path</h3>
+                <p>The path with zero slack is the critical path.</p>
+                
+                <h3>Practical Example</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Duration</th>
+                            <th>Depends On</th>
+                            <th>ES</th>
+                            <th>EF</th>
+                            <th>LS</th>
+                            <th>LF</th>
+                            <th>Slack</th>
+                            <th>Critical?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A</td>
+                            <td>3</td>
+                            <td>-</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td style="color: #ff6b6b;"><strong>YES</strong></td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>5</td>
+                            <td>A</td>
+                            <td>3</td>
+                            <td>8</td>
+                            <td>3</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td style="color: #ff6b6b;"><strong>YES</strong></td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>2</td>
+                            <td>-</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>4</td>
+                            <td>B</td>
+                            <td>8</td>
+                            <td>12</td>
+                            <td>8</td>
+                            <td>12</td>
+                            <td>0</td>
+                            <td style="color: #ff6b6b;"><strong>YES</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="success-box">
+                    <strong>Result:</strong> Critical Path = A → B → D (12 days)<br>
+                    Project minimum duration: <strong>12 days</strong>
+                </div>
+                
+                <h3>Interactive Calculator</h3>
+                <div class="calculator">
+                    <h4>Calculate Project Duration</h4>
+                    <div class="input-group">
+                        <label>Activity 1 Duration (days):</label>
+                        <input type="number" id="act1" placeholder="e.g., 3" value="3">
+                    </div>
+                    <div class="input-group">
+                        <label>Activity 2 Duration (days):</label>
+                        <input type="number" id="act2" placeholder="e.g., 5" value="5">
+                    </div>
+                    <div class="input-group">
+                        <label>Activity 3 Duration (days):</label>
+                        <input type="number" id="act3" placeholder="e.g., 4" value="4">
+                    </div>
+                    <button class="calc-btn" onclick="calculateDuration()">Calculate Critical Path</button>
+                    <div id="calcResult" class="result">
+                        <strong>Project Duration: <span id="duration">0</span> days</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- KEY POINTS TAB -->
+            <div id="remember" class="tab-content">
+                <h2>⭐ Key Points to Remember</h2>
+                
+                <h3>Critical Concepts</h3>
+                
+                <div class="key-point">
+                    <strong>1. Zero Slack = Critical</strong><br>
+                    Any activity with zero slack is on the critical path. Delays in these activities directly impact project completion.
+                </div>
+                
+                <div class="key-point">
+                    <strong>2. Multiple Critical Paths</strong><br>
+                    A project can have multiple critical paths. All must be managed carefully to avoid delays.
+                </div>
+                
+                <div class="key-point">
+                    <strong>3. Slack Provides Flexibility</strong><br>
+                    Non-critical activities with slack can be delayed, rescheduled, or have resources reallocated without affecting the project deadline.
+                </div>
+                
+                <div class="key-point">
+                    <strong>4. Dynamic Nature</strong><br>
+                    The critical path can change as the project progresses. Regular updates are essential.
+                </div>
+                
+                <div class="key-point">
+                    <strong>5. Resource Concentration</strong><br>
+                    Focus your best resources and attention on critical path activities to minimize risks.
+                </div>
+                
+                <h3>Common Mistakes to Avoid</h3>
+                <ul>
+                    <li>❌ Ignoring non-critical activities - they can become critical if delayed</li>
+                    <li>❌ Not updating the critical path regularly - project conditions change</li>
+                    <li>❌ Over-allocating resources only to critical path - other activities still need resources</li>
+                    <li>❌ Assuming duration estimates are accurate - always include buffers</li>
+                    <li>❌ Neglecting dependencies - missing dependencies can invalidate the entire analysis</li>
+                </ul>
+                
+                <h3>Best Practices</h3>
+                <ul>
+                    <li>✅ Review and validate all activity durations with team members</li>
+                    <li>✅ Identify and document all dependencies clearly</li>
+                    <li>✅ Include contingency buffers in your estimates</li>
+                    <li>✅ Monitor critical path activities closely throughout the project</li>
+                    <li>✅ Communicate critical path information to all stakeholders</li>
+                    <li>✅ Use CPA in conjunction with other PM techniques (PERT, Gantt charts)</li>
+                    <li>✅ Perform "what-if" analysis to identify risks</li>
+                    <li>✅ Update the critical path analysis regularly (weekly or bi-weekly)</li>
+                </ul>
+                
+                <h3>Assumptions in CPA</h3>
+                <ul>
+                    <li>Activities have fixed durations</li>
+                    <li>Dependencies are clearly defined</li>
+                    <li>Resources are available when needed</li>
+                    <li>No external delays or interruptions</li>
+                    <li>Activities cannot start until predecessors are complete</li>
+                </ul>
+                
+                <div class="highlight">
+                    <strong>⚠️ Important:</strong> CPA assumes deterministic (fixed) durations. For projects with high uncertainty, consider using PERT (Program Evaluation and Review Technique) which uses three-point estimates: optimistic, most likely, and pessimistic.
+                </div>
+            </div>
+            
+            <!-- USE CASES TAB -->
+            <div id="usecase" class="tab-content">
+                <h2>💼 Real-World Use Cases</h2>
+                
+                <h3>Industries Using CPA</h3>
+                
+                <div class="use-case">
+                    <h4>🏗️ Construction Projects</h4>
+                    <p>Critical for managing complex building projects with multiple interdependent tasks. Helps identify which activities (foundation, framing, electrical) must be prioritized to meet deadlines and manage costs.</p>
+                    <p><strong>Example:</strong> A 2-year office building project with 500+ activities. CPA identifies that foundation work is critical and any delay impacts the entire project timeline.</p>
+                </div>
+                
+                <div class="use-case">
+                    <h4>🚀 Software Development</h4>
+                    <p>Manages dependencies between development phases, testing, and deployment. Helps identify which features or modules are blocking others.</p>
+                    <p><strong>Example:</strong> Mobile app launch with backend development, frontend development, and testing. CPA shows backend must be completed before frontend integration.</p>
+                </div>
+                
+                <div class="use-case">
+                    <h4>🏥 Healthcare/Pharmaceutical</h4>
+                    <p>Manages clinical trials, regulatory approvals, and manufacturing setup. Critical for meeting regulatory timelines and market launch dates.</p>
+                    <p><strong>Example:</strong> Drug development project. CPA identifies that clinical trials are critical and cannot be shortened without regulatory approval.</p>
+                </div>
+                
+                <div class="use-case">
+                    <h4>📱 Product Launch</h4>
+                    <p>Coordinates marketing, manufacturing, distribution, and sales activities. Ensures all components are ready simultaneously.</p>
+                    <p><strong>Example:</strong> Smartphone launch. CPA ensures manufacturing, marketing campaigns, and retail setup are coordinated for simultaneous market entry.</p>
+                </div>
+                
+                <div class="use-case">
+                    <h4>🎬 Event Management</h4>
+                    <p>Manages venue booking, vendor coordination, promotion, and logistics. Ensures all elements come together for the event date.</p>
+                    <p><strong>Example:</strong> Conference planning. CPA identifies that venue booking and speaker confirmation are critical and must happen early.</p>
+                </div>
+                
+                <div class="use-case">
+                    <h4>🔧 Equipment Installation</h4>
+                    <p>Manages procurement, site preparation, installation, and testing. Ensures proper sequencing to avoid rework.</p>
+                    <p><strong>Example:</strong> Factory equipment installation. CPA shows site preparation must be complete before equipment delivery and installation.</p>
+                </div>
+                
+                <h3>Specific Scenario: Website Redesign Project</h3>
+                <div class="info-box">
+                    <strong>Project:</strong> Complete website redesign (3-month project)<br><br>
+                    <strong>Activities:</strong>
+                    <ul style="margin-left: 20px;">
+                        <li>A: Requirements gathering (2 weeks)</li>
+                        <li>B: Design mockups (3 weeks, depends on A)</li>
+                        <li>C: Frontend development (4 weeks, depends on B)</li>
+                        <li>D: Backend development (4 weeks, depends on A)</li>
+                        <li>E: Integration (2 weeks, depends on C & D)</li>
+                        <li>F: Testing (2 weeks, depends on E)</li>
+                        <li>G: Deployment (1 week, depends on F)</li>
+                    </ul>
+                    <strong>Critical Path:</strong> A → B → C → E → F → G = 14 weeks<br>
+                    <strong>Insight:</strong> Backend development (D) has 2 weeks of slack and can be delayed without affecting launch date.
+                </div>
+                
+                <h3>Benefits Realized</h3>
+                <ul>
+                    <li>✅ Reduced project delays by 25-40%</li>
+                    <li>✅ Better resource utilization</li>
+                    <li>✅ Improved stakeholder communication</li>
+                    <li>✅ Earlier identification of risks</li>
+                    <li>✅ More accurate project forecasting</li>
+                    <li>✅ Reduced project costs</li>
+                </ul>
+            </div>
+            
+            <!-- TOOLS & TIPS TAB -->
+            <div id="tools" class="tab-content">
+                <h2>🛠️ Tools & Practical Tips</h2>
+                
+                <h3>Software Tools for CPA</h3>
+                
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Best For</th>
+                            <th>Complexity</th>
+                            <th>Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Microsoft Project</strong></td>
+                            <td>Enterprise projects, complex dependencies</td>
+                            <td>High</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smartsheet</strong></td>
+                            <td>Collaborative team projects</td>
+                            <td>Medium</td>
+                            <td>Paid (SaaS)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Asana</strong></td>
+                            <td>Agile/hybrid projects, team coordination</td>
+                            <td>Low-Medium</td>
+                            <td>Freemium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monday.com</strong></td>
+                            <td>Visual project management</td>
+                            <td>Low-Medium</td>
+                            <td>Freemium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gantt Chart Tools</strong></td>
+                            <td>Timeline visualization</td>
+                            <td>Low</td>
+                            <td>Free-Paid</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Excel/Sheets</strong></td>
+                            <td>Simple projects, learning</td>
+                            <td>Low</td>
+                            <td>Free/Included</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Practical Tips for Success</h3>
+                
+                <h4>📋 Before Starting CPA</h4>
+                <ul>
+                    <li>Break down the project into manageable activities (typically 1-5 days each)</li>
+                    <li>Involve team members in duration estimation</li>
+                    <li>Document assumptions and constraints</li>
+                    <li>Identify known risks and dependencies</li>
+                    <li>Get stakeholder buy-in on the plan</li>
+                </ul>
+                
+                <h4>🔄 During Project Execution</h4>
+                <ul>
+                    <li>Track actual vs. planned durations weekly</li>
+                    <li>Update the critical path when actual durations differ significantly</li>
+                    <li>Monitor slack consumption on non-critical activities</li>
+                    <li>Communicate delays immediately</li>
+                    <li>Adjust resources to keep critical path on track</li>
+                </ul>
+                
+                <h4>⚡ Optimization Techniques</h4>
+                <ul>
+                    <li><strong>Crashing:</strong> Add resources to critical path activities to shorten duration (costs more)</li>
+                    <li><strong>Fast-tracking:</strong> Run some sequential activities in parallel (increases risk)</li>
+                    <li><strong>Resource leveling:</strong> Redistribute resources to avoid conflicts</li>
+                    <li><strong>Scope reduction:</strong> Eliminate non-essential activities</li>
+                </ul>
+                
+                <h3>CPA vs. Other PM Techniques</h3>
+                
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Technique</th>
+                            <th>Focus</th>
+                            <th>Best Used With</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Critical Path Method (CPM)</strong></td>
+                            <td>Deterministic durations, dependencies</td>
+                            <td>CPA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>PERT</strong></td>
+                            <td>Probabilistic estimates, uncertainty</td>
+                            <td>CPA (for uncertain projects)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gantt Charts</strong></td>
+                            <td>Visual timeline representation</td>
+                            <td>CPA (for visualization)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Agile/Scrum</strong></td>
+                            <td>Iterative delivery, flexibility</td>
+                            <td>CPA (for sprint planning)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="highlight">
+                    <strong>💡 Pro Tip:</strong> Combine CPA with Gantt charts for the best results. Use CPA for analysis and planning, and Gantt charts for visual communication with stakeholders.
+                </div>
+                
+                <h3>Common Questions</h3>
+                
+                <h4>Q: How often should I update the critical path?</h4>
+                <p>A: At least weekly for active projects, or whenever significant changes occur. Some projects benefit from daily updates.</p>
+                
+                <h4>Q: Can the critical path change during the project?</h4>
+                <p>A: Yes! As activities are completed or delayed, the critical path can shift to different activities.</p>
+                
+                <h4>Q: What if I have multiple critical paths?</h4>
+                <p>A: Manage all of them carefully. Any delay in any critical path delays the project.</p>
+                
+                <h4>Q: How do I handle uncertainty in durations?</h4>
+                <p>A: Use PERT with three-point estimates, or add buffers to your estimates. Consider using risk management techniques.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>📊 Critical Path Analysis Guide | Master the art of project scheduling and resource management</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Last Updated: 2026 | For educational and professional use</p>
+        </footer>
+    </div>
+    
+    <script>
+        function switchTab(tabName) {
+            // Hide all tabs
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+        
+        function calculateDuration() {
+            const act1 = parseFloat(document.getElementById('act1').value) || 0;
+            const act2 = parseFloat(document.getElementById('act2').value) || 0;
+            const act3 = parseFloat(document.getElementById('act3').value) || 0;
+            
+            // Assuming sequential activities (A → B → C)
+            const totalDuration = act1 + act2 + act3;
+            
+            document.getElementById('duration').textContent = totalDuration;
+            document.getElementById('calcResult').classList.add('show');
+        }
+    </script>
+</body>
+</html>
