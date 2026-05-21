@@ -1,0 +1,1159 @@
+{
+  "title": "PMBOK Framework Mastery Quiz",
+  "subtitle": "Comprehensive assessment of the 5 Process Groups and 10 Knowledge Areas",
+  "totalQuestions": 64,
+  "questions": [
+    {
+      "question": "Which Process Group officially authorizes a project and produces the Project Charter?",
+      "options": [
+        "Planning",
+        "Initiating",
+        "Executing",
+        "Closing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Initiating Process Group is where the Project Charter is developed, officially authorizing the project and assigning the Project Manager.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Initiating",
+        "Project Charter",
+        "Authorization"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for creating the Work Breakdown Structure (WBS)?",
+      "options": [
+        "Project Integration Management",
+        "Project Schedule Management",
+        "Project Scope Management",
+        "Project Resource Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Scope Management includes the process of creating the WBS, which decomposes the total project scope into manageable work packages.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Scope Management",
+        "WBS",
+        "Decomposition"
+      ]
+    },
+    {
+      "question": "Which Process Group runs concurrently with the Executing Process Group throughout the project?",
+      "options": [
+        "Planning",
+        "Initiating",
+        "Monitoring and Controlling",
+        "Closing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Monitoring and Controlling runs parallel to Executing throughout the project lifecycle, continuously tracking performance and managing changes.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Monitoring and Controlling",
+        "Concurrent",
+        "Execution"
+      ]
+    },
+    {
+      "question": "Earned Value Management (EVM) is a key tool in which Knowledge Area?",
+      "options": [
+        "Project Schedule Management",
+        "Project Cost Management",
+        "Project Quality Management",
+        "Project Risk Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "EVM is a core technique in Project Cost Management, used to measure project performance and forecast final costs (EAC, ETC).",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Cost Management",
+        "EVM",
+        "Performance Measurement"
+      ]
+    },
+    {
+      "question": "A project manager discovers that a key vendor may not deliver on time. Which Knowledge Area should have anticipated and planned for this?",
+      "options": [
+        "Project Communications Management",
+        "Project Procurement Management",
+        "Project Risk Management",
+        "Project Stakeholder Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Risk Management should have identified vendor delivery delay as a risk, assessed its probability and impact, and prepared a contingency response plan.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Risk Management",
+        "Vendor Risk",
+        "Contingency Planning"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is the ONLY one present in all five Process Groups?",
+      "options": [
+        "Project Scope Management",
+        "Project Stakeholder Management",
+        "Project Integration Management",
+        "Project Risk Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Integration Management is the only Knowledge Area with processes in all five Process Groups, from Develop Project Charter (Initiating) to Close Project (Closing).",
+      "category": "Knowledge Areas",
+      "level": "Hard",
+      "tags": [
+        "Integration Management",
+        "All Process Groups",
+        "Framework"
+      ]
+    },
+    {
+      "question": "The Lessons Learned Register is a key output of which Process Group?",
+      "options": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Closing"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Closing Process Group is where the PM formally documents lessons learned, archives project records, and obtains final acceptance from stakeholders.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Closing",
+        "Lessons Learned",
+        "Documentation"
+      ]
+    },
+    {
+      "question": "How many processes are contained in the Planning Process Group according to PMBOK 6th Edition?",
+      "options": [
+        "10",
+        "12",
+        "24",
+        "49"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Planning Process Group contains 24 processes, making it the most process-rich group in PMBOK and the blueprint for all subsequent execution.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Planning",
+        "Process Count",
+        "PMBOK 6th Edition"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a key activity in the Initiating Process Group?",
+      "options": [
+        "Develop Project Charter",
+        "Identify Stakeholders",
+        "Create Work Breakdown Structure",
+        "Assign Project Manager"
+      ],
+      "answerIndex": 2,
+      "explanation": "Creating the Work Breakdown Structure is a Planning activity, not an Initiating activity. Initiating focuses on authorization and stakeholder identification.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Initiating",
+        "Activities",
+        "Process Distinction"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Project Management Plan?",
+      "options": [
+        "To authorize the project",
+        "To serve as the blueprint for execution and control",
+        "To document lessons learned",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Project Management Plan, developed in Planning, serves as the comprehensive blueprint for how the project will be executed, monitored, and controlled.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Planning",
+        "Project Management Plan",
+        "Baseline"
+      ]
+    },
+    {
+      "question": "Which Process Group contains only 1 process according to PMBOK 6th Edition?",
+      "options": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Closing"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Closing Process Group contains only 1 process: Close Project or Phase, which formally completes the project and archives all documentation.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Closing",
+        "Process Count",
+        "PMBOK 6th Edition"
+      ]
+    },
+    {
+      "question": "Scope creep is primarily prevented through which Knowledge Area?",
+      "options": [
+        "Project Schedule Management",
+        "Project Scope Management",
+        "Project Cost Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Scope Management ensures clear scope boundaries and prevents unauthorized additions that would blow up budget and schedule.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Scope Management",
+        "Scope Creep",
+        "Control"
+      ]
+    },
+    {
+      "question": "Which of the following is a primary deliverable of the Planning Process Group?",
+      "options": [
+        "Project Charter",
+        "Work Products",
+        "Performance Reports",
+        "Lessons Learned Register"
+      ],
+      "answerIndex": 0,
+      "explanation": "While the Project Charter is actually produced in Initiating, the Planning group produces the Project Management Plan, WBS, Schedule Baseline, and Cost Baseline as key deliverables.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Planning",
+        "Deliverables",
+        "Baselines"
+      ]
+    },
+    {
+      "question": "The Critical Path Method (CPM) is primarily used in which Knowledge Area?",
+      "options": [
+        "Project Scope Management",
+        "Project Schedule Management",
+        "Project Cost Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "CPM is a core technique in Project Schedule Management used to identify the longest sequence of dependent activities and protect them from delays.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Schedule Management",
+        "CPM",
+        "Critical Path"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area focuses on ensuring the project satisfies the needs for which it was undertaken?",
+      "options": [
+        "Project Scope Management",
+        "Project Quality Management",
+        "Project Cost Management",
+        "Project Resource Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Quality Management ensures that deliverables meet defined standards and satisfy stakeholder requirements through planning, assurance, and control.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Quality Management",
+        "Standards",
+        "Acceptance"
+      ]
+    },
+    {
+      "question": "What is the primary focus of the Executing Process Group?",
+      "options": [
+        "Planning the work",
+        "Performing the actual project work",
+        "Monitoring performance",
+        "Closing the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Executing Process Group carries out the work defined in the project management plan, where the majority of the budget is consumed and actual deliverables are produced.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Executing",
+        "Work Performance",
+        "Deliverables"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a process in Project Resource Management?",
+      "options": [
+        "Acquire Resources",
+        "Develop Team",
+        "Manage Team",
+        "Validate Scope"
+      ],
+      "answerIndex": 3,
+      "explanation": "Validate Scope is a Scope Management process. Resource Management processes include Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team, and Control Resources.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Resource Management",
+        "Processes",
+        "Distinction"
+      ]
+    },
+    {
+      "question": "How many Knowledge Areas are defined in the PMBOK framework?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "The PMBOK framework defines 10 Knowledge Areas that represent specialized domains of project management expertise.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "PMBOK",
+        "Knowledge Areas",
+        "Framework"
+      ]
+    },
+    {
+      "question": "A RACI matrix is primarily used in which Knowledge Area?",
+      "options": [
+        "Project Communications Management",
+        "Project Resource Management",
+        "Project Stakeholder Management",
+        "Project Integration Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "A RACI matrix (Responsible, Accountable, Consulted, Informed) is a key tool in Project Resource Management for clarifying roles and responsibilities.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Resource Management",
+        "RACI",
+        "Roles and Responsibilities"
+      ]
+    },
+    {
+      "question": "Which Process Group is responsible for integrated change control?",
+      "options": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling"
+      ],
+      "answerIndex": 3,
+      "explanation": "Integrated Change Control is performed in the Monitoring and Controlling Process Group to evaluate and approve or reject all change requests across the project.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Monitoring and Controlling",
+        "Change Control",
+        "Integration"
+      ]
+    },
+    {
+      "question": "What does EAC stand for in the context of Earned Value Management?",
+      "options": [
+        "Estimated Activity Cost",
+        "Estimate At Completion",
+        "Earned Actual Cost",
+        "Expected Activity Completion"
+      ],
+      "answerIndex": 1,
+      "explanation": "EAC (Estimate At Completion) is a forecast of the total project cost at completion based on current performance trends.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Cost Management",
+        "EVM",
+        "Forecasting"
+      ]
+    },
+    {
+      "question": "Which of the following best describes the relationship between Executing and Monitoring & Controlling?",
+      "options": [
+        "Sequential \u2014 M&C follows Executing",
+        "Parallel \u2014 M&C runs concurrently with Executing",
+        "M&C precedes Executing",
+        "They are independent processes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monitoring and Controlling runs parallel to Executing throughout the project lifecycle, continuously tracking performance and initiating corrective actions.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Executing",
+        "Monitoring and Controlling",
+        "Concurrent"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for managing the project's budget?",
+      "options": [
+        "Project Schedule Management",
+        "Project Cost Management",
+        "Project Resource Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Cost Management involves planning, estimating, budgeting, and controlling costs to ensure the project stays within the approved budget.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Cost Management",
+        "Budget",
+        "Financial Control"
+      ]
+    },
+    {
+      "question": "What is the primary output of the Initiating Process Group?",
+      "options": [
+        "Project Management Plan",
+        "Project Charter",
+        "Work Breakdown Structure",
+        "Lessons Learned Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Project Charter is the primary output of Initiating, officially authorizing the project and assigning the Project Manager.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Initiating",
+        "Project Charter",
+        "Authorization"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area deals with identifying, analyzing, and responding to project risks?",
+      "options": [
+        "Project Quality Management",
+        "Project Communications Management",
+        "Project Risk Management",
+        "Project Procurement Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Risk Management includes processes to identify, analyze, and respond to both threats and opportunities to maximize project success probability.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Risk Management",
+        "Risk Response",
+        "Uncertainty"
+      ]
+    },
+    {
+      "question": "How many total processes are contained in all five Process Groups according to PMBOK 6th Edition?",
+      "options": [
+        "39",
+        "42",
+        "49",
+        "52"
+      ],
+      "answerIndex": 2,
+      "explanation": "PMBOK 6th Edition contains 49 total processes distributed across the five Process Groups: 2 in Initiating, 24 in Planning, 10 in Executing, 12 in M&C, and 1 in Closing.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "PMBOK",
+        "Process Count",
+        "Framework"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for identifying and engaging stakeholders?",
+      "options": [
+        "Project Communications Management",
+        "Project Resource Management",
+        "Project Stakeholder Management",
+        "Project Integration Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Stakeholder Management includes processes to identify people, groups, or organizations that could impact or be impacted by the project and develop engagement strategies.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Stakeholder Management",
+        "Engagement",
+        "Identification"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Stakeholder Register?",
+      "options": [
+        "To track project costs",
+        "To document all identified stakeholders and their characteristics",
+        "To manage project risks",
+        "To control project scope"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Stakeholder Register, produced in Initiating, documents all identified stakeholders, their interests, influence, and engagement strategies.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Stakeholder Management",
+        "Register",
+        "Documentation"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for managing vendor contracts and external procurement?",
+      "options": [
+        "Project Resource Management",
+        "Project Communications Management",
+        "Project Procurement Management",
+        "Project Stakeholder Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Procurement Management manages the processes of purchasing or acquiring products, services, or results needed from outside the project team.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Procurement Management",
+        "Vendors",
+        "Contracts"
+      ]
+    },
+    {
+      "question": "What is the primary focus of Project Communications Management?",
+      "options": [
+        "Planning project activities",
+        "Ensuring timely and appropriate information distribution",
+        "Managing project risks",
+        "Controlling project scope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Communications Management ensures timely and appropriate planning, collection, creation, distribution, storage, and management of project information.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Communications Management",
+        "Information",
+        "Stakeholder Engagement"
+      ]
+    },
+    {
+      "question": "Which Process Group produces the Schedule Baseline?",
+      "options": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Schedule Baseline is produced in the Planning Process Group as part of the Project Management Plan and serves as the approved schedule for the project.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Planning",
+        "Schedule Baseline",
+        "Baseline"
+      ]
+    },
+    {
+      "question": "What does CPI stand for in Earned Value Management?",
+      "options": [
+        "Cost Performance Index",
+        "Critical Path Indicator",
+        "Cost Planning Index",
+        "Cumulative Performance Index"
+      ],
+      "answerIndex": 0,
+      "explanation": "CPI (Cost Performance Index) measures the efficiency of cost spending. A CPI of 0.85 means $1 spent yields only $0.85 of value.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Cost Management",
+        "EVM",
+        "Performance Metrics"
+      ]
+    },
+    {
+      "question": "Which of the following is a key characteristic of the Planning Process Group?",
+      "options": [
+        "It is the shortest process group",
+        "It contains the most processes (24)",
+        "It produces only one deliverable",
+        "It runs parallel to Executing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Planning Process Group contains 24 processes, making it the most process-rich group and the blueprint for all subsequent execution and control.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Planning",
+        "Process Count",
+        "Characteristics"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area includes the process of collecting and defining project requirements?",
+      "options": [
+        "Project Schedule Management",
+        "Project Scope Management",
+        "Project Quality Management",
+        "Project Resource Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Scope Management includes the Collect Requirements process, which gathers and documents stakeholder needs and expectations.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Scope Management",
+        "Requirements",
+        "Collection"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Executing Process Group?",
+      "options": [
+        "To plan the project",
+        "To produce actual project deliverables and work products",
+        "To monitor project performance",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Executing Process Group carries out the work defined in the project management plan, producing actual deliverables and consuming the majority of project resources.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Executing",
+        "Deliverables",
+        "Work Performance"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a process in Project Schedule Management?",
+      "options": [
+        "Define Activities",
+        "Sequence Activities",
+        "Estimate Durations",
+        "Validate Scope"
+      ],
+      "answerIndex": 3,
+      "explanation": "Validate Scope is a Scope Management process. Schedule Management processes include Define Activities, Sequence Activities, Estimate Durations, Develop Schedule, and Control Schedule.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Schedule Management",
+        "Processes",
+        "Distinction"
+      ]
+    },
+    {
+      "question": "What is the primary focus of Quality Control in Project Quality Management?",
+      "options": [
+        "Planning quality standards",
+        "Assuring quality processes",
+        "Monitoring and controlling quality deliverables",
+        "Training team members"
+      ],
+      "answerIndex": 2,
+      "explanation": "Quality Control focuses on monitoring and controlling project deliverables to ensure they meet defined quality standards and acceptance criteria.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Quality Management",
+        "Control",
+        "Monitoring"
+      ]
+    },
+    {
+      "question": "Which Process Group is responsible for obtaining formal acceptance of deliverables?",
+      "options": [
+        "Executing",
+        "Monitoring and Controlling",
+        "Closing",
+        "Planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Closing Process Group is responsible for obtaining final acceptance of deliverables from stakeholders and formally completing the project.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Closing",
+        "Acceptance",
+        "Completion"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area focuses on ensuring the project team has the skills and resources needed?",
+      "options": [
+        "Project Communications Management",
+        "Project Resource Management",
+        "Project Stakeholder Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Resource Management includes processes to acquire, develop, and manage the project team to ensure they have the necessary skills and resources.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Resource Management",
+        "Team Development",
+        "Skills"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Cost Baseline?",
+      "options": [
+        "To estimate project costs",
+        "To serve as the approved budget for measuring performance",
+        "To track actual project spending",
+        "To forecast final project costs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cost Baseline, produced in Planning, serves as the approved budget against which project spending is measured and performance is evaluated.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Cost Management",
+        "Baseline",
+        "Budget"
+      ]
+    },
+    {
+      "question": "Which of the following best describes the purpose of Monitoring and Controlling?",
+      "options": [
+        "To execute project work",
+        "To track, review, and regulate project progress and performance",
+        "To plan project activities",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monitoring and Controlling tracks, reviews, and regulates project progress and performance, identifying deviations and initiating corrective or preventive actions.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Monitoring and Controlling",
+        "Performance",
+        "Regulation"
+      ]
+    },
+    {
+      "question": "What is the primary output of the Closing Process Group?",
+      "options": [
+        "Project Management Plan",
+        "Work Breakdown Structure",
+        "Lessons Learned Register",
+        "Risk Register"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Closing Process Group produces the Lessons Learned Register, Final Project Report, Closed Contracts, and formal acceptance sign-off.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Closing",
+        "Lessons Learned",
+        "Documentation"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area includes the process of identifying and analyzing project risks?",
+      "options": [
+        "Project Quality Management",
+        "Project Scope Management",
+        "Project Risk Management",
+        "Project Communications Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Risk Management includes processes to identify risks, perform qualitative and quantitative analysis, plan responses, and monitor risks throughout the project.",
+      "category": "Knowledge Areas",
+      "level": "Easy",
+      "tags": [
+        "Risk Management",
+        "Identification",
+        "Analysis"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Work Breakdown Structure (WBS)?",
+      "options": [
+        "To schedule project activities",
+        "To decompose project scope into manageable work packages",
+        "To estimate project costs",
+        "To manage project risks"
+      ],
+      "answerIndex": 1,
+      "explanation": "The WBS decomposes the total project scope into manageable work packages, providing the foundation for planning, scheduling, and cost estimation.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Scope Management",
+        "WBS",
+        "Decomposition"
+      ]
+    },
+    {
+      "question": "Which Process Group contains 12 processes according to PMBOK 6th Edition?",
+      "options": [
+        "Initiating",
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Monitoring and Controlling Process Group contains 12 processes focused on tracking, reviewing, and regulating project performance.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Monitoring and Controlling",
+        "Process Count",
+        "PMBOK 6th Edition"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a key activity in the Executing Process Group?",
+      "options": [
+        "Direct and Manage Project Work",
+        "Acquire and develop team",
+        "Manage communications",
+        "Create Work Breakdown Structure"
+      ],
+      "answerIndex": 3,
+      "explanation": "Creating the Work Breakdown Structure is a Planning activity. Executing activities include directing work, acquiring team members, managing communications, and conducting procurements.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Executing",
+        "Activities",
+        "Process Distinction"
+      ]
+    },
+    {
+      "question": "What is the primary focus of Project Integration Management?",
+      "options": [
+        "Coordinating all project processes into a cohesive whole",
+        "Managing project scope",
+        "Controlling project costs",
+        "Managing project risks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Project Integration Management coordinates all project management processes and activities into a cohesive whole, ensuring decisions in one area are reflected across all areas.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Integration Management",
+        "Coordination",
+        "Holistic View"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for ensuring scope changes are properly evaluated and approved?",
+      "options": [
+        "Project Schedule Management",
+        "Project Scope Management",
+        "Project Integration Management",
+        "Project Cost Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Integration Management includes Integrated Change Control, which evaluates and approves or rejects all change requests, including scope changes.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Integration Management",
+        "Change Control",
+        "Scope Changes"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Stakeholder Engagement Plan?",
+      "options": [
+        "To identify project risks",
+        "To define how stakeholders will be engaged and communicated with",
+        "To estimate project costs",
+        "To schedule project activities"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Stakeholder Engagement Plan, produced in Planning, defines strategies for engaging stakeholders based on their power, interest, and influence.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Stakeholder Management",
+        "Engagement Plan",
+        "Communication"
+      ]
+    },
+    {
+      "question": "Which of the following is a primary deliverable of the Executing Process Group?",
+      "options": [
+        "Project Management Plan",
+        "Work Products and Deliverables",
+        "Performance Reports",
+        "Lessons Learned Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Executing Process Group produces actual work products and deliverables, along with issue logs, change requests, and team performance assessments.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Executing",
+        "Deliverables",
+        "Work Products"
+      ]
+    },
+    {
+      "question": "What is the primary focus of the Initiating Process Group?",
+      "options": [
+        "To plan project activities",
+        "To execute project work",
+        "To define and authorize the project",
+        "To monitor project performance"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Initiating Process Group defines and authorizes the project or a new phase, capturing the vision and identifying stakeholders.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Initiating",
+        "Authorization",
+        "Definition"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area includes the process of controlling project scope?",
+      "options": [
+        "Project Schedule Management",
+        "Project Scope Management",
+        "Project Cost Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Scope Management includes the Control Scope process, which monitors and controls changes to the project scope.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Scope Management",
+        "Control",
+        "Scope Creep"
+      ]
+    },
+    {
+      "question": "What does SPI stand for in Earned Value Management?",
+      "options": [
+        "Schedule Performance Index",
+        "Scope Planning Index",
+        "Schedule Planning Indicator",
+        "Spending Performance Index"
+      ],
+      "answerIndex": 0,
+      "explanation": "SPI (Schedule Performance Index) measures the efficiency of schedule performance. An SPI of 0.9 means the project is 90% efficient in terms of schedule.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Schedule Management",
+        "EVM",
+        "Performance Metrics"
+      ]
+    },
+    {
+      "question": "Which Process Group is responsible for archiving project documents and releasing resources?",
+      "options": [
+        "Executing",
+        "Monitoring and Controlling",
+        "Closing",
+        "Planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Closing Process Group is responsible for archiving project documents, releasing project resources, and formally completing the project.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Closing",
+        "Documentation",
+        "Resource Release"
+      ]
+    },
+    {
+      "question": "Which of the following best describes the relationship between Scope, Schedule, and Cost in project management?",
+      "options": [
+        "They are independent of each other",
+        "Changes in one typically impact the others",
+        "Only Scope affects Schedule and Cost",
+        "Only Cost affects Scope and Schedule"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scope, Schedule, and Cost are interconnected. A scope change typically impacts the schedule and budget, which is why integrated change control is essential.",
+      "category": "Knowledge Areas",
+      "level": "Hard",
+      "tags": [
+        "Integration",
+        "Triple Constraint",
+        "Change Management"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Risk Register?",
+      "options": [
+        "To track project costs",
+        "To document identified risks, their analysis, and response plans",
+        "To manage project scope",
+        "To control project schedule"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Risk Register, produced in Planning, documents all identified risks, their probability and impact, and planned responses.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Risk Management",
+        "Risk Register",
+        "Documentation"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area is responsible for managing project team performance?",
+      "options": [
+        "Project Communications Management",
+        "Project Resource Management",
+        "Project Stakeholder Management",
+        "Project Quality Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Project Resource Management includes the Manage Team process, which tracks team performance, resolves conflicts, and manages team development.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Resource Management",
+        "Team Management",
+        "Performance"
+      ]
+    },
+    {
+      "question": "What is the primary focus of the Develop Project Management Plan process?",
+      "options": [
+        "To authorize the project",
+        "To create the comprehensive plan for executing and controlling the project",
+        "To execute project work",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Develop Project Management Plan process, part of Planning, creates the comprehensive plan that integrates all subsidiary plans and serves as the blueprint for execution.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Planning",
+        "Project Management Plan",
+        "Integration"
+      ]
+    },
+    {
+      "question": "Which of the following is a key characteristic of the Monitoring and Controlling Process Group?",
+      "options": [
+        "It occurs only at the end of the project",
+        "It runs parallel to Executing throughout the project",
+        "It contains only 1 process",
+        "It produces the Project Charter"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monitoring and Controlling runs parallel to Executing throughout the project lifecycle, continuously tracking performance and managing changes.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Monitoring and Controlling",
+        "Concurrent",
+        "Characteristics"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of Variance Analysis in project management?",
+      "options": [
+        "To estimate project costs",
+        "To compare planned performance against actual performance and identify deviations",
+        "To schedule project activities",
+        "To manage project risks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Variance Analysis compares planned performance (baselines) against actual performance to identify deviations and trigger corrective actions.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Monitoring and Controlling",
+        "Performance Analysis",
+        "Variance"
+      ]
+    },
+    {
+      "question": "Which Knowledge Area includes the process of planning procurement strategies?",
+      "options": [
+        "Project Resource Management",
+        "Project Communications Management",
+        "Project Procurement Management",
+        "Project Stakeholder Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project Procurement Management includes the Plan Procurement Management process, which defines procurement strategies and approaches.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "Procurement Management",
+        "Planning",
+        "Strategy"
+      ]
+    },
+    {
+      "question": "What is the primary focus of the Direct and Manage Project Work process?",
+      "options": [
+        "To plan project activities",
+        "To perform the actual project work and produce deliverables",
+        "To monitor project performance",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "Direct and Manage Project Work is the primary process in Executing where the actual project work is performed and deliverables are produced.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Executing",
+        "Work Performance",
+        "Deliverables"
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a Knowledge Area in PMBOK?",
+      "options": [
+        "Project Integration Management",
+        "Project Scope Management",
+        "Project Team Management",
+        "Project Risk Management"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct Knowledge Area is Project Resource Management, not Project Team Management. Project Team Management is a process within Resource Management.",
+      "category": "Knowledge Areas",
+      "level": "Medium",
+      "tags": [
+        "PMBOK",
+        "Knowledge Areas",
+        "Terminology"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Perform Integrated Change Control process?",
+      "options": [
+        "To plan project changes",
+        "To evaluate, approve, or reject all change requests across the project",
+        "To execute project work",
+        "To close the project"
+      ],
+      "answerIndex": 1,
+      "explanation": "Perform Integrated Change Control evaluates all change requests and ensures decisions in one area are reflected across schedule, cost, scope, and other areas.",
+      "category": "Process Groups",
+      "level": "Hard",
+      "tags": [
+        "Monitoring and Controlling",
+        "Change Control",
+        "Integration"
+      ]
+    }
+  ]
+}

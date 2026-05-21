@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PMBOK Framework</title>
+<style>
+  :root {
+    --bg: #0f1117; --surface: #1a1d2e; --surface2: #252840;
+    --accent: #6c63ff; --a2: #ff6584; --a3: #43e97b; --a4: #f7971e;
+    --text: #e8eaf6; --muted: #9e9eb8; --border: #2e3155;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; }
+  .hero { background: linear-gradient(135deg,#0f1117,#1a1d2e,#1e1b3a); padding: 60px 20px 40px; text-align: center; }
+  .hero-badge { display: inline-block; background: rgba(108,99,255,.2); border: 1px solid rgba(108,99,255,.4); color: #a89cff; padding: 6px 18px; border-radius: 20px; font-size: .78rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 18px; }
+  .hero h1 { font-size: clamp(1.8rem,5vw,3rem); font-weight: 800; background: linear-gradient(90deg,#a89cff,#6c63ff,#ff6584); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1.2; }
+  .hero p { color: var(--muted); margin-top: 12px; font-size: 1rem; max-width: 580px; margin-inline: auto; }
+  .hero-stats { display: flex; justify-content: center; gap: 32px; margin-top: 32px; flex-wrap: wrap; }
+  .stat-num { font-size: 2rem; font-weight: 800; color: var(--accent); }
+  .stat-label { font-size: .8rem; color: var(--muted); }
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 20px 60px; }
+  .chapter { margin-top: 60px; }
+  .chapter-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+  .chapter-sub { color: var(--muted); font-size: .9rem; margin-bottom: 28px; }
+  .divider { height: 3px; background: linear-gradient(90deg,var(--accent),var(--a2),var(--a3)); border-radius: 3px; margin-bottom: 28px; }
+
+  /* Process Groups */
+  .pg-list { display: flex; flex-direction: column; gap: 0; position: relative; }
+  .pg-list::before { content: ''; position: absolute; left: 27px; top: 30px; bottom: 30px; width: 3px; background: linear-gradient(to bottom,#6c63ff,#43e97b,#f7971e,#ff6584,#a89cff); border-radius: 3px; }
+  .pg-item { display: flex; gap: 20px; align-items: flex-start; padding-bottom: 24px; }
+  .pg-dot { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: 900; flex-shrink: 0; z-index: 1; border: 3px solid; }
+  .pg-body { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; }
+  .pg-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .pg-name { font-size: 1.05rem; font-weight: 700; }
+  .pg-tag { font-size: .7rem; padding: 3px 10px; border-radius: 12px; font-weight: 600; }
+  .pg-desc { color: var(--muted); font-size: .87rem; line-height: 1.6; margin-bottom: 14px; }
+  .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 10px; margin-bottom: 12px; }
+  .dbox { background: var(--surface2); border-radius: 10px; padding: 12px; }
+  .dbox h4 { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 7px; }
+  .dbox li { font-size: .82rem; list-style: none; padding: 2px 0; }
+  .dbox li::before { content: '▸ '; color: var(--accent); }
+  .ex-box { background: var(--surface2); border-left: 3px solid var(--a3); padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: .83rem; line-height: 1.6; }
+  .c1 .pg-dot { background: rgba(108,99,255,.15); border-color: #6c63ff; color: #6c63ff; }
+  .c1 .pg-tag { background: rgba(108,99,255,.15); color: #a89cff; }
+  .c2 .pg-dot { background: rgba(67,233,123,.15); border-color: #43e97b; color: #43e97b; }
+  .c2 .pg-tag { background: rgba(67,233,123,.15); color: #43e97b; }
+  .c3 .pg-dot { background: rgba(247,151,30,.15); border-color: #f7971e; color: #f7971e; }
+  .c3 .pg-tag { background: rgba(247,151,30,.15); color: #f7971e; }
+  .c4 .pg-dot { background: rgba(255,101,132,.15); border-color: #ff6584; color: #ff6584; }
+  .c4 .pg-tag { background: rgba(255,101,132,.15); color: #ff6584; }
+  .c5 .pg-dot { background: rgba(168,156,255,.15); border-color: #a89cff; color: #a89cff; }
+  .c5 .pg-tag { background: rgba(168,156,255,.15); color: #a89cff; }
+
+  /* Knowledge Areas */
+  .ka-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px,1fr)); gap: 16px; }
+  .ka-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px; position: relative; overflow: hidden; }
+  .ka-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; border-radius: 16px 16px 0 0; }
+  .ka-icon { font-size: 1.6rem; margin-bottom: 6px; }
+  .ka-num { font-size: .65rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 3px; }
+  .ka-title { font-size: .95rem; font-weight: 700; margin-bottom: 7px; }
+  .ka-what { font-size: .83rem; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
+  .ka-lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin: 10px 0 5px; font-weight: 700; }
+  .ka-tag { display: inline-block; background: rgba(108,99,255,.15); border: 1px solid rgba(108,99,255,.3); color: #a89cff; font-size: .68rem; padding: 2px 8px; border-radius: 9px; margin: 2px 2px 2px 0; font-weight: 600; }
+  .ka-why { font-size: .82rem; color: var(--muted); line-height: 1.6; }
+  .k1::before{background:#6c63ff} .k2::before{background:#43e97b} .k3::before{background:#f7971e}
+  .k4::before{background:#ff6584} .k5::before{background:#38f9d7} .k6::before{background:#a89cff}
+  .k7::before{background:#ffd700} .k8::before{background:#ff4757} .k9::before{background:#2ed573}
+  .k10::before{background:#ff6b81}
+
+  /* Matrix */
+  .matrix-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  th { background: var(--surface2); padding: 11px 13px; text-align: left; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .7px; font-size: .68rem; white-space: nowrap; }
+  td { padding: 9px 13px; border-top: 1px solid var(--border); }
+  tr:hover td { background: rgba(108,99,255,.04); }
+  .dc { text-align: center; }
+  .dy { color: #43e97b; }
+  .dn { color: var(--border); }
+  .count-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 12px; margin-top: 18px; }
+  .count-box { background: var(--surface); border-radius: 12px; padding: 16px; text-align: center; }
+  .count-num { font-size: 1.8rem; font-weight: 900; }
+  .count-lbl { font-size: .78rem; color: var(--muted); margin-top: 3px; }
+
+  /* Quiz */
+  .quiz-wrap { max-width: 660px; margin: 0 auto; }
+  .quiz-q { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+  .q-num { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .q-text { font-size: 1rem; font-weight: 700; margin-bottom: 16px; line-height: 1.5; }
+  .q-opts { display: flex; flex-direction: column; gap: 9px; }
+  .q-opt { background: var(--surface2); border: 2px solid var(--border); border-radius: 10px; padding: 11px 14px; cursor: pointer; font-size: .88rem; transition: all .2s; display: flex; align-items: center; gap: 10px; }
+  .q-opt:hover { border-color: var(--accent); background: rgba(108,99,255,.08); }
+  .q-opt.correct { border-color: #43e97b; background: rgba(67,233,123,.1); color: #43e97b; cursor: default; }
+  .q-opt.wrong { border-color: #ff6584; background: rgba(255,101,132,.1); color: #ff6584; cursor: default; }
+  .q-opt.disabled { cursor: default; pointer-events: none; }
+  .opt-l { width: 24px; height: 24px; border-radius: 50%; background: var(--border); display: flex; align-items: center; justify-content: center; font-size: .72rem; font-weight: 700; flex-shrink: 0; }
+  .q-fb { margin-top: 10px; padding: 10px 14px; border-radius: 9px; font-size: .84rem; line-height: 1.6; display: none; }
+  .q-fb.show { display: block; }
+  .q-fb.cfb { background: rgba(67,233,123,.1); border: 1px solid rgba(67,233,123,.3); color: #43e97b; }
+  .q-fb.wfb { background: rgba(255,101,132,.1); border: 1px solid rgba(255,101,132,.3); color: #ff6584; }
+  .score-box { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 36px 24px; text-align: center; margin-top: 20px; }
+  .sc-circle { width: 110px; height: 110px; border-radius: 50%; border: 5px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 18px; background: rgba(108,99,255,.1); }
+  .sc-num { font-size: 2.2rem; font-weight: 900; color: var(--accent); }
+  .sc-tot { font-size: .8rem; color: var(--muted); }
+  .sc-msg { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
+  .sc-sub { color: var(--muted); font-size: .88rem; margin-bottom: 20px; }
+  .btn { background: var(--accent); color: #fff; border: none; padding: 11px 26px; border-radius: 30px; cursor: pointer; font-size: .9rem; font-weight: 700; transition: all .25s; }
+  .btn:hover { background: #5a52e0; transform: translateY(-2px); }
+  .footer { text-align: center; padding: 28px 20px; color: var(--muted); font-size: .8rem; border-top: 1px solid var(--border); margin-top: 40px; }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+  .fade { animation: fadeUp .4s ease both; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-badge">PMBOK Guide</div>
+  <h1>Project Management Framework</h1>
+  <p>Master the 5 Process Groups &amp; 10 Knowledge Areas — the backbone of the PMBOK standard</p>
+  <div class="hero-stats">
+    <div><div class="stat-num">5</div><div class="stat-label">Process Groups</div></div>
+    <div><div class="stat-num">10</div><div class="stat-label">Knowledge Areas</div></div>
+    <div><div class="stat-num">49</div><div class="stat-label">Processes</div></div>
+    <div><div class="stat-num">7</div><div class="stat-label">Quiz Questions</div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- SECTION 1: PROCESS GROUPS -->
+  <div class="chapter">
+    <div class="chapter-title">&#9881; 5 Process Groups</div>
+    <div class="chapter-sub">The lifecycle phases that organize all 49 project management processes.</div>
+    <div class="divider"></div>
+    <div class="pg-list">
+
+      <div class="pg-item c1">
+        <div class="pg-dot">1</div>
+        <div class="pg-body">
+          <div class="pg-head"><div class="pg-name">Initiating</div><div class="pg-tag">Phase 1</div></div>
+          <div class="pg-desc">Defines and authorizes the project or a new phase. The vision is captured, stakeholders are identified, and the project officially begins with formal authority granted to the PM.</div>
+          <div class="detail-grid">
+            <div class="dbox"><h4>Key Activities</h4><ul><li>Develop Project Charter</li><li>Identify Stakeholders</li><li>Define high-level scope</li><li>Assign Project Manager</li></ul></div>
+            <div class="dbox"><h4>Deliverables</h4><ul><li>Project Charter</li><li>Stakeholder Register</li><li>Business Case</li><li>Feasibility Study</li></ul></div>
+            <div class="dbox"><h4>Lifecycle Role</h4><ul><li>Marks the official start</li><li>Secures executive buy-in</li><li>Sets project boundaries</li><li>Enables formal authority</li></ul></div>
+          </div>
+          <div class="ex-box"><strong>Example:</strong> A company wants to build an e-commerce platform. Initiating produces a Project Charter authorizing the project, naming a PM, and listing key stakeholders: CTO, marketing team, and end users.</div>
+        </div>
+      </div>
+
+      <div class="pg-item c2">
+        <div class="pg-dot">2</div>
+        <div class="pg-body">
+          <div class="pg-head"><div class="pg-name">Planning</div><div class="pg-tag">Phase 2</div></div>
+          <div class="pg-desc">Establishes the total scope, refines objectives, and develops the course of action. The most process-rich group in PMBOK with 24 processes — the blueprint for everything that follows.</div>
+          <div class="detail-grid">
+            <div class="dbox"><h4>Key Activities</h4><ul><li>Develop Project Management Plan</li><li>Define and decompose scope (WBS)</li><li>Estimate durations and costs</li><li>Plan risk, quality, resources</li></ul></div>
+            <div class="dbox"><h4>Deliverables</h4><ul><li>Project Management Plan</li><li>Work Breakdown Structure</li><li>Schedule Baseline</li><li>Cost Baseline / Budget</li></ul></div>
+            <div class="dbox"><h4>Lifecycle Role</h4><ul><li>Blueprint for execution</li><li>Prevents scope creep</li><li>Aligns team expectations</li><li>Enables change control</li></ul></div>
+          </div>
+          <div class="ex-box"><strong>Example:</strong> The PM creates a WBS breaking the project into modules (frontend, backend, payments), estimates 6 months and $500K, identifies risks like API failures, and documents everything in a Project Management Plan.</div>
+        </div>
+      </div>
+
+      <div class="pg-item c3">
+        <div class="pg-dot">3</div>
+        <div class="pg-body">
+          <div class="pg-head"><div class="pg-name">Executing</div><div class="pg-tag">Phase 3</div></div>
+          <div class="pg-desc">Carries out the work defined in the project management plan. This is where the majority of the budget is consumed and actual deliverables are produced by the team.</div>
+          <div class="detail-grid">
+            <div class="dbox"><h4>Key Activities</h4><ul><li>Direct and Manage Project Work</li><li>Acquire and develop team</li><li>Manage communications</li><li>Conduct procurements</li></ul></div>
+            <div class="dbox"><h4>Deliverables</h4><ul><li>Work Products / Deliverables</li><li>Issue Log</li><li>Change Requests</li><li>Team Performance Assessments</li></ul></div>
+            <div class="dbox"><h4>Lifecycle Role</h4><ul><li>Produces actual outputs</li><li>Consumes most resources</li><li>Requires constant coordination</li><li>Feeds M&amp;C with data</li></ul></div>
+          </div>
+          <div class="ex-box"><strong>Example:</strong> Developers code the platform, designers build the UI, the PM holds daily standups, vendors are contracted for payment gateway integration, and progress is documented in status reports.</div>
+        </div>
+      </div>
+
+      <div class="pg-item c4">
+        <div class="pg-dot">4</div>
+        <div class="pg-body">
+          <div class="pg-head"><div class="pg-name">Monitoring &amp; Controlling</div><div class="pg-tag">Ongoing</div></div>
+          <div class="pg-desc">Tracks, reviews, and regulates project progress and performance. Runs parallel to Executing — identifies deviations from the plan and initiates corrective or preventive actions.</div>
+          <div class="detail-grid">
+            <div class="dbox"><h4>Key Activities</h4><ul><li>Monitor performance (EVM)</li><li>Perform integrated change control</li><li>Validate and control scope</li><li>Control schedule and costs</li></ul></div>
+            <div class="dbox"><h4>Deliverables</h4><ul><li>Performance Reports</li><li>Change Log</li><li>Forecasts (EAC, ETC)</li><li>Variance Analysis</li></ul></div>
+            <div class="dbox"><h4>Lifecycle Role</h4><ul><li>Runs parallel to Executing</li><li>Ensures plan adherence</li><li>Triggers corrective actions</li><li>Manages change requests</li></ul></div>
+          </div>
+          <div class="ex-box"><strong>Example:</strong> The PM notices the backend is 2 weeks behind using Earned Value Analysis. A change request is raised, the schedule is revised, and adding a developer is approved through the Change Control Board.</div>
+        </div>
+      </div>
+
+      <div class="pg-item c5">
+        <div class="pg-dot">5</div>
+        <div class="pg-body">
+          <div class="pg-head"><div class="pg-name">Closing</div><div class="pg-tag">Phase 5</div></div>
+          <div class="pg-desc">Finalizes all activities to formally complete the project or phase. Obtains formal acceptance, archives documents, releases resources, and captures lessons learned for future projects.</div>
+          <div class="detail-grid">
+            <div class="dbox"><h4>Key Activities</h4><ul><li>Obtain final acceptance</li><li>Close procurements</li><li>Archive project documents</li><li>Release project resources</li></ul></div>
+            <div class="dbox"><h4>Deliverables</h4><ul><li>Final Project Report</li><li>Lessons Learned Register</li><li>Closed Contracts</li><li>Formal Acceptance Sign-off</li></ul></div>
+            <div class="dbox"><h4>Lifecycle Role</h4><ul><li>Marks official completion</li><li>Transfers deliverables</li><li>Captures org knowledge</li><li>Releases team and budget</li></ul></div>
+          </div>
+          <div class="ex-box"><strong>Example:</strong> The platform launches and is accepted by the client. The PM holds a retrospective, documents lessons learned (e.g., "API integration took 3x longer than estimated"), archives all documents, and formally closes vendor contracts.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 2: KNOWLEDGE AREAS -->
+  <div class="chapter">
+    <div class="chapter-title">&#128218; 10 Knowledge Areas</div>
+    <div class="chapter-sub">Specialized domains of project management expertise applied across the process groups.</div>
+    <div class="divider"></div>
+    <div class="ka-grid">
+
+      <div class="ka-card k1">
+        <div class="ka-icon">&#128279;</div>
+        <div class="ka-num">Knowledge Area 01</div>
+        <div class="ka-title">Project Integration Management</div>
+        <div class="ka-what">Coordinates all project management processes and activities into a cohesive whole — the glue that holds everything together.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Ensures decisions in one area (e.g., scope change) are reflected across schedule, cost, and risk. The only KA present in ALL 5 process groups.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Develop Charter</span><span class="ka-tag">Develop PM Plan</span><span class="ka-tag">Direct &amp; Manage Work</span><span class="ka-tag">Integrated Change Control</span><span class="ka-tag">Close Project</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">A scope change to add a new feature is evaluated for its impact on schedule (+2 weeks), cost (+$20K), and risk (new API). The PM integrates all this before approving.</div>
+      </div>
+
+      <div class="ka-card k2">
+        <div class="ka-icon">&#128208;</div>
+        <div class="ka-num">Knowledge Area 02</div>
+        <div class="ka-title">Project Scope Management</div>
+        <div class="ka-what">Ensures the project includes all the work required — and only the work required — to complete the project successfully.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Scope creep is one of the top reasons projects fail. Clear scope boundaries prevent unauthorized additions that blow up budget and schedule.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Collect Requirements</span><span class="ka-tag">Define Scope</span><span class="ka-tag">Create WBS</span><span class="ka-tag">Validate Scope</span><span class="ka-tag">Control Scope</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">A client asks to add a chat feature mid-project. Scope Management ensures this is formally evaluated and either approved with a schedule/cost adjustment or rejected.</div>
+      </div>
+
+      <div class="ka-card k3">
+        <div class="ka-icon">&#128197;</div>
+        <div class="ka-num">Knowledge Area 03</div>
+        <div class="ka-title">Project Schedule Management</div>
+        <div class="ka-what">Manages the timely completion of the project by defining activities, sequencing them, estimating durations, and controlling the schedule.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Delays cascade — a late backend delays frontend testing, which delays UAT, which delays launch. Schedule management prevents this domino effect.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Define Activities</span><span class="ka-tag">Sequence Activities</span><span class="ka-tag">Estimate Durations</span><span class="ka-tag">Develop Schedule</span><span class="ka-tag">Control Schedule</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">Using CPM (Critical Path Method), the PM identifies that database setup is on the critical path and allocates extra resources to protect it from delays.</div>
+      </div>
+
+      <div class="ka-card k4">
+        <div class="ka-icon">&#128176;</div>
+        <div class="ka-num">Knowledge Area 04</div>
+        <div class="ka-title">Project Cost Management</div>
+        <div class="ka-what">Involves planning, estimating, budgeting, and controlling costs so the project can be completed within the approved budget.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Budget overruns can kill projects. Earned Value Management (EVM) provides early warning signals before overruns become catastrophic.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Estimate Costs</span><span class="ka-tag">Determine Budget</span><span class="ka-tag">Control Costs (EVM)</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">EVM shows a CPI of 0.85 — meaning $1 spent yields only $0.85 of value. The PM forecasts a $60K overrun and takes corrective action immediately.</div>
+      </div>
+
+      <div class="ka-card k5">
+        <div class="ka-icon">&#11088;</div>
+        <div class="ka-num">Knowledge Area 05</div>
+        <div class="ka-title">Project Quality Management</div>
+        <div class="ka-what">Ensures the project satisfies the needs for which it was undertaken by incorporating quality planning, assurance, and control.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Delivering on time and on budget means nothing if the product does not work. Quality management ensures deliverables meet defined standards.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Plan Quality Management</span><span class="ka-tag">Manage Quality</span><span class="ka-tag">Control Quality</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The team defines the website must load in under 2 seconds and have 99.9% uptime. QA engineers run performance tests and flag any page that fails the threshold.</div>
+      </div>
+
+      <div class="ka-card k6">
+        <div class="ka-icon">&#128101;</div>
+        <div class="ka-num">Knowledge Area 06</div>
+        <div class="ka-title">Project Resource Management</div>
+        <div class="ka-what">Identifies, acquires, and manages the resources needed — people, equipment, materials — for successful project completion.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Projects are executed by people. Poor resource management leads to burnout, skill gaps, and missed deadlines. Effective management maximizes team performance.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Estimate Activity Resources</span><span class="ka-tag">Acquire Resources</span><span class="ka-tag">Develop Team</span><span class="ka-tag">Manage Team</span><span class="ka-tag">Control Resources</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The PM creates a RACI matrix, identifies that 2 senior developers are needed but only 1 is available internally, and contracts a freelancer for the gap.</div>
+      </div>
+
+      <div class="ka-card k7">
+        <div class="ka-icon">&#128225;</div>
+        <div class="ka-num">Knowledge Area 07</div>
+        <div class="ka-title">Project Communications Management</div>
+        <div class="ka-what">Ensures timely and appropriate planning, collection, creation, distribution, storage, and management of project information.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Studies show 90% of a PM's time is spent communicating. Miscommunication is a leading cause of project failure. Right info, right people, right time.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Plan Communications Management</span><span class="ka-tag">Manage Communications</span><span class="ka-tag">Monitor Communications</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The PM creates a Communications Plan: executives get weekly status emails, the dev team has daily standups, and the client receives bi-weekly demo calls.</div>
+      </div>
+
+      <div class="ka-card k8">
+        <div class="ka-icon">&#9888;</div>
+        <div class="ka-num">Knowledge Area 08</div>
+        <div class="ka-title">Project Risk Management</div>
+        <div class="ka-what">Identifies, analyzes, and responds to project risks — both threats (negative) and opportunities (positive) — to maximize project success probability.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Every project has uncertainty. Proactive risk management prevents surprises, reduces the impact of negative events, and capitalizes on opportunities.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Identify Risks</span><span class="ka-tag">Qualitative Analysis</span><span class="ka-tag">Quantitative Analysis</span><span class="ka-tag">Plan Risk Responses</span><span class="ka-tag">Monitor Risks</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The team identifies "third-party payment API may be deprecated" as a High/High risk. The response: prototype an alternative API in Sprint 2 as a contingency plan.</div>
+      </div>
+
+      <div class="ka-card k9">
+        <div class="ka-icon">&#128722;</div>
+        <div class="ka-num">Knowledge Area 09</div>
+        <div class="ka-title">Project Procurement Management</div>
+        <div class="ka-what">Manages the processes of purchasing or acquiring products, services, or results needed from outside the project team.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">Most projects rely on external vendors. Poor procurement management leads to contract disputes, cost overruns, and delivery failures.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Plan Procurement Management</span><span class="ka-tag">Conduct Procurements</span><span class="ka-tag">Control Procurements</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The PM issues an RFP for cloud hosting, evaluates bids from AWS, Azure, and GCP, selects AWS based on cost and SLA, and manages the contract throughout the project.</div>
+      </div>
+
+      <div class="ka-card k10">
+        <div class="ka-icon">&#129309;</div>
+        <div class="ka-num">Knowledge Area 10</div>
+        <div class="ka-title">Project Stakeholder Management</div>
+        <div class="ka-what">Identifies people, groups, or organizations that could impact or be impacted by the project, and develops strategies to engage them effectively.</div>
+        <div class="ka-lbl">Why It Matters</div>
+        <div class="ka-why">A technically perfect project can still fail if key stakeholders are disengaged or resistant. Stakeholder management builds support and manages expectations proactively.</div>
+        <div class="ka-lbl">Key Processes</div>
+        <span class="ka-tag">Identify Stakeholders</span><span class="ka-tag">Plan Stakeholder Engagement</span><span class="ka-tag">Manage Stakeholder Engagement</span><span class="ka-tag">Monitor Engagement</span>
+        <div class="ka-lbl">Real-World Example</div>
+        <div class="ex-box">The PM maps stakeholders on a Power/Interest grid. The CFO (high power, low interest) gets concise financial summaries. End-users (low power, high interest) get frequent demos.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 3: MATRIX -->
+  <div class="chapter">
+    <div class="chapter-title">&#128506; Process Group x Knowledge Area Matrix</div>
+    <div class="chapter-sub">Which Knowledge Areas are active in each Process Group — based on PMBOK 6th Edition.</div>
+    <div class="divider"></div>
+    <div class="matrix-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Knowledge Area</th>
+            <th>Initiating</th>
+            <th>Planning</th>
+            <th>Executing</th>
+            <th>M&amp;C</th>
+            <th>Closing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Integration</td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td></tr>
+          <tr><td>Scope</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Schedule</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Cost</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Quality</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Resource</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Communications</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Risk</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Procurement</td><td class="dc"><span class="dn">&#9675;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+          <tr><td>Stakeholder</td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dy">&#9679;</span></td><td class="dc"><span class="dn">&#9675;</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:12px;display:flex;gap:18px;font-size:.82rem;color:var(--muted);">
+      <span><span style="color:#43e97b;">&#9679;</span> Active</span>
+      <span><span style="color:var(--border);">&#9675;</span> Not directly active</span>
+    </div>
+    <div class="count-grid">
+      <div class="count-box" style="border:1px solid rgba(108,99,255,.3)"><div class="count-num" style="color:#6c63ff">2</div><div class="count-lbl">Initiating</div></div>
+      <div class="count-box" style="border:1px solid rgba(67,233,123,.3)"><div class="count-num" style="color:#43e97b">24</div><div class="count-lbl">Planning</div></div>
+      <div class="count-box" style="border:1px solid rgba(247,151,30,.3)"><div class="count-num" style="color:#f7971e">10</div><div class="count-lbl">Executing</div></div>
+      <div class="count-box" style="border:1px solid rgba(255,101,132,.3)"><div class="count-num" style="color:#ff6584">12</div><div class="count-lbl">Monitoring &amp; Controlling</div></div>
+      <div class="count-box" style="border:1px solid rgba(168,156,255,.3)"><div class="count-num" style="color:#a89cff">1</div><div class="count-lbl">Closing</div></div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: QUIZ -->
+  <div class="chapter">
+    <div class="chapter-title">&#129504; Knowledge Check Quiz</div>
+    <div class="chapter-sub">7 questions to test your understanding. Click an option to answer — instant feedback provided.</div>
+    <div class="divider"></div>
+    <div class="quiz-wrap" id="quiz-wrap">
+
+      <div class="quiz-q fade" id="qq1">
+        <div class="q-num">Question 1 of 7</div>
+        <div class="q-text">Which Process Group officially authorizes a project and produces the Project Charter?</div>
+        <div class="q-opts" id="opts1">
+          <div class="q-opt" onclick="ans(1,this,'w','Planning is where the Project Management Plan is developed, not the Charter.')"><div class="opt-l">A</div>Planning</div>
+          <div class="q-opt" onclick="ans(1,this,'c','Correct! The Initiating Process Group is where the Project Charter is developed, officially authorizing the project and assigning the Project Manager.')"><div class="opt-l">B</div>Initiating</div>
+          <div class="q-opt" onclick="ans(1,this,'w','Executing is where the actual project work is performed.')"><div class="opt-l">C</div>Executing</div>
+          <div class="q-opt" onclick="ans(1,this,'w','Closing is the final group where the project is formally completed.')"><div class="opt-l">D</div>Closing</div>
+        </div>
+        <div class="q-fb" id="fb1"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq2">
+        <div class="q-num">Question 2 of 7</div>
+        <div class="q-text">Which Knowledge Area is responsible for creating the Work Breakdown Structure (WBS)?</div>
+        <div class="q-opts" id="opts2">
+          <div class="q-opt" onclick="ans(2,this,'w','Integration Management coordinates all processes but does not create the WBS.')"><div class="opt-l">A</div>Project Integration Management</div>
+          <div class="q-opt" onclick="ans(2,this,'w','Schedule Management deals with activity sequencing and duration, not the WBS.')"><div class="opt-l">B</div>Project Schedule Management</div>
+          <div class="q-opt" onclick="ans(2,this,'c','Correct! Project Scope Management includes the process of creating the WBS, which decomposes the total project scope into manageable work packages.')"><div class="opt-l">C</div>Project Scope Management</div>
+          <div class="q-opt" onclick="ans(2,this,'w','Resource Management handles people and physical resources, not the WBS.')"><div class="opt-l">D</div>Project Resource Management</div>
+        </div>
+        <div class="q-fb" id="fb2"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq3">
+        <div class="q-num">Question 3 of 7</div>
+        <div class="q-text">Which Process Group runs concurrently with the Executing Process Group throughout the project?</div>
+        <div class="q-opts" id="opts3">
+          <div class="q-opt" onclick="ans(3,this,'w','Planning precedes Executing and is not concurrent with it.')"><div class="opt-l">A</div>Planning</div>
+          <div class="q-opt" onclick="ans(3,this,'w','Initiating only occurs at the beginning of the project or phase.')"><div class="opt-l">B</div>Initiating</div>
+          <div class="q-opt" onclick="ans(3,this,'c','Correct! Monitoring and Controlling runs parallel to Executing throughout the project lifecycle, continuously tracking performance and managing changes.')"><div class="opt-l">C</div>Monitoring and Controlling</div>
+          <div class="q-opt" onclick="ans(3,this,'w','Closing occurs at the end of the project, not concurrently with Executing.')"><div class="opt-l">D</div>Closing</div>
+        </div>
+        <div class="q-fb" id="fb3"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq4">
+        <div class="q-num">Question 4 of 7</div>
+        <div class="q-text">Earned Value Management (EVM) is a key tool in which Knowledge Area?</div>
+        <div class="q-opts" id="opts4">
+          <div class="q-opt" onclick="ans(4,this,'w','Schedule Management uses SPI but EVM is primarily a Cost Management tool.')"><div class="opt-l">A</div>Project Schedule Management</div>
+          <div class="q-opt" onclick="ans(4,this,'c','Correct! EVM is a core technique in Project Cost Management, used to measure project performance and forecast final costs (EAC, ETC).')"><div class="opt-l">B</div>Project Cost Management</div>
+          <div class="q-opt" onclick="ans(4,this,'w','Quality Management uses control charts and checklists, not EVM.')"><div class="opt-l">C</div>Project Quality Management</div>
+          <div class="q-opt" onclick="ans(4,this,'w','Risk Management uses probability/impact matrices and risk registers, not EVM.')"><div class="opt-l">D</div>Project Risk Management</div>
+        </div>
+        <div class="q-fb" id="fb4"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq5">
+        <div class="q-num">Question 5 of 7</div>
+        <div class="q-text">A project manager discovers that a key vendor may not deliver on time. Which Knowledge Area should have anticipated and planned for this?</div>
+        <div class="q-opts" id="opts5">
+          <div class="q-opt" onclick="ans(5,this,'w','Communications Management handles information flow, not vendor delivery risks.')"><div class="opt-l">A</div>Project Communications Management</div>
+          <div class="q-opt" onclick="ans(5,this,'w','Procurement Management handles vendor selection and contracts, but anticipating delivery risk falls under Risk Management.')"><div class="opt-l">B</div>Project Procurement Management</div>
+          <div class="q-opt" onclick="ans(5,this,'c','Correct! Project Risk Management should have identified vendor delivery delay as a risk, assessed its probability and impact, and prepared a contingency response plan.')"><div class="opt-l">C</div>Project Risk Management</div>
+          <div class="q-opt" onclick="ans(5,this,'w','Stakeholder Management focuses on engaging people, not vendor delivery risk.')"><div class="opt-l">D</div>Project Stakeholder Management</div>
+        </div>
+        <div class="q-fb" id="fb5"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq6">
+        <div class="q-num">Question 6 of 7</div>
+        <div class="q-text">Which Knowledge Area is the ONLY one present in all five Process Groups?</div>
+        <div class="q-opts" id="opts6">
+          <div class="q-opt" onclick="ans(6,this,'w','Scope Management is only active in Planning and Monitoring and Controlling.')"><div class="opt-l">A</div>Project Scope Management</div>
+          <div class="q-opt" onclick="ans(6,this,'w','Stakeholder Management is active in Initiating, Planning, Executing, and M&amp;C but not Closing.')"><div class="opt-l">B</div>Project Stakeholder Management</div>
+          <div class="q-opt" onclick="ans(6,this,'c','Correct! Project Integration Management is the only Knowledge Area with processes in all five Process Groups, from Develop Project Charter (Initiating) to Close Project (Closing).')"><div class="opt-l">C</div>Project Integration Management</div>
+          <div class="q-opt" onclick="ans(6,this,'w','Risk Management is active in Planning, Executing, and M&amp;C but not Initiating or Closing.')"><div class="opt-l">D</div>Project Risk Management</div>
+        </div>
+        <div class="q-fb" id="fb6"></div>
+      </div>
+
+      <div class="quiz-q fade" id="qq7">
+        <div class="q-num">Question 7 of 7</div>
+        <div class="q-text">The Lessons Learned Register is a key output of which Process Group?</div>
+        <div class="q-opts" id="opts7">
+          <div class="q-opt" onclick="ans(7,this,'w','Initiating produces the Project Charter and Stakeholder Register, not Lessons Learned.')"><div class="opt-l">A</div>Initiating</div>
+          <div class="q-opt" onclick="ans(7,this,'w','Planning produces the Project Management Plan and baselines, not Lessons Learned.')"><div class="opt-l">B</div>Planning</div>
+          <div class="q-opt" onclick="ans(7,this,'w','Executing produces work deliverables and change requests, not the final Lessons Learned Register.')"><div class="opt-l">C</div>Executing</div>
+          <div class="q-opt" onclick="ans(7,this,'c','Correct! The Closing Process Group is where the PM formally documents lessons learned, archives project records, and obtains final acceptance from stakeholders.')"><div class="opt-l">D</div>Closing</div>
+        </div>
+        <div class="q-fb" id="fb7"></div>
+      </div>
+
+      <div class="score-box" id="score-box" style="display:none">
+        <div class="sc-circle">
+          <div class="sc-num" id="sc-num">0</div>
+          <div class="sc-tot">out of 7</div>
+        </div>
+        <div class="sc-msg" id="sc-msg"></div>
+        <div class="sc-sub" id="sc-sub"></div>
+        <button class="btn" onclick="resetQuiz()">Try Again</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">PMBOK Guide 6th Edition Reference &nbsp;|&nbsp; Built for learning purposes</div>
+
+<script>
+  var score = 0;
+  var answered = 0;
+  var total = 7;
+
+  function ans(qn, el, result, msg) {
+    var opts = document.getElementById('opts' + qn).querySelectorAll('.q-opt');
+    opts.forEach(function(o) { o.classList.add('disabled'); });
+    var fb = document.getElementById('fb' + qn);
+    if (result === 'c') {
+      el.classList.add('correct');
+      fb.className = 'q-fb cfb show';
+      fb.textContent = msg;
+      score++;
+    } else {
+      el.classList.add('wrong');
+      fb.className = 'q-fb wfb show';
+      fb.textContent = msg;
+    }
+    answered++;
+    if (answered === total) {
+      setTimeout(showScore, 600);
+    }
+  }
+
+  function showScore() {
+    var box = document.getElementById('score-box');
+    box.style.display = 'block';
+    document.getElementById('sc-num').textContent = score;
+    var pct = Math.round((score / total) * 100);
+    var msg, sub;
+    if (score === 7) { msg = 'Perfect Score! PMBOK Expert!'; sub = 'Outstanding — you nailed every question. You have a strong command of the PMBOK framework.'; }
+    else if (score >= 5) { msg = 'Great Job! Almost There.'; sub = 'You have a solid understanding of PMBOK. Review the questions you missed and try again!'; }
+    else if (score >= 3) { msg = 'Good Effort! Keep Studying.'; sub = 'You know the basics. Go back through the Process Groups and Knowledge Areas sections above.'; }
+    else { msg = 'Keep Learning!'; sub = 'Review the content above carefully, then retake the quiz. You will improve!'; }
+    document.getElementById('sc-msg').textContent = msg;
+    document.getElementById('sc-sub').textContent = sub;
+    box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function resetQuiz() {
+    score = 0;
+    answered = 0;
+    for (var i = 1; i <= 7; i++) {
+      var opts = document.getElementById('opts' + i).querySelectorAll('.q-opt');
+      opts.forEach(function(o) {
+        o.classList.remove('correct', 'wrong', 'disabled');
+      });
+      var fb = document.getElementById('fb' + i);
+      fb.className = 'q-fb';
+      fb.textContent = '';
+    }
+    document.getElementById('score-box').style.display = 'none';
+    document.getElementById('qq1').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+</script>
+</body>
+</html>
