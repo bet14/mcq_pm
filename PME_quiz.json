@@ -1,0 +1,1503 @@
+{
+  "title": "PMP® Exam Prep Boot Camp – Comprehensive Quiz",
+  "subtitle": "Based on PMBOK® Guide 5th Edition – All Knowledge Areas",
+  "totalQuestions": 83,
+  "questions": [
+    {
+      "question": "How many total questions appear on the PMP® exam, and how many are scored?",
+      "options": [
+        "200 total, 175 scored",
+        "175 total, 150 scored",
+        "200 total, 200 scored",
+        "180 total, 175 scored"
+      ],
+      "answerIndex": 0,
+      "explanation": "The PMP exam has 200 questions, of which 175 are scored. The remaining 25 are pretest questions used for future validation.",
+      "category": "Exam Overview",
+      "level": "Easy",
+      "tags": [
+        "PMP Exam",
+        "Exam Structure",
+        "Pretest Questions"
+      ]
+    },
+    {
+      "question": "What is the recommended strategy during the 15-minute tutorial before the PMP® exam begins?",
+      "options": [
+        "Read all exam instructions carefully",
+        "Write down all memorized formulas and the process mapping grid on scratch paper",
+        "Skip the tutorial and start the exam immediately",
+        "Review the exam objectives provided on screen"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 'Brain Dump' strategy recommends using the 15-minute tutorial to write all memorized formulas and the process mapping grid on scratch paper before the exam clock starts.",
+      "category": "Exam Overview",
+      "level": "Easy",
+      "tags": [
+        "Brain Dump",
+        "Test Strategy",
+        "PMP Exam"
+      ]
+    },
+    {
+      "question": "In the Three-Pass Method for the PMP® exam, what happens during the third pass?",
+      "options": [
+        "Answer all remaining questions randomly",
+        "Review marked questions and skip difficult ones",
+        "Spend the remaining time (often ~2 hours) on the 50 toughest questions",
+        "Submit the exam and review the score report"
+      ],
+      "answerIndex": 2,
+      "explanation": "The third pass is dedicated to the hardest questions, typically around 50 questions, using the remaining time (often about 2 hours).",
+      "category": "Exam Overview",
+      "level": "Medium",
+      "tags": [
+        "Three-Pass Method",
+        "Test Strategy",
+        "PMP Exam"
+      ]
+    },
+    {
+      "question": "From the PMI perspective when answering situational PMP® exam questions, which assumption should you make?",
+      "options": [
+        "You are the seller on a small, informal project",
+        "You are the buyer on a large project with a PMO following formal processes",
+        "You are a functional manager with limited authority",
+        "You are a team member with no decision-making power"
+      ],
+      "answerIndex": 1,
+      "explanation": "PMI expects candidates to assume they are the buyer, the project is large, a PMO exists, and all formal processes are strictly followed.",
+      "category": "Exam Overview",
+      "level": "Medium",
+      "tags": [
+        "PMI Perspective",
+        "Situational Questions",
+        "PMP Exam"
+      ]
+    },
+    {
+      "question": "Which of the following best defines a 'project' according to PMI?",
+      "options": [
+        "Permanent work that sustains the business",
+        "A temporary endeavor undertaken to create a unique product, service, or result",
+        "Repeatable operational activities performed to maintain business value",
+        "An ongoing effort to improve organizational processes"
+      ],
+      "answerIndex": 1,
+      "explanation": "A project is defined as a temporary endeavor undertaken to create a unique product, service, or result, distinguishing it from ongoing operations.",
+      "category": "Project Framework",
+      "level": "Easy",
+      "tags": [
+        "Project Definition",
+        "PMI",
+        "Temporary Endeavor"
+      ]
+    },
+    {
+      "question": "In a Functional organizational structure, what level of authority does the Project Manager typically have?",
+      "options": [
+        "High to Total authority",
+        "Moderate to High authority",
+        "Little to None",
+        "Low to Moderate authority"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a Functional structure, the PM has little to no authority. The Functional Manager controls resources and budget.",
+      "category": "Organizational Structure",
+      "level": "Easy",
+      "tags": [
+        "Functional Organization",
+        "PM Authority",
+        "Organizational Structure"
+      ]
+    },
+    {
+      "question": "Which organizational structure gives the Project Manager the highest level of authority and resource availability?",
+      "options": [
+        "Balanced Matrix",
+        "Strong Matrix",
+        "Projectized",
+        "Functional"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a Projectized structure, the PM has high to total authority and resource availability, and controls the budget directly.",
+      "category": "Organizational Structure",
+      "level": "Easy",
+      "tags": [
+        "Projectized",
+        "PM Authority",
+        "Organizational Structure"
+      ]
+    },
+    {
+      "question": "What is the difference between a Project Expediter and a Project Coordinator?",
+      "options": [
+        "An Expediter has decision-making authority; a Coordinator does not",
+        "An Expediter is a full-time PM role; a Coordinator is part-time",
+        "An Expediter has no power to enforce decisions; a Coordinator has some decision-making authority",
+        "They are the same role with different titles"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Project Expediter is an assistant with no power to enforce decisions. A Project Coordinator has some decision-making authority and reports to a higher-level manager.",
+      "category": "Organizational Structure",
+      "level": "Medium",
+      "tags": [
+        "Project Expediter",
+        "Project Coordinator",
+        "PM Role"
+      ]
+    },
+    {
+      "question": "Which PMO type directly manages projects rather than just providing support or requiring compliance?",
+      "options": [
+        "Supportive PMO",
+        "Controlling PMO",
+        "Directive PMO",
+        "Advisory PMO"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Directive PMO manages the projects directly, as opposed to Supportive (provides templates) or Controlling (requires compliance).",
+      "category": "Governance",
+      "level": "Medium",
+      "tags": [
+        "PMO",
+        "Directive",
+        "Governance"
+      ]
+    },
+    {
+      "question": "Which project life cycle type is characterized by change-driven development with rapid iterations of 2–4 weeks?",
+      "options": [
+        "Predictive (Waterfall)",
+        "Iterative/Incremental",
+        "Adaptive (Agile)",
+        "Sequential"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adaptive (Agile) life cycles are change-driven with rapid iterations (2–4 weeks), such as Scrum sprints.",
+      "category": "Project Life Cycle",
+      "level": "Easy",
+      "tags": [
+        "Agile",
+        "Adaptive",
+        "Scrum",
+        "Project Life Cycle"
+      ]
+    },
+    {
+      "question": "PMI identifies six primary project constraints. Which of the following is NOT one of them?",
+      "options": [
+        "Risk",
+        "Resources",
+        "Stakeholder Satisfaction",
+        "Quality"
+      ],
+      "answerIndex": 2,
+      "explanation": "The six primary constraints are Scope, Quality, Schedule, Budget, Resources, and Risk. Stakeholder Satisfaction is not listed as a primary constraint.",
+      "category": "Project Framework",
+      "level": "Medium",
+      "tags": [
+        "Constraints",
+        "Triple Constraint",
+        "PMI"
+      ]
+    },
+    {
+      "question": "Which process group is responsible for formally finishing all project activities?",
+      "options": [
+        "Executing",
+        "Monitoring and Controlling",
+        "Closing",
+        "Initiating"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Closing process group formally finishes all activities for a project or phase.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Closing",
+        "Process Groups",
+        "IPECC"
+      ]
+    },
+    {
+      "question": "What is 'Work Performance Data' as defined by PMI?",
+      "options": [
+        "Analyzed data presented in status reports",
+        "Raw observations such as actual costs and start/finish dates",
+        "Deliverables formally accepted by the customer",
+        "Forecasted estimates for project completion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Work Performance Data is raw observations and measurements (e.g., actual costs, start/finish dates) collected during project execution.",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Work Performance Data",
+        "Monitoring",
+        "Information Types"
+      ]
+    },
+    {
+      "question": "Which process group involves tracking, reviewing, and regulating progress and managing changes?",
+      "options": [
+        "Planning",
+        "Executing",
+        "Monitoring and Controlling",
+        "Initiating"
+      ],
+      "answerIndex": 2,
+      "explanation": "Monitoring and Controlling involves tracking, reviewing, and regulating project progress and managing changes to the plan.",
+      "category": "Process Groups",
+      "level": "Easy",
+      "tags": [
+        "Monitoring and Controlling",
+        "Process Groups",
+        "Change Management"
+      ]
+    },
+    {
+      "question": "What is the primary purpose of the Project Charter?",
+      "options": [
+        "To define the detailed project scope",
+        "To formally authorize the project and the PM's use of resources",
+        "To establish the project schedule baseline",
+        "To document all stakeholder requirements"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Project Charter formally authorizes the project and grants the PM authority to use organizational resources.",
+      "category": "Integration Management",
+      "level": "Easy",
+      "tags": [
+        "Project Charter",
+        "Authorization",
+        "Integration"
+      ]
+    },
+    {
+      "question": "What three baselines combine to form the Performance Measurement Baseline (PMB)?",
+      "options": [
+        "Quality, Risk, and Communications baselines",
+        "Scope, Schedule, and Cost baselines",
+        "HR, Procurement, and Stakeholder baselines",
+        "Time, Budget, and Resource baselines"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Performance Measurement Baseline (PMB) consists of the Scope, Schedule, and Cost baselines.",
+      "category": "Integration Management",
+      "level": "Medium",
+      "tags": [
+        "PMB",
+        "Baseline",
+        "Integration Management"
+      ]
+    },
+    {
+      "question": "What is the difference between Corrective Action and Preventive Action in project management?",
+      "options": [
+        "Corrective action reduces risk probability; preventive action realigns performance",
+        "Corrective action realigns future performance; preventive action reduces probability of negative risks",
+        "They are the same concept with different names",
+        "Corrective action is proactive; preventive action is reactive"
+      ],
+      "answerIndex": 1,
+      "explanation": "Corrective Action realigns future performance with the plan, while Preventive Action reduces the probability of negative risk events occurring.",
+      "category": "Integration Management",
+      "level": "Medium",
+      "tags": [
+        "Corrective Action",
+        "Preventive Action",
+        "Monitor and Control"
+      ]
+    },
+    {
+      "question": "In Perform Integrated Change Control, what is the focus of Configuration Management?",
+      "options": [
+        "Managing changes to project baselines and documents",
+        "Focusing on product specifications and their changes",
+        "Approving or rejecting all change requests",
+        "Tracking stakeholder engagement levels"
+      ],
+      "answerIndex": 1,
+      "explanation": "Configuration Management focuses on product specifications, while Change Control focuses on project document and baseline changes.",
+      "category": "Integration Management",
+      "level": "Medium",
+      "tags": [
+        "Configuration Management",
+        "Change Control",
+        "Integrated Change Control"
+      ]
+    },
+    {
+      "question": "During project closing, which must occur BEFORE administrative closure?",
+      "options": [
+        "Lessons learned documentation",
+        "Final product transition",
+        "Contract closure",
+        "Archiving project records"
+      ],
+      "answerIndex": 2,
+      "explanation": "Contract closure must occur before administrative closure to ensure all contractual obligations are fulfilled before the project is formally closed.",
+      "category": "Integration Management",
+      "level": "Medium",
+      "tags": [
+        "Close Project",
+        "Contract Closure",
+        "Administrative Closure"
+      ]
+    },
+    {
+      "question": "What does the Requirements Traceability Matrix (RTM) link together?",
+      "options": [
+        "WBS components to their cost estimates",
+        "Requirements to their origin and the deliverables that satisfy them",
+        "Stakeholders to their communication preferences",
+        "Risks to their response strategies"
+      ],
+      "answerIndex": 1,
+      "explanation": "The RTM links requirements to their origin and tracks them to the deliverables that satisfy them, ensuring all requirements are addressed.",
+      "category": "Scope Management",
+      "level": "Medium",
+      "tags": [
+        "RTM",
+        "Requirements Traceability",
+        "Scope Management"
+      ]
+    },
+    {
+      "question": "What is the 'Scope Baseline' composed of?",
+      "options": [
+        "Project Charter, WBS, and WBS Dictionary",
+        "Scope Statement, WBS, and WBS Dictionary",
+        "Requirements Document, WBS, and Project Plan",
+        "Scope Statement, Schedule Baseline, and Cost Baseline"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Scope Baseline consists of the Project Scope Statement, the WBS, and the WBS Dictionary.",
+      "category": "Scope Management",
+      "level": "Medium",
+      "tags": [
+        "Scope Baseline",
+        "WBS",
+        "Scope Management"
+      ]
+    },
+    {
+      "question": "What is the lowest level of the Work Breakdown Structure (WBS) called?",
+      "options": [
+        "Activity",
+        "Deliverable",
+        "Work Package",
+        "Milestone"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Work Package is the lowest level of the WBS, representing the smallest unit of work that can be scheduled, cost-estimated, and monitored.",
+      "category": "Scope Management",
+      "level": "Easy",
+      "tags": [
+        "WBS",
+        "Work Package",
+        "Decomposition"
+      ]
+    },
+    {
+      "question": "What is the purpose of 'Validate Scope' in project management?",
+      "options": [
+        "To ensure the project scope is clearly defined",
+        "To formally accept completed deliverables by the customer",
+        "To verify that quality standards have been met",
+        "To control changes to the project scope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Validate Scope is the process of obtaining formal acceptance of completed deliverables from the customer or sponsor.",
+      "category": "Scope Management",
+      "level": "Easy",
+      "tags": [
+        "Validate Scope",
+        "Formal Acceptance",
+        "Scope Management"
+      ]
+    },
+    {
+      "question": "Which requirements-gathering technique uses anonymous rounds of questionnaires to reach consensus among experts?",
+      "options": [
+        "Brainstorming",
+        "Focus Groups",
+        "Delphi Technique",
+        "Nominal Group Technique"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Delphi Technique uses anonymous rounds of questionnaires to gather expert opinions and reach consensus without direct confrontation.",
+      "category": "Scope Management",
+      "level": "Medium",
+      "tags": [
+        "Delphi Technique",
+        "Requirements Gathering",
+        "Collect Requirements"
+      ]
+    },
+    {
+      "question": "Which dependency type is the MOST common in Precedence Diagramming Method (PDM)?",
+      "options": [
+        "Finish-to-Finish (FF)",
+        "Start-to-Start (SS)",
+        "Start-to-Finish (SF)",
+        "Finish-to-Start (FS)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Finish-to-Start (FS) is the most common dependency type, where a successor activity cannot start until the predecessor finishes.",
+      "category": "Time Management",
+      "level": "Easy",
+      "tags": [
+        "PDM",
+        "Dependencies",
+        "Finish-to-Start"
+      ]
+    },
+    {
+      "question": "Using PERT three-point estimating, what is the Expected Duration (Te) formula?",
+      "options": [
+        "(O + M + P) / 3",
+        "(O + 4M + P) / 6",
+        "(O + 2M + P) / 4",
+        "(O + 3M + P) / 5"
+      ],
+      "answerIndex": 1,
+      "explanation": "The PERT formula for Expected Duration is Te = (Optimistic + 4 × Most Likely + Pessimistic) / 6.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "PERT",
+        "Three-Point Estimating",
+        "Schedule Estimation"
+      ]
+    },
+    {
+      "question": "What is 'Total Float' in schedule management?",
+      "options": [
+        "Time an activity can be delayed without delaying its immediate successor",
+        "Time an activity can be delayed without delaying the project end date",
+        "The difference between the early start and late start of the first activity",
+        "Buffer time added to the critical path"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total Float is the amount of time an activity can be delayed without delaying the overall project end date.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "Total Float",
+        "Critical Path",
+        "Schedule Management"
+      ]
+    },
+    {
+      "question": "What is the critical path in a project network diagram?",
+      "options": [
+        "The shortest path through the network",
+        "The path with the most activities",
+        "The longest path with zero float",
+        "The path with the highest cost"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Critical Path is the longest path through the network diagram and has zero float, meaning any delay on this path delays the project.",
+      "category": "Time Management",
+      "level": "Easy",
+      "tags": [
+        "Critical Path Method",
+        "CPM",
+        "Schedule Management"
+      ]
+    },
+    {
+      "question": "A project manager decides to overlap two sequential activities to shorten the schedule. Which compression technique is being used?",
+      "options": [
+        "Crashing",
+        "Resource Leveling",
+        "Fast Tracking",
+        "Schedule Compression"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fast Tracking involves performing activities in parallel that were originally planned sequentially. It reduces schedule duration but increases risk.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "Fast Tracking",
+        "Schedule Compression",
+        "Risk"
+      ]
+    },
+    {
+      "question": "A project manager adds more resources to critical path activities to shorten the schedule. What is this technique called, and what is its primary drawback?",
+      "options": [
+        "Fast Tracking; it increases risk",
+        "Crashing; it increases cost",
+        "Resource Leveling; it extends the schedule",
+        "Scope Reduction; it reduces deliverables"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crashing adds resources to critical path activities to shorten the schedule, but the primary drawback is increased cost.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "Crashing",
+        "Schedule Compression",
+        "Cost"
+      ]
+    },
+    {
+      "question": "What is the PERT Standard Deviation formula?",
+      "options": [
+        "(P - O) / 4",
+        "(P - O) / 6",
+        "(P + O) / 6",
+        "(P - M) / 6"
+      ],
+      "answerIndex": 1,
+      "explanation": "The PERT Standard Deviation is calculated as SD = (Pessimistic - Optimistic) / 6.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "PERT",
+        "Standard Deviation",
+        "Estimation"
+      ]
+    },
+    {
+      "question": "What is 'Free Float' in project scheduling?",
+      "options": [
+        "Time an activity can be delayed without delaying the project end date",
+        "Time an activity can be delayed without delaying the Early Start of its successor",
+        "Buffer added to the schedule to account for uncertainty",
+        "The difference between planned and actual duration"
+      ],
+      "answerIndex": 1,
+      "explanation": "Free Float is the amount of time an activity can be delayed without delaying the Early Start of any of its successor activities.",
+      "category": "Time Management",
+      "level": "Hard",
+      "tags": [
+        "Free Float",
+        "Schedule Management",
+        "CPM"
+      ]
+    },
+    {
+      "question": "A project has BAC = $100,000, EV = $40,000, and AC = $50,000. What is the Cost Variance (CV)?",
+      "options": [
+        "$10,000",
+        "-$10,000",
+        "$60,000",
+        "-$60,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "CV = EV - AC = $40,000 - $50,000 = -$10,000. A negative CV means the project is over budget.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "EVM",
+        "Cost Variance",
+        "Earned Value"
+      ]
+    },
+    {
+      "question": "A project has EV = $60,000 and PV = $80,000. What is the Schedule Variance (SV) and what does it indicate?",
+      "options": [
+        "SV = $20,000; project is ahead of schedule",
+        "SV = -$20,000; project is behind schedule",
+        "SV = $20,000; project is under budget",
+        "SV = -$20,000; project is over budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "SV = EV - PV = $60,000 - $80,000 = -$20,000. A negative SV means the project is behind schedule.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "EVM",
+        "Schedule Variance",
+        "Earned Value"
+      ]
+    },
+    {
+      "question": "If CPI = 0.8, what does this indicate about the project?",
+      "options": [
+        "The project is ahead of schedule",
+        "The project is under budget",
+        "The project is over budget (spending $1.25 for every $1 of work done)",
+        "The project is on track"
+      ],
+      "answerIndex": 2,
+      "explanation": "CPI = EV/AC. A CPI of 0.8 means the project is getting only $0.80 of work done for every $1.00 spent, indicating it is over budget.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "CPI",
+        "EVM",
+        "Cost Performance Index"
+      ]
+    },
+    {
+      "question": "What does EAC = BAC / CPI represent?",
+      "options": [
+        "The original budget for the project",
+        "The estimated total cost at project completion if current cost trends continue",
+        "The remaining budget needed to complete the project",
+        "The variance between planned and actual costs at completion"
+      ],
+      "answerIndex": 1,
+      "explanation": "EAC = BAC / CPI is the Estimate at Completion, representing the forecasted total cost if current cost performance trends continue.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "EAC",
+        "EVM",
+        "Estimate at Completion"
+      ]
+    },
+    {
+      "question": "What is the TCPI formula based on BAC, and what does a TCPI > 1.0 indicate?",
+      "options": [
+        "TCPI = (BAC - AC) / (BAC - EV); project is under budget",
+        "TCPI = (BAC - EV) / (BAC - AC); project must perform better than planned to stay on budget",
+        "TCPI = EV / AC; project is performing efficiently",
+        "TCPI = BAC / CPI; project will exceed budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "TCPI = (BAC - EV) / (BAC - AC). A TCPI > 1.0 means the project must perform better than it has been to complete within the original budget.",
+      "category": "Cost Management",
+      "level": "Hard",
+      "tags": [
+        "TCPI",
+        "EVM",
+        "To-Complete Performance Index"
+      ]
+    },
+    {
+      "question": "What is the accuracy range for a Rough Order of Magnitude (ROM) estimate?",
+      "options": [
+        "-5% to +10%",
+        "-10% to +25%",
+        "-25% to +75%",
+        "-50% to +100%"
+      ],
+      "answerIndex": 2,
+      "explanation": "A ROM estimate has an accuracy range of -25% to +75% (or -50% to +50% in some texts), used in early project phases when little information is available.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "ROM",
+        "Cost Estimation",
+        "Estimate Accuracy"
+      ]
+    },
+    {
+      "question": "What is the relationship between the Cost Baseline and the Project Budget?",
+      "options": [
+        "They are the same thing",
+        "Project Budget = Cost Baseline + Management Reserves",
+        "Cost Baseline = Project Budget + Contingency Reserves",
+        "Project Budget = Cost Baseline - Contingency Reserves"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cost Baseline includes contingency reserves. Adding Management Reserves to the Cost Baseline gives the total Project Budget.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": [
+        "Cost Baseline",
+        "Project Budget",
+        "Management Reserves"
+      ]
+    },
+    {
+      "question": "What is the difference between 'Quality' and 'Grade' in project management?",
+      "options": [
+        "Quality refers to features; grade refers to defects",
+        "High quality means no defects; high grade means many features — they are independent",
+        "Quality and grade are synonymous terms",
+        "Grade is a measure of accuracy; quality is a measure of precision"
+      ],
+      "answerIndex": 1,
+      "explanation": "Quality (no defects) and Grade (number of features) are independent. A product can be high quality but low grade (few features but no defects).",
+      "category": "Quality Management",
+      "level": "Medium",
+      "tags": [
+        "Quality vs Grade",
+        "Quality Management",
+        "Defects"
+      ]
+    },
+    {
+      "question": "Which quality tool uses the 80/20 rule to identify the 'vital few' problems causing the most defects?",
+      "options": [
+        "Cause and Effect Diagram",
+        "Control Chart",
+        "Pareto Diagram",
+        "Scatter Diagram"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Pareto Diagram applies the 80/20 rule, showing that roughly 80% of problems come from 20% of causes, helping prioritize the 'vital few' issues.",
+      "category": "Quality Management",
+      "level": "Easy",
+      "tags": [
+        "Pareto Diagram",
+        "80/20 Rule",
+        "Quality Tools"
+      ]
+    },
+    {
+      "question": "In a Control Chart, the 'Rule of Seven' applies when:",
+      "options": [
+        "Seven consecutive data points fall outside the control limits",
+        "Seven consecutive data points fall on one side of the mean",
+        "Seven defects are found in a single inspection",
+        "Seven quality tools are used simultaneously"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Rule of Seven states that if 7 consecutive data points appear on one side of the mean (even within control limits), the process is considered out of control.",
+      "category": "Quality Management",
+      "level": "Hard",
+      "tags": [
+        "Control Chart",
+        "Rule of Seven",
+        "Statistical Process Control"
+      ]
+    },
+    {
+      "question": "Which quality philosopher is associated with the concept of 'Zero Defects' and the idea that 'Quality is Free'?",
+      "options": [
+        "Deming",
+        "Juran",
+        "Crosby",
+        "Ishikawa"
+      ],
+      "answerIndex": 2,
+      "explanation": "Philip Crosby is associated with 'Zero Defects' and the concept that 'Quality is Free' — the cost of poor quality exceeds the cost of achieving quality.",
+      "category": "Quality Management",
+      "level": "Medium",
+      "tags": [
+        "Crosby",
+        "Zero Defects",
+        "Quality Philosophy"
+      ]
+    },
+    {
+      "question": "What does 'Precision' mean in the context of quality management?",
+      "options": [
+        "Hitting the target (correctness)",
+        "Consistency of repeated measurements",
+        "Conformance to requirements",
+        "Fitness for use"
+      ],
+      "answerIndex": 1,
+      "explanation": "Precision means consistency — repeated measurements cluster together. Accuracy means correctness — measurements are close to the true value.",
+      "category": "Quality Management",
+      "level": "Medium",
+      "tags": [
+        "Precision",
+        "Accuracy",
+        "Quality Management"
+      ]
+    },
+    {
+      "question": "According to Tuckman's Ladder, what is the correct order of team development stages?",
+      "options": [
+        "Forming, Norming, Storming, Performing, Adjourning",
+        "Storming, Forming, Norming, Performing, Adjourning",
+        "Forming, Storming, Norming, Performing, Adjourning",
+        "Forming, Storming, Performing, Norming, Adjourning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tuckman's Ladder follows the sequence: Forming, Storming, Norming, Performing, and Adjourning.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "Tuckman's Ladder",
+        "Team Development",
+        "HR Management"
+      ]
+    },
+    {
+      "question": "According to Herzberg's Hygiene Theory, which of the following is a MOTIVATOR (not a hygiene factor)?",
+      "options": [
+        "Salary",
+        "Working conditions",
+        "Job security",
+        "Recognition and achievement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Herzberg distinguishes hygiene factors (pay, conditions, security) that prevent dissatisfaction from motivators (recognition, growth, achievement) that create satisfaction.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Herzberg",
+        "Motivation Theory",
+        "Hygiene Factors"
+      ]
+    },
+    {
+      "question": "McGregor's Theory X assumes that employees are:",
+      "options": [
+        "Self-motivated and seek responsibility",
+        "Lazy and need to be controlled and directed",
+        "Motivated by collective decision-making",
+        "Driven by expectation of rewards"
+      ],
+      "answerIndex": 1,
+      "explanation": "Theory X assumes employees are lazy, dislike work, and need to be controlled. Theory Y assumes employees are self-motivated and seek responsibility.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "McGregor",
+        "Theory X",
+        "Motivation Theory"
+      ]
+    },
+    {
+      "question": "Which conflict resolution technique is considered the BEST approach according to PMI?",
+      "options": [
+        "Forcing/Directing",
+        "Smoothing/Accommodating",
+        "Collaborating/Problem Solving (Confronting)",
+        "Compromising/Reconciling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Collaborating/Problem Solving (Confronting) is the best approach as it results in a Win-Win outcome by addressing the root cause of the conflict.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Conflict Resolution",
+        "Problem Solving",
+        "HR Management"
+      ]
+    },
+    {
+      "question": "What is 'Colocation' in project team management, and what is it also called?",
+      "options": [
+        "Distributing team members across different locations; called Virtual Teaming",
+        "Placing team members in the same physical room; called Tight Matrix",
+        "Organizing team members by functional department; called Functional Structure",
+        "Assigning team members to multiple projects; called Matrix Management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Colocation means placing team members in the same physical room to improve communication and collaboration. It is also called 'Tight Matrix.'",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Colocation",
+        "Tight Matrix",
+        "Team Management"
+      ]
+    },
+    {
+      "question": "Maslow's Hierarchy of Needs, from lowest to highest, is:",
+      "options": [
+        "Safety, Physiological, Social, Esteem, Self-Actualization",
+        "Physiological, Safety, Social, Esteem, Self-Actualization",
+        "Physiological, Social, Safety, Esteem, Self-Actualization",
+        "Esteem, Safety, Physiological, Social, Self-Actualization"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maslow's hierarchy from lowest to highest is: Physiological → Safety → Social → Esteem → Self-Actualization.",
+      "category": "Human Resource Management",
+      "level": "Easy",
+      "tags": [
+        "Maslow",
+        "Hierarchy of Needs",
+        "Motivation Theory"
+      ]
+    },
+    {
+      "question": "A project team grows from 5 to 10 members. How many additional communication channels are created?",
+      "options": [
+        "25",
+        "35",
+        "45",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "With 5 people: [5×4]/2 = 10 channels. With 10 people: [10×9]/2 = 45 channels. Additional channels = 45 - 10 = 35.",
+      "category": "Communications Management",
+      "level": "Medium",
+      "tags": [
+        "Communication Channels",
+        "Formula",
+        "Communications Management"
+      ]
+    },
+    {
+      "question": "Which communication method involves sending information to specific recipients who receive it whether or not they requested it?",
+      "options": [
+        "Interactive Communication",
+        "Pull Communication",
+        "Push Communication",
+        "Formal Communication"
+      ],
+      "answerIndex": 2,
+      "explanation": "Push Communication (e.g., emails, memos, reports) is sent to specific recipients. They receive it without necessarily requesting it.",
+      "category": "Communications Management",
+      "level": "Easy",
+      "tags": [
+        "Push Communication",
+        "Communication Methods",
+        "Communications Management"
+      ]
+    },
+    {
+      "question": "In the communication model, who is responsible for ensuring the message is clear and complete?",
+      "options": [
+        "The Receiver",
+        "The Noise filter",
+        "The Sender",
+        "The Communication Manager"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Sender is responsible for encoding the message clearly and ensuring it is understandable. The Receiver decodes and confirms receipt.",
+      "category": "Communications Management",
+      "level": "Easy",
+      "tags": [
+        "Communication Model",
+        "Sender",
+        "Encoding"
+      ]
+    },
+    {
+      "question": "A project has 15 stakeholders. How many communication channels exist?",
+      "options": [
+        "105",
+        "210",
+        "90",
+        "120"
+      ],
+      "answerIndex": 0,
+      "explanation": "Communication Channels = [N × (N-1)] / 2 = [15 × 14] / 2 = 210 / 2 = 105.",
+      "category": "Communications Management",
+      "level": "Medium",
+      "tags": [
+        "Communication Channels",
+        "Formula",
+        "Stakeholders"
+      ]
+    },
+    {
+      "question": "What is Expected Monetary Value (EMV) and how is it calculated?",
+      "options": [
+        "The total budget allocated for risk responses; calculated as Budget × Risk Count",
+        "The monetary value of a risk event; calculated as Probability × Impact",
+        "The cost of risk mitigation; calculated as Mitigation Cost / Risk Probability",
+        "The financial reserve for risks; calculated as Contingency + Management Reserve"
+      ],
+      "answerIndex": 1,
+      "explanation": "EMV = Probability × Impact. It quantifies the expected value of a risk event, used in decision tree analysis and quantitative risk analysis.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "EMV",
+        "Quantitative Risk Analysis",
+        "Risk Management"
+      ]
+    },
+    {
+      "question": "Which risk response strategy involves shifting the impact of a threat to a third party through insurance or warranties?",
+      "options": [
+        "Avoid",
+        "Mitigate",
+        "Accept",
+        "Transfer"
+      ],
+      "answerIndex": 3,
+      "explanation": "Transfer shifts the financial impact of a risk to a third party (e.g., insurance, warranties, fixed-price contracts) but does not eliminate the risk.",
+      "category": "Risk Management",
+      "level": "Easy",
+      "tags": [
+        "Risk Transfer",
+        "Threat Response",
+        "Risk Management"
+      ]
+    },
+    {
+      "question": "What is the difference between Qualitative and Quantitative Risk Analysis?",
+      "options": [
+        "Qualitative uses numbers; Quantitative uses expert judgment",
+        "Qualitative prioritizes risks using P&I Matrix; Quantitative uses numerical analysis like EMV and Monte Carlo",
+        "They are the same process with different names",
+        "Qualitative is done after Quantitative in the risk process"
+      ],
+      "answerIndex": 1,
+      "explanation": "Qualitative Risk Analysis prioritizes risks using a Probability and Impact Matrix. Quantitative Risk Analysis uses numerical methods like EMV, Decision Trees, and Monte Carlo Simulation.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Qualitative Risk",
+        "Quantitative Risk",
+        "Risk Analysis"
+      ]
+    },
+    {
+      "question": "Which risk response strategy for OPPORTUNITIES ensures the opportunity definitely happens?",
+      "options": [
+        "Share",
+        "Enhance",
+        "Accept",
+        "Exploit"
+      ],
+      "answerIndex": 3,
+      "explanation": "Exploit is the most aggressive opportunity response strategy — it ensures the opportunity will definitely occur by eliminating uncertainty.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Exploit",
+        "Opportunity Response",
+        "Risk Management"
+      ]
+    },
+    {
+      "question": "Monte Carlo Simulation is used in which type of risk analysis?",
+      "options": [
+        "Qualitative Risk Analysis",
+        "Quantitative Risk Analysis",
+        "Risk Response Planning",
+        "Risk Identification"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monte Carlo Simulation is a computer-based 'what-if' analysis tool used in Quantitative Risk Analysis to model the probability of different project outcomes.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Monte Carlo",
+        "Quantitative Risk",
+        "Simulation"
+      ]
+    },
+    {
+      "question": "In which contract type does the SELLER bear the most financial risk?",
+      "options": [
+        "Cost Plus Fixed Fee (CPFF)",
+        "Time and Materials (T&M)",
+        "Fixed Price (FP)",
+        "Cost Plus Incentive Fee (CPIF)"
+      ],
+      "answerIndex": 2,
+      "explanation": "In a Fixed Price contract, the seller bears the risk. If costs exceed the agreed price, the seller absorbs the loss.",
+      "category": "Procurement Management",
+      "level": "Easy",
+      "tags": [
+        "Fixed Price",
+        "Contract Types",
+        "Seller Risk"
+      ]
+    },
+    {
+      "question": "In which contract type does the BUYER bear the most financial risk?",
+      "options": [
+        "Fixed Price Incentive Fee (FPIF)",
+        "Cost Reimbursable (CR)",
+        "Fixed Price (FP)",
+        "Fixed Price with Economic Price Adjustment (FP-EPA)"
+      ],
+      "answerIndex": 1,
+      "explanation": "In Cost Reimbursable contracts, the buyer reimburses all allowable costs, bearing the financial risk if costs increase.",
+      "category": "Procurement Management",
+      "level": "Easy",
+      "tags": [
+        "Cost Reimbursable",
+        "Contract Types",
+        "Buyer Risk"
+      ]
+    },
+    {
+      "question": "What is the Point of Total Assumption (PTA) in a Fixed Price Incentive Fee (FPIF) contract?",
+      "options": [
+        "The point at which the buyer assumes all project management responsibilities",
+        "The cost level at which the seller bears all subsequent costs",
+        "The price at which the contract is terminated",
+        "The point at which the buyer and seller share costs equally"
+      ],
+      "answerIndex": 1,
+      "explanation": "PTA is the cost point in an FPIF contract beyond which the seller bears 100% of additional costs. Formula: PTA = ((Ceiling Price - Total Price) / Buyer's Share Ratio) + Target Cost.",
+      "category": "Procurement Management",
+      "level": "Hard",
+      "tags": [
+        "PTA",
+        "FPIF",
+        "Procurement Management"
+      ]
+    },
+    {
+      "question": "What does 'Privity of Contract' mean in procurement management?",
+      "options": [
+        "The confidentiality clause in a contract",
+        "A contractual relationship between parties (e.g., buyer has privity with seller but not seller's subcontractor)",
+        "The legal right to terminate a contract",
+        "The process of reviewing contract terms before signing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Privity means a direct contractual relationship. The buyer has privity with the seller but NOT with the seller's subcontractors.",
+      "category": "Procurement Management",
+      "level": "Medium",
+      "tags": [
+        "Privity",
+        "Contract",
+        "Procurement Management"
+      ]
+    },
+    {
+      "question": "What is 'Retainage' in project procurement?",
+      "options": [
+        "A penalty clause for late delivery",
+        "Money held back until project completion to ensure the seller fulfills obligations",
+        "An advance payment made to the seller at contract signing",
+        "The profit margin built into a fixed-price contract"
+      ],
+      "answerIndex": 1,
+      "explanation": "Retainage is a portion of payment withheld until the end of the project to ensure the seller completes all contractual obligations.",
+      "category": "Procurement Management",
+      "level": "Medium",
+      "tags": [
+        "Retainage",
+        "Contract Terms",
+        "Procurement Management"
+      ]
+    },
+    {
+      "question": "Time and Materials (T&M) contracts are best suited for which situation?",
+      "options": [
+        "Projects with well-defined scope and fixed deliverables",
+        "Long-term projects with stable requirements",
+        "Staff augmentation or projects where scope is unclear",
+        "Projects where the seller should bear all cost risk"
+      ],
+      "answerIndex": 2,
+      "explanation": "T&M contracts are hybrid contracts used for staff augmentation or when the project scope is unclear. They have elements of both Fixed Price and Cost Reimbursable contracts.",
+      "category": "Procurement Management",
+      "level": "Medium",
+      "tags": [
+        "T&M",
+        "Contract Types",
+        "Scope Uncertainty"
+      ]
+    },
+    {
+      "question": "In the Power/Interest Grid, how should you manage stakeholders with HIGH power and HIGH interest?",
+      "options": [
+        "Monitor",
+        "Keep Informed",
+        "Keep Satisfied",
+        "Manage Closely"
+      ],
+      "answerIndex": 3,
+      "explanation": "Stakeholders with High Power and High Interest should be Managed Closely — they can significantly impact the project and are highly engaged.",
+      "category": "Stakeholder Management",
+      "level": "Easy",
+      "tags": [
+        "Power/Interest Grid",
+        "Stakeholder Analysis",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "question": "A stakeholder is aware of the project but is opposed to the changes it will bring. What engagement level is this?",
+      "options": [
+        "Unaware",
+        "Neutral",
+        "Resistant",
+        "Supportive"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Resistant stakeholder is aware of the project but opposed to the changes. The PM should work to move them toward Neutral or Supportive.",
+      "category": "Stakeholder Management",
+      "level": "Easy",
+      "tags": [
+        "Stakeholder Engagement",
+        "Resistant",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "question": "Which stakeholder engagement level represents the highest form of involvement?",
+      "options": [
+        "Supportive",
+        "Leading",
+        "Neutral",
+        "Aware"
+      ],
+      "answerIndex": 1,
+      "explanation": "Leading is the highest engagement level — stakeholders are actively engaged in ensuring project success.",
+      "category": "Stakeholder Management",
+      "level": "Easy",
+      "tags": [
+        "Stakeholder Engagement",
+        "Leading",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "question": "In the Power/Interest Grid, stakeholders with LOW power and HIGH interest should be:",
+      "options": [
+        "Managed Closely",
+        "Kept Satisfied",
+        "Kept Informed",
+        "Monitored"
+      ],
+      "answerIndex": 2,
+      "explanation": "Low Power / High Interest stakeholders should be Kept Informed. They are interested in the project but have limited ability to influence it.",
+      "category": "Stakeholder Management",
+      "level": "Easy",
+      "tags": [
+        "Power/Interest Grid",
+        "Keep Informed",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "question": "According to PMI's Code of Ethics, which value requires you to disclose all potential conflicts of interest?",
+      "options": [
+        "Responsibility",
+        "Respect",
+        "Fairness",
+        "Honesty"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fairness requires transparency and disclosure of all potential conflicts of interest, as well as avoiding discrimination and bribery.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Easy",
+      "tags": [
+        "Fairness",
+        "PMI Code of Ethics",
+        "Conflict of Interest"
+      ]
+    },
+    {
+      "question": "A project manager accepts a project for which they are not fully qualified. Which PMI ethical value are they violating?",
+      "options": [
+        "Fairness",
+        "Honesty",
+        "Responsibility",
+        "Respect"
+      ],
+      "answerIndex": 2,
+      "explanation": "Responsibility requires accepting only assignments for which you are qualified. Taking on unqualified work violates this principle.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Medium",
+      "tags": [
+        "Responsibility",
+        "PMI Code of Ethics",
+        "Professional Conduct"
+      ]
+    },
+    {
+      "question": "Which PMI ethical value emphasizes listening to others, negotiating in good faith, and not using your position for personal gain?",
+      "options": [
+        "Honesty",
+        "Fairness",
+        "Responsibility",
+        "Respect"
+      ],
+      "answerIndex": 3,
+      "explanation": "Respect involves listening to others, understanding their viewpoints, negotiating in good faith, and not exploiting your position for personal gain.",
+      "category": "Ethics and Professional Conduct",
+      "level": "Easy",
+      "tags": [
+        "Respect",
+        "PMI Code of Ethics",
+        "Professional Conduct"
+      ]
+    },
+    {
+      "question": "A project has BAC = $200,000, EV = $100,000, AC = $120,000. What is the Estimate at Completion (EAC)?",
+      "options": [
+        "$220,000",
+        "$240,000",
+        "$180,000",
+        "$200,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "CPI = EV/AC = 100,000/120,000 = 0.833. EAC = BAC/CPI = 200,000/0.833 = $240,000 (approximately).",
+      "category": "Cost Management",
+      "level": "Hard",
+      "tags": [
+        "EAC",
+        "EVM",
+        "CPI",
+        "Cost Forecasting"
+      ]
+    },
+    {
+      "question": "Which process produces the Project Scope Statement as its primary output?",
+      "options": [
+        "Plan Scope Management",
+        "Collect Requirements",
+        "Define Scope",
+        "Create WBS"
+      ],
+      "answerIndex": 2,
+      "explanation": "Define Scope produces the Project Scope Statement, which includes product scope, acceptance criteria, and project exclusions.",
+      "category": "Scope Management",
+      "level": "Easy",
+      "tags": [
+        "Define Scope",
+        "Scope Statement",
+        "Scope Management"
+      ]
+    },
+    {
+      "question": "During project execution, a team member identifies a new risk. What should the project manager do FIRST?",
+      "options": [
+        "Immediately implement a risk response",
+        "Inform the sponsor and request additional budget",
+        "Document the risk and perform qualitative analysis",
+        "Update the project schedule to account for the risk"
+      ],
+      "answerIndex": 2,
+      "explanation": "New risks should first be documented in the risk register and analyzed (qualitative analysis) before determining an appropriate response.",
+      "category": "Risk Management",
+      "level": "Medium",
+      "tags": [
+        "Risk Identification",
+        "Risk Register",
+        "Risk Process"
+      ]
+    },
+    {
+      "question": "A project manager notices that 7 consecutive data points on a control chart are all above the mean but within control limits. What action should be taken?",
+      "options": [
+        "No action needed since points are within control limits",
+        "Investigate the process as it is out of control per the Rule of Seven",
+        "Expand the control limits to accommodate the pattern",
+        "Reduce the sample size to get more accurate readings"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Rule of Seven states that 7 consecutive points on one side of the mean indicates a non-random pattern, meaning the process is out of control even if within limits.",
+      "category": "Quality Management",
+      "level": "Hard",
+      "tags": [
+        "Rule of Seven",
+        "Control Chart",
+        "Statistical Process Control"
+      ]
+    },
+    {
+      "question": "What is the formula for calculating the number of communication channels in a project?",
+      "options": [
+        "N × (N + 1) / 2",
+        "N × (N - 1) / 2",
+        "N² / 2",
+        "(N - 1) × (N - 2) / 2"
+      ],
+      "answerIndex": 1,
+      "explanation": "Communication Channels = N × (N - 1) / 2, where N is the number of people involved in the project.",
+      "category": "Communications Management",
+      "level": "Easy",
+      "tags": [
+        "Communication Channels",
+        "Formula",
+        "Communications Management"
+      ]
+    },
+    {
+      "question": "A project manager is managing a project where the scope is unclear and requirements are expected to change frequently. Which contract type is MOST appropriate for hiring external resources?",
+      "options": [
+        "Firm Fixed Price (FFP)",
+        "Fixed Price Incentive Fee (FPIF)",
+        "Time and Materials (T&M)",
+        "Fixed Price with Economic Price Adjustment (FP-EPA)"
+      ],
+      "answerIndex": 2,
+      "explanation": "T&M contracts are best when scope is unclear or requirements are expected to change, as they allow flexibility while controlling costs per unit of time/material.",
+      "category": "Procurement Management",
+      "level": "Medium",
+      "tags": [
+        "T&M",
+        "Contract Selection",
+        "Scope Uncertainty"
+      ]
+    },
+    {
+      "question": "Which organizational structure is MOST likely to cause role ambiguity and conflict between the PM and Functional Manager?",
+      "options": [
+        "Projectized",
+        "Functional",
+        "Balanced Matrix",
+        "Strong Matrix"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Balanced Matrix creates the most tension because authority is shared equally between the PM and Functional Manager, leading to potential conflicts over resources and priorities.",
+      "category": "Organizational Structure",
+      "level": "Hard",
+      "tags": [
+        "Balanced Matrix",
+        "Conflict",
+        "Organizational Structure"
+      ]
+    },
+    {
+      "question": "Vroom's Expectancy Theory states that motivation is based on the belief that:",
+      "options": [
+        "Basic needs must be satisfied before higher needs motivate behavior",
+        "Hygiene factors prevent dissatisfaction but do not create motivation",
+        "Effort leads to performance, and performance leads to a valued reward",
+        "Employees are either inherently lazy (X) or self-motivated (Y)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vroom's Expectancy Theory holds that people are motivated when they believe their effort will lead to performance, and that performance will lead to a valued reward.",
+      "category": "Human Resource Management",
+      "level": "Medium",
+      "tags": [
+        "Vroom",
+        "Expectancy Theory",
+        "Motivation"
+      ]
+    },
+    {
+      "question": "Which schedule compression technique carries the HIGHEST risk to the project?",
+      "options": [
+        "Crashing",
+        "Resource Leveling",
+        "Fast Tracking",
+        "Scope Reduction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fast Tracking performs activities in parallel that were planned sequentially, increasing the risk of rework and coordination issues.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "Fast Tracking",
+        "Schedule Compression",
+        "Risk"
+      ]
+    },
+    {
+      "question": "A project has the following PERT estimates: Optimistic = 4 days, Most Likely = 7 days, Pessimistic = 16 days. What is the Expected Duration (Te)?",
+      "options": [
+        "7.0 days",
+        "8.0 days",
+        "9.0 days",
+        "7.5 days"
+      ],
+      "answerIndex": 1,
+      "explanation": "Te = (O + 4M + P) / 6 = (4 + 4×7 + 16) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8.0 days.",
+      "category": "Time Management",
+      "level": "Medium",
+      "tags": [
+        "PERT",
+        "Expected Duration",
+        "Schedule Estimation"
+      ]
+    },
+    {
+      "question": "Which of the following BEST describes the difference between 'Work Performance Information' and 'Work Performance Data'?",
+      "options": [
+        "They are the same; both refer to raw project measurements",
+        "Work Performance Data is raw observations; Work Performance Information is data analyzed in context",
+        "Work Performance Information is raw data; Work Performance Data is the analyzed version",
+        "Work Performance Data is used in reports; Work Performance Information is used in planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Work Performance Data is raw observations (e.g., actual costs). Work Performance Information is that data analyzed in context (e.g., status of deliverables against the plan).",
+      "category": "Process Groups",
+      "level": "Medium",
+      "tags": [
+        "Work Performance Data",
+        "Work Performance Information",
+        "Monitoring"
+      ]
+    }
+  ]
+}
