@@ -1,0 +1,610 @@
+{
+  "title": "Project Management Principles - Module 3: Time & Cost Management",
+  "subtitle": "Comprehensive exam preparation quiz covering CPM, PERT, Gantt charts, and Earned Value Management",
+  "totalQuestions": 65,
+  "questions": [
+    {
+      "question": "What is the primary challenge for a project manager according to the module?",
+      "options": ["Meeting stakeholder expectations", "Meeting the deadline and the cost", "Managing team conflicts", "Documenting project scope"],
+      "answerIndex": 1,
+      "explanation": "The module explicitly states that the biggest challenge for a project manager is meeting the deadline and the cost.",
+      "category": "Project Time Management Fundamentals",
+      "level": "Easy",
+      "tags": ["PM basics", "challenges"]
+    },
+    {
+      "question": "Which of the following is NOT a core activity in the project time management process?",
+      "options": ["Definition of activities", "Scheduling activities", "Resource estimate", "Stakeholder communication"],
+      "answerIndex": 3,
+      "explanation": "The core activities listed in the module are: definition of activities, scheduling activities, resource estimate, estimated duration, preparation of the plan, and control of the plan.",
+      "category": "Project Time Management Fundamentals",
+      "level": "Easy",
+      "tags": ["time management", "core activities"]
+    },
+    {
+      "question": "What is a milestone in project management?",
+      "options": ["A task that takes one day to complete", "A very important event that has no duration and is used to monitor project progress", "A resource allocation point", "A budget checkpoint"],
+      "answerIndex": 1,
+      "explanation": "According to the module, a milestone is a very important event that has no duration and is used to monitor the progress of the project.",
+      "category": "Activity Definition & Sequencing",
+      "level": "Easy",
+      "tags": ["milestones", "project control"]
+    },
+    {
+      "question": "What is the purpose of sequencing in project management?",
+      "options": ["To assign budgets to activities", "To establish a logical sequence between network activities", "To identify resource conflicts", "To determine project stakeholders"],
+      "answerIndex": 1,
+      "explanation": "Sequencing is the establishment of a logical sequence between network activities. It ensures that all necessary steps happen correctly and helps optimize resources efficiently.",
+      "category": "Activity Definition & Sequencing",
+      "level": "Medium",
+      "tags": ["sequencing", "dependencies", "logic"]
+    },
+    {
+      "question": "Which dependency relationship allows activities to start before their predecessors finish?",
+      "options": ["Finish to Start", "Finish to Finish", "Start to Start", "Start to Finish"],
+      "answerIndex": 2,
+      "explanation": "Start to Start (SS) dependency allows activities to begin before their predecessors are complete. Both can start at the same time.",
+      "category": "Activity Definition & Sequencing",
+      "level": "Medium",
+      "tags": ["dependencies", "sequencing", "relationships"]
+    },
+    {
+      "question": "In the Finish to Finish dependency, what constraint exists?",
+      "options": ["The successor cannot start until the predecessor finishes", "The successor cannot finish until the predecessor finishes", "Both activities must have the same duration", "The successor must start before the predecessor"],
+      "answerIndex": 1,
+      "explanation": "In Finish to Finish (FF) dependency, the successor cannot finish until the predecessor finishes. Example: editing cannot finish until the first draft is finished.",
+      "category": "Activity Definition & Sequencing",
+      "level": "Medium",
+      "tags": ["dependencies", "finish-to-finish"]
+    },
+    {
+      "question": "What does the Start to Finish dependency represent?",
+      "options": ["Successor starts when predecessor starts", "Successor finishes when predecessor starts", "Successor finishes when predecessor finishes", "Successor starts when predecessor finishes"],
+      "answerIndex": 1,
+      "explanation": "Start to Finish (SF) dependency means the successor cannot finish until the predecessor starts. Example: old app version stays live until new version starts running.",
+      "category": "Activity Definition & Sequencing",
+      "level": "Medium",
+      "tags": ["dependencies", "start-to-finish"]
+    },
+    {
+      "question": "When was the PERT network technique created and by whom?",
+      "options": ["1950 by the US Army", "1958 by the US Navy", "1960 by NASA", "1965 by the Department of Defense"],
+      "answerIndex": 1,
+      "explanation": "PERT (Program Evaluation and Review Technique) was created in 1958 at the request of the US Navy.",
+      "category": "PERT Analysis",
+      "level": "Easy",
+      "tags": ["PERT", "history", "network"]
+    },
+    {
+      "question": "What is the primary focus of PERT?",
+      "options": ["Cost optimization", "Resource allocation", "The notions of flow and dependencies", "Team management"],
+      "answerIndex": 2,
+      "explanation": "PERT focuses on the notions of flow and dependencies and determines the critical path.",
+      "category": "PERT Analysis",
+      "level": "Easy",
+      "tags": ["PERT", "focus"]
+    },
+    {
+      "question": "What is the PERT formula for estimating activity duration?",
+      "options": ["(O + M + P) / 3", "(P + 4M + O) / 6", "(O + 2M + P) / 4", "(P + M + O) / 2"],
+      "answerIndex": 1,
+      "explanation": "The PERT formula is (P + 4M + O) / 6, where P is pessimistic, M is most likely, and O is optimistic time.",
+      "category": "PERT Analysis",
+      "level": "Medium",
+      "tags": ["PERT", "formula", "duration estimation"]
+    },
+    {
+      "question": "In the PERT formula, what does 'O' represent?",
+      "options": ["Overall time", "Optimistic time (best-case scenario)", "Operational time", "Overhead time"],
+      "answerIndex": 1,
+      "explanation": "O represents Optimistic Time, the best-case scenario or minimum amount of time an activity might take.",
+      "category": "PERT Analysis",
+      "level": "Easy",
+      "tags": ["PERT", "optimistic", "estimation"]
+    },
+    {
+      "question": "What does 'P' represent in the PERT formula?",
+      "options": ["Planned time", "Pessimistic time (worst-case scenario)", "Project time", "Parallel time"],
+      "answerIndex": 1,
+      "explanation": "P represents Pessimistic Time, the worst-case scenario or maximum amount of time an activity might take.",
+      "category": "PERT Analysis",
+      "level": "Easy",
+      "tags": ["PERT", "pessimistic", "estimation"]
+    },
+    {
+      "question": "Using the PERT formula with P=16 days, M=10 days, O=8 days, what is the estimated duration?",
+      "options": ["10.67 days", "11.33 days", "9.5 days", "12 days"],
+      "answerIndex": 0,
+      "explanation": "Using (P + 4M + O) / 6 = (16 + 40 + 8) / 6 = 64 / 6 = 10.67 days.",
+      "category": "PERT Analysis",
+      "level": "Medium",
+      "tags": ["PERT", "calculation", "formula"]
+    },
+    {
+      "question": "What is the Critical Path Method (CPM)?",
+      "options": ["A method to allocate resources", "A project management technique used to plan, schedule, and manage projects", "A cost estimation method", "A team communication strategy"],
+      "answerIndex": 1,
+      "explanation": "CPM is a project management technique used to plan, schedule, and manage projects by identifying the critical path.",
+      "category": "Critical Path Method",
+      "level": "Easy",
+      "tags": ["CPM", "definition"]
+    },
+    {
+      "question": "What is the critical path in a project network?",
+      "options": ["The shortest path through the network", "The path with the most activities", "The sequence of tasks that must be completed on time to ensure project completion", "The path with the highest cost"],
+      "answerIndex": 2,
+      "explanation": "The critical path is the sequence of tasks that must be completed on time to ensure the project is completed as scheduled. It is the longest path and cannot be delayed.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["critical path", "CPM"]
+    },
+    {
+      "question": "What is the float (slack) time in the Critical Path Method?",
+      "options": ["The total project duration", "The amount of time an activity can be delayed without affecting project completion", "The time between two milestones", "The resource allocation time"],
+      "answerIndex": 1,
+      "explanation": "Float or slack time is the amount of time that an activity can be delayed without affecting the project's completion time.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["float", "slack", "CPM"]
+    },
+    {
+      "question": "How is total float calculated in CPM?",
+      "options": ["Latest Start - Earliest Start", "Earliest End - Latest End", "Total Duration - Actual Duration", "Budget - Actual Cost"],
+      "answerIndex": 0,
+      "explanation": "Total float is calculated as: Latest Start - Earliest Start, or alternatively, Latest End - Earliest End.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["float", "calculation", "CPM"]
+    },
+    {
+      "question": "What does ES (Earliest Start) represent?",
+      "options": ["The latest time an activity can start", "Moving forward from start to finish, the earliest time an activity can start", "The expected schedule", "The estimated slack"],
+      "answerIndex": 1,
+      "explanation": "ES (Earliest Start) is calculated by moving from start to finish. It represents the earliest time an activity can start based on its predecessors.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["ES", "earliest start", "CPM"]
+    },
+    {
+      "question": "What does LS (Latest Start) represent?",
+      "options": ["The earliest time an activity can start", "Moving backward from finish to start, the latest time an activity can start without delaying the project", "The longest schedule", "The last scheduled time"],
+      "answerIndex": 1,
+      "explanation": "LS (Latest Start) is calculated by moving backward from finish to start. It represents the latest time an activity can start without delaying project completion.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["LS", "latest start", "CPM"]
+    },
+    {
+      "question": "What is the characteristic of activities on the critical path?",
+      "options": ["They have high float values", "They have zero float", "They are the shortest activities", "They require the most resources"],
+      "answerIndex": 1,
+      "explanation": "The critical path is the path where all activities have zero float. These activities cannot be delayed without affecting project completion.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["critical path", "float", "zero"]
+    },
+    {
+      "question": "What is backtracking in the Critical Path Method?",
+      "options": ["Reversing project decisions", "The process to determine the late start or late finish times for activities", "Removing activities from the schedule", "Reallocating resources"],
+      "answerIndex": 1,
+      "explanation": "Backtracking is the process to determine the late start or late finish times for activities, working backward from the project end date.",
+      "category": "Critical Path Method",
+      "level": "Medium",
+      "tags": ["backtracking", "CPM", "late times"]
+    },
+    {
+      "question": "What is fast-tracking in project management?",
+      "options": ["Increasing the project budget", "Running multiple activities on the critical path in parallel to reduce overall project time", "Reducing the scope of work", "Extending the project deadline"],
+      "answerIndex": 1,
+      "explanation": "Fast-tracking is running multiple activities on the critical path in parallel to reduce overall project time. Only possible for activities without hard dependencies.",
+      "category": "Schedule Optimization",
+      "level": "Medium",
+      "tags": ["fast-tracking", "optimization", "schedule"]
+    },
+    {
+      "question": "What is crashing in project management?",
+      "options": ["Project failure", "Allocating additional resources to an activity to bring it to completion faster", "Reducing project scope", "Delaying non-critical activities"],
+      "answerIndex": 1,
+      "explanation": "Crashing is allocating additional resources to an activity to bring it to completion faster, typically used when there is an early deadline.",
+      "category": "Schedule Optimization",
+      "level": "Medium",
+      "tags": ["crashing", "resources", "optimization"]
+    },
+    {
+      "question": "When should resources be diverted for crashing?",
+      "options": ["From activities on the critical path", "From high-float activities", "From the project manager", "From external contractors"],
+      "answerIndex": 1,
+      "explanation": "Resources should be diverted from high-float tasks (non-critical activities) for crashing, not from activities on the critical path.",
+      "category": "Schedule Optimization",
+      "level": "Medium",
+      "tags": ["crashing", "resources", "critical path"]
+    },
+    {
+      "question": "What is a Gantt chart?",
+      "options": ["A network diagram showing task dependencies", "A visual representation of a project schedule that displays tasks and their timelines", "A cost estimation tool", "A resource allocation matrix"],
+      "answerIndex": 1,
+      "explanation": "A Gantt chart is a visual representation of a project schedule with tasks listed on the left and timeline running horizontally.",
+      "category": "Gantt Charts",
+      "level": "Easy",
+      "tags": ["Gantt chart", "schedule", "visualization"]
+    },
+    {
+      "question": "What information does a Gantt chart display?",
+      "options": ["Only task names", "Tasks, timescale, dependencies, and float", "Only timescale", "Only resource allocation"],
+      "answerIndex": 1,
+      "explanation": "A Gantt chart displays tasks, timescale, dependencies between phases and tasks, and float or slack information.",
+      "category": "Gantt Charts",
+      "level": "Medium",
+      "tags": ["Gantt chart", "information", "visualization"]
+    },
+    {
+      "question": "What is the main advantage of using a Gantt chart?",
+      "options": ["Shows complex task dependencies", "User-friendly view and life to the project plan", "Calculates project costs", "Identifies team conflicts"],
+      "answerIndex": 1,
+      "explanation": "Gantt charts provide a user-friendly view and bring life to the project plan, allowing quick visualization of the critical path.",
+      "category": "Gantt Charts",
+      "level": "Medium",
+      "tags": ["Gantt chart", "advantages", "visualization"]
+    },
+    {
+      "question": "When should CPM be used instead of Gantt charts?",
+      "options": ["For simple projects", "When you need to track complex task dependencies and want a detailed view", "For budget planning only", "For resource allocation only"],
+      "answerIndex": 1,
+      "explanation": "CPM should be used when you need to track complex task dependencies and want a more detailed view of the project timeline.",
+      "category": "Gantt Charts",
+      "level": "Medium",
+      "tags": ["CPM", "Gantt", "comparison"]
+    },
+    {
+      "question": "What are the three types of cost estimates in project management?",
+      "options": ["Initial, Middle, Final", "Rough Order of Magnitude, Budgetary, Final", "Preliminary, Intermediate, Complete", "Estimated, Actual, Projected"],
+      "answerIndex": 1,
+      "explanation": "The three types are: Rough Order of Magnitude (ROM), Budgetary Estimate, and Final Estimate, each with different accuracy levels.",
+      "category": "Cost Estimation",
+      "level": "Medium",
+      "tags": ["cost estimation", "types", "accuracy"]
+    },
+    {
+      "question": "What is the accuracy range of a Rough Order of Magnitude (ROM) estimate?",
+      "options": ["±5%", "±10%", "±50%", "±25%"],
+      "answerIndex": 2,
+      "explanation": "ROM has an accuracy of about ±50%. It is used very early during the initiation phase when very little information is available.",
+      "category": "Cost Estimation",
+      "level": "Easy",
+      "tags": ["ROM", "accuracy", "estimation"]
+    },
+    {
+      "question": "When is a Budgetary Estimate typically used?",
+      "options": ["During project execution", "During planning to request approval and define the working budget", "At project closure", "During risk assessment"],
+      "answerIndex": 1,
+      "explanation": "Budgetary Estimate (±10% accuracy) is used during planning to request approval and define the working budget during the authorization phase.",
+      "category": "Cost Estimation",
+      "level": "Medium",
+      "tags": ["budgetary estimate", "planning", "approval"]
+    },
+    {
+      "question": "What is the accuracy range of a Final Estimate?",
+      "options": ["±50%", "±25%", "±10%", "±5%"],
+      "answerIndex": 3,
+      "explanation": "Final Estimate has an accuracy of about ±5% and is used after detailed planning and refined during project execution.",
+      "category": "Cost Estimation",
+      "level": "Easy",
+      "tags": ["final estimate", "accuracy", "execution"]
+    },
+    {
+      "question": "What are variable costs in project management?",
+      "options": ["Costs that remain constant", "Costs proportional to the amount of work (labor hours, materials, supplies)", "One-time setup costs", "Overhead expenses"],
+      "answerIndex": 1,
+      "explanation": "Variable costs are proportional to the amount of work, such as labor hours, materials, and supplies.",
+      "category": "Cost Management",
+      "level": "Easy",
+      "tags": ["variable costs", "cost types"]
+    },
+    {
+      "question": "What are fixed costs in project management?",
+      "options": ["Costs that change with volume", "Costs that do not change with volume changes (start-up costs, office rent)", "Labor costs", "Material costs"],
+      "answerIndex": 1,
+      "explanation": "Fixed costs do not change with volume changes, such as start-up costs, setting up, and renting office space.",
+      "category": "Cost Management",
+      "level": "Easy",
+      "tags": ["fixed costs", "cost types"]
+    },
+    {
+      "question": "What are direct costs in project management?",
+      "options": ["Costs shared across multiple projects", "Costs directly attributable to project work (team salaries, travel, awards)", "Overhead expenses", "Administrative costs"],
+      "answerIndex": 1,
+      "explanation": "Direct costs are directly attributable to the work of the project, such as travel of team members, recognition awards, and team salaries.",
+      "category": "Cost Management",
+      "level": "Easy",
+      "tags": ["direct costs", "cost types"]
+    },
+    {
+      "question": "What are indirect costs in project management?",
+      "options": ["Costs specific to one project", "Overheads or costs incurred for the benefit of more than one project (taxes, utilities, marketing)", "Labor costs", "Material costs"],
+      "answerIndex": 1,
+      "explanation": "Indirect costs are overheads or costs incurred for the benefit of more than one project, such as taxes, social security, and electricity.",
+      "category": "Cost Management",
+      "level": "Easy",
+      "tags": ["indirect costs", "cost types"]
+    },
+    {
+      "question": "What is the Earned Value Management (EVM) technique?",
+      "options": ["A method to allocate resources", "A project performance management technique that considers content, time, and cost elements", "A cost cutting strategy", "A team performance evaluation method"],
+      "answerIndex": 1,
+      "explanation": "EVM is a project performance management technique that takes into account content, time, and cost elements and compares actual situation versus baseline.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["EVM", "performance", "management"]
+    },
+    {
+      "question": "What does PV (Planned Value) represent in EVM?",
+      "options": ["Actual cost incurred", "The budgeted amount to complete an activity", "The work actually completed", "The schedule variance"],
+      "answerIndex": 1,
+      "explanation": "PV (Planned Value) is the budgeted amount to complete an activity. It is the project's budget or cumulative budget for an activity at a given time.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["PV", "planned value", "EVM"]
+    },
+    {
+      "question": "What does AC (Actual Cost) represent in EVM?",
+      "options": ["Planned budget", "The actual cost to perform the work or costs incurred on the project", "The work completed", "The time variance"],
+      "answerIndex": 1,
+      "explanation": "AC (Actual Cost) is the actual cost to perform the work or costs incurred on the project.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["AC", "actual cost", "EVM"]
+    },
+    {
+      "question": "What does EV (Earned Value) represent in EVM?",
+      "options": ["Planned value", "Actual cost", "The amount of budgeted work actually done for a task in a given period", "The schedule delay"],
+      "answerIndex": 2,
+      "explanation": "EV (Earned Value) is the amount of budgeted work actually done for a task in a given period, calculated as: Planned Value × percentage of completion.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["EV", "earned value", "EVM"]
+    },
+    {
+      "question": "What does BCWS represent in EVM terminology?",
+      "options": ["Budgeted Cost of Work Performed", "Budgeted Cost of Work Scheduled", "Budget Cost Work Status", "Baseline Cost Work Schedule"],
+      "answerIndex": 1,
+      "explanation": "BCWS (Budgeted Cost of Work Scheduled) is equivalent to PV (Planned Value).",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["BCWS", "terminology", "EVM"]
+    },
+    {
+      "question": "What does BCWP represent in EVM terminology?",
+      "options": ["Budgeted Cost of Work Performed", "Budgeted Cost of Work Planned", "Budget Cost Work Progress", "Baseline Cost Work Performance"],
+      "answerIndex": 0,
+      "explanation": "BCWP (Budgeted Cost of Work Performed) is equivalent to EV (Earned Value).",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["BCWP", "terminology", "EVM"]
+    },
+    {
+      "question": "What does ACWP represent in EVM terminology?",
+      "options": ["Actual Cost of Work Performed", "Actual Cost of Work Planned", "Actual Cost Work Progress", "Actual Cost Work Performance"],
+      "answerIndex": 0,
+      "explanation": "ACWP (Actual Cost of Work Performed) is equivalent to AC (Actual Cost).",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["ACWP", "terminology", "EVM"]
+    },
+    {
+      "question": "What is the Cost Variance (CV) formula in EVM?",
+      "options": ["BCWS - BCWP", "BCWP - ACWP", "ACWP - BCWP", "BCWS - ACWP"],
+      "answerIndex": 1,
+      "explanation": "CV (Cost Variance) = BCWP - ACWP. It indicates whether the project is under or over budget at a specific point in time.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["CV", "cost variance", "formula"]
+    },
+    {
+      "question": "What is the Schedule Variance (SV) formula in EVM?",
+      "options": ["BCWP - BCWS", "BCWS - ACWP", "ACWP - BCWP", "BCWS - BCWP"],
+      "answerIndex": 0,
+      "explanation": "SV (Schedule Variance) = BCWP - BCWS. It helps determine whether the project is ahead of, on, or behind schedule.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["SV", "schedule variance", "formula"]
+    },
+    {
+      "question": "What does a negative Cost Variance indicate?",
+      "options": ["Project is under budget", "Project is over budget", "Project is on schedule", "Project is ahead of schedule"],
+      "answerIndex": 1,
+      "explanation": "A negative CV indicates that BCWP < ACWP, meaning the project is over budget (spending more than planned).",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["CV", "negative", "over budget"]
+    },
+    {
+      "question": "What does a negative Schedule Variance indicate?",
+      "options": ["Project is ahead of schedule", "Project is on schedule", "Project is behind schedule", "Project is over budget"],
+      "answerIndex": 2,
+      "explanation": "A negative SV indicates that BCWP < BCWS, meaning the project is behind schedule (less work completed than planned).",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["SV", "negative", "behind schedule"]
+    },
+    {
+      "question": "What is the Cost Performance Index (CPI) formula?",
+      "options": ["BCWS / BCWP", "BCWP / ACWP", "ACWP / BCWP", "BCWS / ACWP"],
+      "answerIndex": 1,
+      "explanation": "CPI (Cost Performance Index) = BCWP / ACWP. It represents the efficiency of resource use.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["CPI", "performance index", "formula"]
+    },
+    {
+      "question": "What is the Schedule Performance Index (SPI) formula?",
+      "options": ["BCWS / BCWP", "BCWP / BCWS", "ACWP / BCWP", "BCWS / ACWP"],
+      "answerIndex": 1,
+      "explanation": "SPI (Schedule Performance Index) = BCWP / BCWS. It represents the effectiveness of schedule adherence.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["SPI", "performance index", "formula"]
+    },
+    {
+      "question": "What does a CPI less than 1 indicate?",
+      "options": ["Project is cost-efficient", "Project is cost-inefficient and could exceed budget", "Project is ahead of schedule", "Project is on budget"],
+      "answerIndex": 1,
+      "explanation": "CPI < 1 indicates that the value of work performed is less than the money spent. The project could exceed its budget.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["CPI", "less than 1", "inefficient"]
+    },
+    {
+      "question": "What does an SPI less than 1 indicate?",
+      "options": ["Project is ahead of schedule", "Project is on schedule", "Project is behind schedule", "Project is under budget"],
+      "answerIndex": 2,
+      "explanation": "SPI < 1 indicates that the work done is less than the planned work. The project is behind schedule.",
+      "category": "Earned Value Management",
+      "level": "Medium",
+      "tags": ["SPI", "less than 1", "behind schedule"]
+    },
+    {
+      "question": "In an EVM exercise with Budget 400k€, Duration 4 months, after 3 months with AC=200k€ and EV=100k€, what is the BCWS?",
+      "options": ["200k€", "300k€", "100k€", "400k€"],
+      "answerIndex": 1,
+      "explanation": "BCWS = (Budget / Duration) × Months Elapsed = (400k€ / 4) × 3 = 300k€",
+      "category": "Earned Value Management",
+      "level": "Hard",
+      "tags": ["EVM", "calculation", "BCWS"]
+    },
+    {
+      "question": "In the same EVM exercise, what is the Cost Variance (CV)?",
+      "options": ["100k€", "-100k€", "200k€", "-200k€"],
+      "answerIndex": 1,
+      "explanation": "CV = BCWP - ACWP = 100k€ - 200k€ = -100k€ (over budget)",
+      "category": "Earned Value Management",
+      "level": "Hard",
+      "tags": ["EVM", "calculation", "CV"]
+    },
+    {
+      "question": "In the same EVM exercise, what is the Schedule Variance (SV)?",
+      "options": ["100k€", "-100k€", "200k€", "-200k€"],
+      "answerIndex": 3,
+      "explanation": "SV = BCWP - BCWS = 100k€ - 300k€ = -200k€ (behind schedule)",
+      "category": "Earned Value Management",
+      "level": "Hard",
+      "tags": ["EVM", "calculation", "SV"]
+    },
+    {
+      "question": "In the same EVM exercise, what is the CPI?",
+      "options": ["0.5", "1.0", "1.5", "2.0"],
+      "answerIndex": 0,
+      "explanation": "CPI = BCWP / ACWP = 100k€ / 200k€ = 0.5 (50% cost-inefficient)",
+      "category": "Earned Value Management",
+      "level": "Hard",
+      "tags": ["EVM", "calculation", "CPI"]
+    },
+    {
+      "question": "In the same EVM exercise, what is the SPI?",
+      "options": ["0.33", "0.5", "1.0", "2.0"],
+      "answerIndex": 0,
+      "explanation": "SPI = BCWP / BCWS = 100k€ / 300k€ = 0.33 (33% schedule-ineffective)",
+      "category": "Earned Value Management",
+      "level": "Hard",
+      "tags": ["EVM", "calculation", "SPI"]
+    },
+    {
+      "question": "What is the Law of Diminishing Returns in project management?",
+      "options": ["Adding more resources always speeds up tasks", "It is not by adding twice as many resources that one can accomplish a task at half the time", "Resources should be equally distributed", "More resources always reduce costs"],
+      "answerIndex": 1,
+      "explanation": "The Law of Diminishing Returns states that it is not by adding twice as many resources for a task that one can accomplish this task at half the time.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": ["diminishing returns", "resources", "law"]
+    },
+    {
+      "question": "What is Value Analysis (Value Engineering) in cost management?",
+      "options": ["Increasing project scope", "Looking for less expensive ways to do the same job with the same content", "Reducing quality", "Cutting corners"],
+      "answerIndex": 1,
+      "explanation": "Value Analysis is looking for less expensive ways to do the same job with the same content.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": ["value analysis", "cost optimization"]
+    },
+    {
+      "question": "What is a contingency reserve in project budgeting?",
+      "options": ["Extra funds for known unknowns (known risks)", "Extra funds for unknown unknowns (unforeseen circumstances)", "The project baseline", "The total project budget"],
+      "answerIndex": 0,
+      "explanation": "Contingency reserve covers known unknowns (known risks) and is included in the baseline.",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": ["contingency reserve", "risk", "budget"]
+    },
+    {
+      "question": "What is a management reserve in project budgeting?",
+      "options": ["Funds for known risks", "Additional funds to cover unforeseen circumstances or certain changes", "The project baseline", "The approved budget"],
+      "answerIndex": 1,
+      "explanation": "Management reserve is additional funds to cover unforeseen circumstances or certain changes (unknown unknowns).",
+      "category": "Cost Management",
+      "level": "Medium",
+      "tags": ["management reserve", "contingency", "budget"]
+    },
+    {
+      "question": "What is an S-curve in project management?",
+      "options": ["A schedule curve", "A visual representation of a project's financial performance over time", "A resource allocation curve", "A risk assessment curve"],
+      "answerIndex": 1,
+      "explanation": "S-curve analysis offers a clear visual representation of a project's financial performance over time to monitor costs, identify variances, and make informed decisions.",
+      "category": "Project Control",
+      "level": "Medium",
+      "tags": ["S-curve", "financial performance", "monitoring"]
+    },
+    {
+      "question": "What is the purpose of project control in time management?",
+      "options": ["To increase project scope", "To monitor progress, identify variances, and manage alerts", "To reduce team size", "To extend deadlines"],
+      "answerIndex": 1,
+      "explanation": "Project control involves periodic progress reports, various performance measures, planning for the unexpected, and alert management in case of problems.",
+      "category": "Project Control",
+      "level": "Medium",
+      "tags": ["control", "monitoring", "performance"]
+    },
+    {
+      "question": "What is the difference between efficiency and effectiveness in project management?",
+      "options": ["They are the same thing", "Efficiency optimizes resource use; effectiveness ensures project goals are met", "Effectiveness is more important than efficiency", "Efficiency is about time; effectiveness is about cost"],
+      "answerIndex": 1,
+      "explanation": "Efficiency helps optimize resource use, while effectiveness ensures that the project is focused on the right goals and achieves meaningful results.",
+      "category": "Project Management Concepts",
+      "level": "Medium",
+      "tags": ["efficiency", "effectiveness", "concepts"]
+    },
+    {
+      "question": "What is a network diagram in project management?",
+      "options": ["A list of project activities", "A schematic display of relationships between project activities", "A budget breakdown", "A resource allocation chart"],
+      "answerIndex": 1,
+      "explanation": "A network diagram is a schematic display of the relationships between project activities, always drawn from left to right to reflect the order of the project.",
+      "category": "Network Diagrams",
+      "level": "Easy",
+      "tags": ["network diagram", "relationships", "activities"]
+    },
+    {
+      "question": "What is the main difference between PERT and CPM?",
+      "options": ["PERT is for small projects; CPM is for large projects", "PERT assumes uncertainty; CPM assumes certainty", "PERT is cheaper; CPM is more expensive", "PERT is faster; CPM is slower"],
+      "answerIndex": 1,
+      "explanation": "PERT assumes tasks are uncertain and uses probability distribution; CPM assumes tasks are well-defined and can be scheduled with certainty.",
+      "category": "Project Management Concepts",
+      "level": "Hard",
+      "tags": ["PERT", "CPM", "comparison"]
+    },
+    {
+      "question": "What should be considered when estimating activity duration?",
+      "options": ["Only the team size", "Level of difficulty, organization experience, and resource availability", "Only the budget", "Only the project scope"],
+      "answerIndex": 1,
+      "explanation": "To estimate duration, consider: level of difficulty, organization experience in execution, and availability and experience of necessary resources.",
+      "category": "Project Time Management Fundamentals",
+      "level": "Medium",
+      "tags": ["duration estimation", "considerations"]
+    },
+    {
+      "question": "What is the iterative process in duration estimation?",
+      "options": ["Estimating once and never changing", "Modifying estimates over time to be closer to reality", "Using only historical data", "Relying only on expert judgment"],
+      "answerIndex": 1,
+      "explanation": "The iterative process involves modifying estimates over time to be closer to reality as more information becomes available.",
+      "category": "Project Time Management Fundamentals",
+      "level": "Medium",
+      "tags": ["iterative", "estimation", "refinement"]
+    }
+  ]
+}
