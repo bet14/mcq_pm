@@ -142,6 +142,7 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap:12px;
       align-items:start;
+      margin-bottom: 24px;
     }
 
     .col{
@@ -238,6 +239,22 @@
       margin-top:3px;
     }
 
+    .image-section{
+      background: rgba(15, 23, 42, .72);
+      border:1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .image-section img{
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+
     @media (max-width: 1100px){
       .grid{grid-template-columns: repeat(2, minmax(0, 1fr))}
     }
@@ -295,6 +312,10 @@
           <li><a href="pmp_exam_quick_ref.pdf">PME cheatsheet</a></li>
         </ul>
       </div>
+    </div>
+
+    <div class="image-section">
+      <img src="https://f.hubspotusercontent40.net/hubfs/3294842/Process%20Groups.jpg" alt="Process Groups">
     </div>
   </div>
 </body>
