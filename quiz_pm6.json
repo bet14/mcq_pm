@@ -57,23 +57,24 @@
         "Methodology Selection"
       ]
     },
-    {
-      "question": "What are the 3 C's in Agile methodology?",
-      "options": [
-        "Code, Collaboration, Continuous Integration",
-        "The module mentions the 3 C's but does not explicitly define them",
-        "Change, Communication, Commitment",
-        "Customer, Cost, Cycle"
-      ],
-      "answerIndex": 1,
-      "explanation": "The module references the 3 C's in Agile but does not explicitly define what they are in the provided content.",
-      "category": "Agile Fundamentals",
-      "level": "Medium",
-      "tags": [
-        "Agile",
-        "Core Concepts"
-      ]
-    },
+{
+  "question": "What are the 3 C's in Agile methodology?",
+  "options": [
+    "Collaboration, Communication, Coordination",
+    "Collaboration, Communication, Commitment",
+    "Collaboration, Communication, Continuous Integration",
+    "Collaboration, Coordination, Commitment"
+  ],
+  "answerIndex": 0,
+  "explanation": "The 3 C's in Agile methodology are Collaboration (working together as a team), Communication (sharing information effectively), and Coordination (organizing efforts to achieve common goals). Các từ khác như Commitment và Continuous Integration là những khái niệm quan trọng khác trong Agile nhưng không phải là 3 C's chính thức.",
+  "category": "Agile Fundamentals",
+  "level": "Medium",
+  "tags": [
+    "Agile",
+    "Core Concepts",
+    "3 Cs"
+  ]
+},
     {
       "question": "Scrum is described as which type of framework?",
       "options": [
