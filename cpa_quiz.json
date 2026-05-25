@@ -1,0 +1,647 @@
+
+{
+  "title": "PERT vs Critical Path Method Quiz",
+  "subtitle": "Comprehensive assessment of project scheduling techniques",
+  "totalQuestions": 65,
+  "questions": [
+    {
+      "question": "What does PERT stand for?",
+      "options": ["Program Evaluation and Review Technique", "Project Estimation and Resource Tracking", "Performance Evaluation and Risk Treatment", "Planning Evaluation and Reporting Tool"],
+      "answerIndex": 0,
+      "explanation": "PERT is the acronym for Program Evaluation and Review Technique, developed by the U.S. Navy in 1958.",
+      "category": "Definitions",
+      "level": "Easy",
+      "tags": ["PERT", "Acronym", "Basics"]
+    },
+    {
+      "question": "What does CPM stand for?",
+      "options": ["Critical Path Management", "Critical Path Method", "Comprehensive Project Mapping", "Continuous Process Monitoring"],
+      "answerIndex": 1,
+      "explanation": "CPM stands for Critical Path Method, developed in 1957 by DuPont and Remington Rand.",
+      "category": "Definitions",
+      "level": "Easy",
+      "tags": ["CPM", "Acronym", "Basics"]
+    },
+    {
+      "question": "Which year was PERT developed?",
+      "options": ["1955", "1957", "1958", "1960"],
+      "answerIndex": 2,
+      "explanation": "PERT was developed in 1958 by the U.S. Navy for the Polaris missile program.",
+      "category": "Historical Context",
+      "level": "Easy",
+      "tags": ["PERT", "History", "Timeline"]
+    },
+    {
+      "question": "Which organization developed CPM?",
+      "options": ["U.S. Navy", "DuPont and Remington Rand", "NASA", "Bell Labs"],
+      "answerIndex": 1,
+      "explanation": "CPM was developed in 1957 by DuPont and Remington Rand for project scheduling.",
+      "category": "Historical Context",
+      "level": "Easy",
+      "tags": ["CPM", "History", "Development"]
+    },
+    {
+      "question": "What is the primary purpose of PERT?",
+      "options": ["To minimize project costs", "To handle uncertainty and variability in project durations", "To optimize resource allocation", "To reduce project scope"],
+      "answerIndex": 1,
+      "explanation": "PERT is designed to handle projects with high uncertainty in task durations using probabilistic estimates.",
+      "category": "PERT Concepts",
+      "level": "Medium",
+      "tags": ["PERT", "Purpose", "Uncertainty"]
+    },
+    {
+      "question": "What is the primary purpose of CPM?",
+      "options": ["To account for project uncertainty", "To identify the longest sequence of dependent activities", "To estimate three time scenarios", "To calculate probability distributions"],
+      "answerIndex": 1,
+      "explanation": "CPM identifies the critical path, which is the longest sequence of dependent activities that determines the minimum project duration.",
+      "category": "CPM Concepts",
+      "level": "Medium",
+      "tags": ["CPM", "Purpose", "Critical Path"]
+    },
+    {
+      "question": "How many time estimates does PERT require for each task?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answerIndex": 2,
+      "explanation": "PERT requires three time estimates: Optimistic (O), Most Likely (M), and Pessimistic (P).",
+      "category": "PERT Concepts",
+      "level": "Easy",
+      "tags": ["PERT", "Estimates", "Three-Point"]
+    },
+    {
+      "question": "How many time estimates does CPM require for each task?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answerIndex": 0,
+      "explanation": "CPM uses a single deterministic time estimate for each task.",
+      "category": "CPM Concepts",
+      "level": "Easy",
+      "tags": ["CPM", "Estimates", "Deterministic"]
+    },
+    {
+      "question": "What does the 'Optimistic' estimate in PERT represent?",
+      "options": ["The most probable duration", "The worst-case scenario", "The best-case scenario with everything going perfectly", "The average of all scenarios"],
+      "answerIndex": 2,
+      "explanation": "The Optimistic estimate (O) represents the best-case scenario where everything goes perfectly.",
+      "category": "PERT Concepts",
+      "level": "Easy",
+      "tags": ["PERT", "Optimistic", "Estimates"]
+    },
+    {
+      "question": "What does the 'Pessimistic' estimate in PERT represent?",
+      "options": ["The most probable duration", "The worst-case scenario with problems occurring", "The best-case scenario", "The median duration"],
+      "answerIndex": 1,
+      "explanation": "The Pessimistic estimate (P) represents the worst-case scenario where problems occur.",
+      "category": "PERT Concepts",
+      "level": "Easy",
+      "tags": ["PERT", "Pessimistic", "Estimates"]
+    },
+    {
+      "question": "What does the 'Most Likely' estimate in PERT represent?",
+      "options": ["The best-case scenario", "The worst-case scenario", "The most probable duration based on experience", "The average of optimistic and pessimistic"],
+      "answerIndex": 2,
+      "explanation": "The Most Likely estimate (M) is the most probable duration based on experience and historical data.",
+      "category": "PERT Concepts",
+      "level": "Easy",
+      "tags": ["PERT", "Most Likely", "Estimates"]
+    },
+    {
+      "question": "What is the PERT formula for expected duration?",
+      "options": ["(O + M + P) / 3", "(O + 2M + P) / 4", "(O + 4M + P) / 6", "(O + 3M + P) / 5"],
+      "answerIndex": 2,
+      "explanation": "The PERT expected duration formula is (O + 4M + P) / 6, which weights the most likely estimate more heavily.",
+      "category": "PERT Formulas",
+      "level": "Medium",
+      "tags": ["PERT", "Formula", "Expected Duration"]
+    },
+    {
+      "question": "What does the variance formula in PERT calculate?",
+      "options": ["The average task duration", "The measure of uncertainty and risk in the project schedule", "The total project cost", "The resource requirement"],
+      "answerIndex": 1,
+      "explanation": "Variance = [(P - O) / 6]² measures the uncertainty and risk in the project schedule.",
+      "category": "PERT Formulas",
+      "level": "Medium",
+      "tags": ["PERT", "Variance", "Risk"]
+    },
+    {
+      "question": "What is the variance formula in PERT?",
+      "options": ["[(P - O) / 3]²", "[(P - O) / 6]²", "[(P + O) / 6]²", "[(P - O) / 12]²"],
+      "answerIndex": 1,
+      "explanation": "The PERT variance formula is [(P - O) / 6]², which measures the spread of uncertainty.",
+      "category": "PERT Formulas",
+      "level": "Medium",
+      "tags": ["PERT", "Variance", "Formula"]
+    },
+    {
+      "question": "What is the approach used by PERT?",
+      "options": ["Deterministic", "Probabilistic", "Heuristic", "Empirical"],
+      "answerIndex": 1,
+      "explanation": "PERT uses a probabilistic approach, accounting for uncertainty through probability distributions.",
+      "category": "PERT Concepts",
+      "level": "Medium",
+      "tags": ["PERT", "Approach", "Probabilistic"]
+    },
+    {
+      "question": "What is the approach used by CPM?",
+      "options": ["Probabilistic", "Deterministic", "Stochastic", "Bayesian"],
+      "answerIndex": 1,
+      "explanation": "CPM uses a deterministic approach, assuming known and fixed task durations.",
+      "category": "CPM Concepts",
+      "level": "Medium",
+      "tags": ["CPM", "Approach", "Deterministic"]
+    },
+    {
+      "question": "What is the Critical Path in CPM?",
+      "options": ["The shortest sequence of activities", "The longest sequence of dependent activities", "The path with the least resources", "The path with the highest cost"],
+      "answerIndex": 1,
+      "explanation": "The Critical Path is the longest sequence of dependent activities that determines the minimum project duration.",
+      "category": "CPM Concepts",
+      "level": "Medium",
+      "tags": ["CPM", "Critical Path", "Definition"]
+    },
+    {
+      "question": "What does 'Float' or 'Slack' mean in CPM?",
+      "options": ["The total project duration", "The amount of time a task can be delayed without affecting the project end date", "The cost of a task", "The resource requirement"],
+      "answerIndex": 1,
+      "explanation": "Float (or Slack) is the amount of time a task can be delayed without affecting the project completion date.",
+      "category": "CPM Concepts",
+      "level": "Medium",
+      "tags": ["CPM", "Float", "Slack"]
+    },
+    {
+      "question": "What does ES stand for in CPM?",
+      "options": ["End Schedule", "Early Start", "Estimated Span", "External Schedule"],
+      "answerIndex": 1,
+      "explanation": "ES stands for Early Start, the earliest time a task can begin.",
+      "category": "CPM Concepts",
+      "level": "Easy",
+      "tags": ["CPM", "Early Start", "Abbreviation"]
+    },
+    {
+      "question": "What does EF stand for in CPM?",
+      "options": ["End Finish", "Early Finish", "Estimated Finish", "External Finish"],
+      "answerIndex": 1,
+      "explanation": "EF stands for Early Finish, the earliest time a task can be completed.",
+      "category": "CPM Concepts",
+      "level": "Easy",
+      "tags": ["CPM", "Early Finish", "Abbreviation"]
+    },
+    {
+      "question": "What does LS stand for in CPM?",
+      "options": ["Late Start", "Long Schedule", "Last Start", "Linear Sequence"],
+      "answerIndex": 0,
+      "explanation": "LS stands for Late Start, the latest time a task can begin without delaying the project.",
+      "category": "CPM Concepts",
+      "level": "Easy",
+      "tags": ["CPM", "Late Start", "Abbreviation"]
+    },
+    {
+      "question": "What does LF stand for in CPM?",
+      "options": ["Late Finish", "Long Finish", "Last Finish", "Linear Finish"],
+      "answerIndex": 0,
+      "explanation": "LF stands for Late Finish, the latest time a task can be completed without delaying the project.",
+      "category": "CPM Concepts",
+      "level": "Easy",
+      "tags": ["CPM", "Late Finish", "Abbreviation"]
+    },
+    {
+      "question": "What is the Float formula in CPM?",
+      "options": ["ES - LS", "EF - LF", "LS - ES", "EF - ES"],
+      "answerIndex": 2,
+      "explanation": "Float = LS - ES (or equivalently, LF - EF), representing the slack time available.",
+      "category": "CPM Formulas",
+      "level": "Medium",
+      "tags": ["CPM", "Float", "Formula"]
+    },
+    {
+      "question": "Which technique is better for R&D projects?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is better for R&D projects because they have high uncertainty in task durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Use Cases", "Research"]
+    },
+    {
+      "question": "Which technique is better for construction projects?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is better for construction projects because they have well-defined tasks with predictable durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Use Cases", "Construction"]
+    },
+    {
+      "question": "Which technique is more suitable for manufacturing projects?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is more suitable for manufacturing projects with established processes and known cycle times.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Use Cases", "Manufacturing"]
+    },
+    {
+      "question": "Which technique is more suitable for software development with evolving requirements?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is more suitable for complex software projects with evolving requirements and unpredictable technical challenges.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Use Cases", "Software"]
+    },
+    {
+      "question": "Which technique is more suitable for aerospace and defense projects?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is more suitable for aerospace and defense projects with significant uncertainty.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Use Cases", "Aerospace"]
+    },
+    {
+      "question": "Which technique requires more time and resources for planning?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT requires more time and resources because it requires three estimates per task and statistical analysis.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["PERT", "Complexity", "Resources"]
+    },
+    {
+      "question": "Which technique is simpler and more straightforward?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is simpler because it requires only single time estimates and straightforward calculations.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["CPM", "Simplicity", "Ease"]
+    },
+    {
+      "question": "Which technique explicitly accounts for project uncertainty?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT explicitly accounts for project uncertainty through probabilistic estimates and variance calculations.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["PERT", "Uncertainty", "Risk"]
+    },
+    {
+      "question": "Which technique assumes known task durations?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM assumes known and fixed task durations in its deterministic approach.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["CPM", "Assumptions", "Deterministic"]
+    },
+    {
+      "question": "What is the focus of PERT?",
+      "options": ["Resource optimization", "Risk and probability analysis", "Cost minimization", "Scope management"],
+      "answerIndex": 1,
+      "explanation": "PERT focuses on risk and probability analysis to handle uncertainty in project scheduling.",
+      "category": "PERT Concepts",
+      "level": "Medium",
+      "tags": ["PERT", "Focus", "Risk"]
+    },
+    {
+      "question": "What is the focus of CPM?",
+      "options": ["Risk analysis", "Schedule optimization and resource management", "Probability distribution", "Variance calculation"],
+      "answerIndex": 1,
+      "explanation": "CPM focuses on schedule optimization and resource management to identify critical tasks.",
+      "category": "CPM Concepts",
+      "level": "Medium",
+      "tags": ["CPM", "Focus", "Optimization"]
+    },
+    {
+      "question": "Which technique is better for identifying risk areas early?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is better for identifying risk areas early through variance and probability analysis.",
+      "category": "PERT Advantages",
+      "level": "Medium",
+      "tags": ["PERT", "Risk", "Advantages"]
+    },
+    {
+      "question": "Which technique provides clear identification of critical tasks?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM provides clear identification of critical tasks through the critical path analysis.",
+      "category": "CPM Advantages",
+      "level": "Medium",
+      "tags": ["CPM", "Critical Path", "Advantages"]
+    },
+    {
+      "question": "Which technique is more suitable for event planning?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is more suitable for event planning with known sequences and durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Use Cases", "Events"]
+    },
+    {
+      "question": "Which technique is more suitable for medical research projects?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is more suitable for medical research with inherent variability and uncertainty.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Use Cases", "Medical"]
+    },
+    {
+      "question": "What is a disadvantage of PERT?",
+      "options": ["It ignores uncertainty", "It is more time-consuming and complex", "It provides no risk information", "It assumes fixed durations"],
+      "answerIndex": 1,
+      "explanation": "A disadvantage of PERT is that it is more time-consuming and complex, requiring three estimates per task.",
+      "category": "PERT Disadvantages",
+      "level": "Medium",
+      "tags": ["PERT", "Disadvantages", "Complexity"]
+    },
+    {
+      "question": "What is a disadvantage of CPM?",
+      "options": ["It is too complex", "It ignores project uncertainty", "It requires three estimates", "It is too expensive"],
+      "answerIndex": 1,
+      "explanation": "A disadvantage of CPM is that it ignores project uncertainty and assumes fixed durations.",
+      "category": "CPM Disadvantages",
+      "level": "Medium",
+      "tags": ["CPM", "Disadvantages", "Uncertainty"]
+    },
+    {
+      "question": "Which technique requires statistical knowledge?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT requires statistical knowledge for variance calculations and probability analysis.",
+      "category": "PERT Disadvantages",
+      "level": "Medium",
+      "tags": ["PERT", "Statistical", "Knowledge"]
+    },
+    {
+      "question": "Which technique is less intuitive for stakeholders?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is less intuitive for stakeholders because of its probabilistic approach and statistical concepts.",
+      "category": "PERT Disadvantages",
+      "level": "Medium",
+      "tags": ["PERT", "Stakeholders", "Communication"]
+    },
+    {
+      "question": "Which technique can be overkill for simple projects?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT can be overkill for simple projects because of its complexity and resource requirements.",
+      "category": "PERT Disadvantages",
+      "level": "Medium",
+      "tags": ["PERT", "Overkill", "Simple Projects"]
+    },
+    {
+      "question": "Which technique may underestimate project duration?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM may underestimate project duration because it doesn't account for uncertainty and risk variations.",
+      "category": "CPM Disadvantages",
+      "level": "Medium",
+      "tags": ["CPM", "Underestimate", "Risk"]
+    },
+    {
+      "question": "Which technique is better for projects with historical data on task durations?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is better for projects with historical data because it uses deterministic estimates based on known durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Historical Data", "Use Cases"]
+    },
+    {
+      "question": "Which technique provides variance and standard deviation?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT provides variance and standard deviation to measure uncertainty and risk.",
+      "category": "PERT Advantages",
+      "level": "Medium",
+      "tags": ["PERT", "Variance", "Statistics"]
+    },
+    {
+      "question": "Which technique is more flexible with changing estimates?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is more flexible with changing estimates as the project progresses and more information becomes available.",
+      "category": "PERT Advantages",
+      "level": "Medium",
+      "tags": ["PERT", "Flexibility", "Adaptability"]
+    },
+    {
+      "question": "Which technique is excellent for resource optimization?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is excellent for resource optimization by identifying critical tasks and float.",
+      "category": "CPM Advantages",
+      "level": "Medium",
+      "tags": ["CPM", "Resources", "Optimization"]
+    },
+    {
+      "question": "Which technique works well for routine projects?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM works well for routine projects with established processes and predictable durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Routine", "Use Cases"]
+    },
+    {
+      "question": "What is the original use case for PERT?",
+      "options": ["Construction", "Manufacturing", "Polaris missile program", "Event planning"],
+      "answerIndex": 2,
+      "explanation": "PERT was originally developed for the Polaris missile program by the U.S. Navy.",
+      "category": "Historical Context",
+      "level": "Easy",
+      "tags": ["PERT", "History", "Polaris"]
+    },
+    {
+      "question": "What is the original use case for CPM?",
+      "options": ["Aerospace", "Construction", "DuPont chemical plant projects", "Software development"],
+      "answerIndex": 2,
+      "explanation": "CPM was originally developed by DuPont and Remington Rand for project scheduling.",
+      "category": "Historical Context",
+      "level": "Easy",
+      "tags": ["CPM", "History", "DuPont"]
+    },
+    {
+      "question": "Which technique is better for innovative projects?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is better for innovative projects exploring new technologies with unpredictable outcomes.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Innovation", "Use Cases"]
+    },
+    {
+      "question": "Which technique assumes activities are independent?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM assumes activities are independent, which is a limitation when activities have complex dependencies.",
+      "category": "CPM Disadvantages",
+      "level": "Hard",
+      "tags": ["CPM", "Assumptions", "Dependencies"]
+    },
+    {
+      "question": "Which technique provides probability-based estimates?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT provides probability-based estimates through its three-point estimation and statistical analysis.",
+      "category": "PERT Advantages",
+      "level": "Medium",
+      "tags": ["PERT", "Probability", "Estimates"]
+    },
+    {
+      "question": "What is the main difference in how PERT and CPM handle uncertainty?",
+      "options": ["PERT ignores it, CPM accounts for it", "CPM ignores it, PERT accounts for it", "Both ignore it", "Both account for it equally"],
+      "answerIndex": 1,
+      "explanation": "PERT explicitly accounts for uncertainty through probabilistic estimates, while CPM ignores it by using deterministic estimates.",
+      "category": "Comparison",
+      "level": "Hard",
+      "tags": ["PERT", "CPM", "Uncertainty", "Comparison"]
+    },
+    {
+      "question": "In PERT, if O=1, M=4, and P=13, what is the expected duration?",
+      "options": ["5", "6", "7", "8"],
+      "answerIndex": 0,
+      "explanation": "Expected Duration = (1 + 4*4 + 13) / 6 = (1 + 16 + 13) / 6 = 30 / 6 = 5 days.",
+      "category": "PERT Calculations",
+      "level": "Hard",
+      "tags": ["PERT", "Formula", "Calculation"]
+    },
+    {
+      "question": "In PERT, if O=3, M=6, and P=15, what is the variance?",
+      "options": ["4", "2", "1", "3"],
+      "answerIndex": 0,
+      "explanation": "Variance = [(P - O) / 6]² = [(15 - 3) / 6]² = [12 / 6]² = 2² = 4.",
+      "category": "PERT Calculations",
+      "level": "Hard",
+      "tags": ["PERT", "Variance", "Calculation"]
+    },
+    {
+      "question": "In PERT, if O=2, M=5, and P=20, what is the variance?",
+      "options": ["9", "4", "1", "16"],
+      "answerIndex": 0,
+      "explanation": "Variance = [(P - O) / 6]² = [(20 - 2) / 6]² = [18 / 6]² = 3² = 9.",
+      "category": "PERT Calculations",
+      "level": "Hard",
+      "tags": ["PERT", "Variance", "Calculation"]
+    },
+    {
+      "question": "In CPM, if ES=5 and LS=8, what is the Float?",
+      "options": ["3", "5", "8", "13"],
+      "answerIndex": 0,
+      "explanation": "Float = LS - ES = 8 - 5 = 3.",
+      "category": "CPM Calculations",
+      "level": "Hard",
+      "tags": ["CPM", "Float", "Calculation"]
+    },
+    {
+      "question": "In CPM, if EF=10 and LF=15, what is the Float?",
+      "options": ["5", "10", "15", "25"],
+      "answerIndex": 0,
+      "explanation": "Float = LF - EF = 15 - 10 = 5.",
+      "category": "CPM Calculations",
+      "level": "Hard",
+      "tags": ["CPM", "Float", "Calculation"]
+    },
+    {
+      "question": "Which technique is more suitable for system implementation projects?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is more suitable for system implementation (ERP, CRM) with defined phases and known durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Implementation", "Use Cases"]
+    },
+    {
+      "question": "Which technique is more suitable for maintenance and routine operations?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is more suitable for maintenance and routine operations with repetitive tasks and historical data.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Maintenance", "Use Cases"]
+    },
+    {
+      "question": "What is the key advantage of PERT over CPM?",
+      "options": ["It is simpler", "It accounts for uncertainty", "It requires fewer estimates", "It is cheaper"],
+      "answerIndex": 1,
+      "explanation": "The key advantage of PERT is that it accounts for project uncertainty through probabilistic estimates.",
+      "category": "Comparison",
+      "level": "Hard",
+      "tags": ["PERT", "Advantages", "Comparison"]
+    },
+    {
+      "question": "What is the key advantage of CPM over PERT?",
+      "options": ["It accounts for uncertainty", "It is simpler and requires fewer resources", "It provides variance analysis", "It uses three estimates"],
+      "answerIndex": 1,
+      "explanation": "The key advantage of CPM is that it is simpler and requires fewer resources for planning and analysis.",
+      "category": "Comparison",
+      "level": "Hard",
+      "tags": ["CPM", "Advantages", "Comparison"]
+    },
+    {
+      "question": "Which technique is better when project outcomes are uncertain?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is better when project outcomes are uncertain because it uses probabilistic estimates.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["PERT", "Uncertainty", "Comparison"]
+    },
+    {
+      "question": "Which technique is better when project outcomes are predictable?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is better when project outcomes are predictable because it uses deterministic estimates.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["CPM", "Predictable", "Comparison"]
+    },
+    {
+      "question": "Can PERT and CPM be used together in a project?",
+      "options": ["No, they are mutually exclusive", "Yes, they can complement each other", "Only in research projects", "Only in construction projects"],
+      "answerIndex": 1,
+      "explanation": "PERT and CPM can be used together; PERT for risk analysis and CPM for schedule optimization.",
+      "category": "Integration",
+      "level": "Hard",
+      "tags": ["PERT", "CPM", "Integration"]
+    },
+    {
+      "question": "What type of projects typically use PERT?",
+      "options": ["Routine and repetitive projects", "Research, R&D, and innovative projects", "Construction projects", "Manufacturing projects"],
+      "answerIndex": 1,
+      "explanation": "PERT is typically used for research, R&D, and innovative projects with high uncertainty.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["PERT", "Project Types", "Use Cases"]
+    },
+    {
+      "question": "What type of projects typically use CPM?",
+      "options": ["Research projects", "Innovative projects", "Construction, manufacturing, and routine projects", "Aerospace projects"],
+      "answerIndex": 2,
+      "explanation": "CPM is typically used for construction, manufacturing, and routine projects with known durations.",
+      "category": "Use Cases",
+      "level": "Medium",
+      "tags": ["CPM", "Project Types", "Use Cases"]
+    },
+    {
+      "question": "Which technique is more accurate for uncertain environments?",
+      "options": ["CPM", "PERT", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "PERT is more accurate for uncertain environments because it accounts for uncertainty through probabilistic estimates.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["PERT", "Accuracy", "Uncertainty"]
+    },
+    {
+      "question": "Which technique is more accurate for predictable environments?",
+      "options": ["PERT", "CPM", "Both equally", "Neither"],
+      "answerIndex": 1,
+      "explanation": "CPM is more accurate for predictable environments where task durations are known and fixed.",
+      "category": "Comparison",
+      "level": "Medium",
+      "tags": ["CPM", "Accuracy", "Predictable"]
+    }
+  ]
+}
