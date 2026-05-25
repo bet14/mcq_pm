@@ -1,0 +1,1001 @@
+{
+  "title": "Agile & Hybrid Project Management Comprehensive Quiz",
+  "subtitle": "Master Agile, Kanban, Hybrid models, and Agile frameworks with 60+ exam-oriented questions",
+  "totalQuestions": 71,
+  "questions": [
+    {
+      "question": "What is the primary focus of Agile Project Management?",
+      "options": [
+        "Delivering value in small, manageable increments through iterative cycles",
+        "Planning everything upfront before execution begins",
+        "Maximizing documentation and formal processes",
+        "Following a strict sequential approach"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile emphasizes iterative and incremental delivery of value rather than waiting for a complete final product. This allows for continuous feedback and adaptation.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": ["Agile", "Definition", "Core Concepts"]
+    },
+    {
+      "question": "Which of the following is NOT one of the four core principles of the Agile Manifesto?",
+      "options": [
+        "Individuals and interactions over processes and tools",
+        "Maximizing project documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Agile Manifesto values working software over comprehensive documentation. Maximizing documentation contradicts this principle.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": ["Agile Manifesto", "Principles", "Core Values"]
+    },
+    {
+      "question": "What is the typical duration of a sprint in Scrum?",
+      "options": [
+        "1-4 weeks",
+        "1-2 months",
+        "2-6 months",
+        "1 year"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scrum sprints are typically time-boxed iterations lasting between 1 to 4 weeks, with 2 weeks being a common duration.",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": ["Scrum", "Sprint", "Time-boxing"]
+    },
+    {
+      "question": "In Kanban, what does WIP stand for?",
+      "options": [
+        "Work In Progress",
+        "Weekly Implementation Plan",
+        "Workflow Integration Process",
+        "Work Initiation Protocol"
+      ],
+      "answerIndex": 0,
+      "explanation": "WIP (Work In Progress) limits are a key feature of Kanban, restricting the maximum number of items that can be in each column of the Kanban board.",
+      "category": "Kanban",
+      "level": "Easy",
+      "tags": ["Kanban", "WIP Limits", "Continuous Flow"]
+    },
+    {
+      "question": "What is the main difference between Agile and Kanban regarding iterations?",
+      "options": [
+        "Agile uses fixed time-boxed sprints while Kanban uses continuous flow",
+        "Kanban uses sprints while Agile uses continuous flow",
+        "Both use the same iteration approach",
+        "Agile has no iterations while Kanban has fixed sprints"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile (Scrum) operates with fixed time-boxed sprints (1-4 weeks), while Kanban emphasizes continuous flow without fixed sprint boundaries.",
+      "category": "Agile vs Kanban",
+      "level": "Medium",
+      "tags": ["Agile", "Kanban", "Comparison", "Iterations"]
+    },
+    {
+      "question": "Which metric is primarily used in Agile/Scrum to measure team productivity?",
+      "options": [
+        "Velocity",
+        "Lead time",
+        "Throughput",
+        "Cycle time"
+      ],
+      "answerIndex": 0,
+      "explanation": "Velocity measures the amount of work completed in a sprint and is used to predict future sprint capacity. Lead time, throughput, and cycle time are Kanban metrics.",
+      "category": "Agile Metrics",
+      "level": "Medium",
+      "tags": ["Scrum", "Metrics", "Velocity", "Measurement"]
+    },
+    {
+      "question": "What are the three key metrics used in Kanban?",
+      "options": [
+        "Lead time, cycle time, and throughput",
+        "Velocity, burndown, and burnup",
+        "Sprint velocity, capacity, and utilization",
+        "Scope, schedule, and budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanban uses lead time (total time from request to delivery), cycle time (time in active work), and throughput (items completed per period) to measure performance.",
+      "category": "Kanban Metrics",
+      "level": "Medium",
+      "tags": ["Kanban", "Metrics", "Measurement"]
+    },
+    {
+      "question": "What is the primary role of a Product Owner in Scrum?",
+      "options": [
+        "Manages the product backlog and prioritizes requirements",
+        "Removes impediments and facilitates ceremonies",
+        "Writes code and delivers features",
+        "Manages project budget and timeline"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Product Owner is responsible for maintaining and prioritizing the product backlog, ensuring the team works on the most valuable items.",
+      "category": "Scrum Roles",
+      "level": "Easy",
+      "tags": ["Scrum", "Product Owner", "Roles"]
+    },
+    {
+      "question": "What is the primary responsibility of a Scrum Master?",
+      "options": [
+        "Removes impediments and facilitates Scrum ceremonies",
+        "Manages the product backlog and prioritizes features",
+        "Writes and reviews code",
+        "Reports project status to executives"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Scrum Master acts as a servant-leader, removing obstacles, facilitating ceremonies (standup, planning, review, retrospective), and coaching the team.",
+      "category": "Scrum Roles",
+      "level": "Easy",
+      "tags": ["Scrum", "Scrum Master", "Roles"]
+    },
+    {
+      "question": "Which Agile ceremony is held daily and typically lasts 15 minutes?",
+      "options": [
+        "Daily Standup",
+        "Sprint Planning",
+        "Sprint Review",
+        "Sprint Retrospective"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Daily Standup (or Daily Scrum) is a 15-minute time-boxed meeting held every day where team members discuss what they did, what they'll do, and any blockers.",
+      "category": "Scrum Ceremonies",
+      "level": "Easy",
+      "tags": ["Scrum", "Ceremonies", "Daily Standup"]
+    },
+    {
+      "question": "What is the purpose of a Sprint Retrospective?",
+      "options": [
+        "To reflect on the sprint and identify improvements",
+        "To review completed work with stakeholders",
+        "To plan the next sprint's work items",
+        "To estimate story points for backlog items"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Sprint Retrospective is a ceremony where the team reflects on what went well, what didn't, and what improvements can be made in the next sprint.",
+      "category": "Scrum Ceremonies",
+      "level": "Easy",
+      "tags": ["Scrum", "Retrospective", "Continuous Improvement"]
+    },
+    {
+      "question": "When is Agile MOST appropriate for a project?",
+      "options": [
+        "When requirements are unclear or evolving, and customer feedback is frequent",
+        "When requirements are fixed and well-defined from the start",
+        "When the project has strict regulatory compliance requirements",
+        "When predictability is the absolute priority"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile thrives in environments with uncertain or evolving requirements, frequent customer availability, and a need for flexibility and rapid feedback.",
+      "category": "When to Use Agile",
+      "level": "Medium",
+      "tags": ["Agile", "Applicability", "Project Selection"]
+    },
+    {
+      "question": "Which scenario is NOT suitable for Agile methodology?",
+      "options": [
+        "Building a bridge with fixed scope and regulatory requirements",
+        "Developing a mobile app with evolving features",
+        "Creating a startup MVP",
+        "Digital transformation initiative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Large-scale infrastructure projects like bridge building have fixed requirements, strict regulatory compliance, and sequential dependencies that make Agile unsuitable.",
+      "category": "When to Use Agile",
+      "level": "Medium",
+      "tags": ["Agile", "Applicability", "Limitations"]
+    },
+    {
+      "question": "What is Hybrid Project Management?",
+      "options": [
+        "A combination of traditional/predictive and Agile approaches tailored to project needs",
+        "Using only Agile methods for all projects",
+        "Using only traditional methods for all projects",
+        "Switching between Agile and Waterfall randomly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hybrid Project Management strategically combines predictive planning for stable elements with Agile practices for uncertain, evolving components.",
+      "category": "Hybrid Models",
+      "level": "Medium",
+      "tags": ["Hybrid", "Definition", "Blended Approach"]
+    },
+    {
+      "question": "Why would an organization adopt a Hybrid Project Management approach?",
+      "options": [
+        "To balance predictability requirements with flexibility needs across different project phases",
+        "Because Agile is always better than traditional methods",
+        "Because traditional methods are always superior",
+        "To avoid making decisions about methodology"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hybrid approaches are adopted when different project phases or components have different needs—some requiring predictability and others requiring flexibility.",
+      "category": "Hybrid Models",
+      "level": "Medium",
+      "tags": ["Hybrid", "Rationale", "Organizational Strategy"]
+    },
+    {
+      "question": "In a Hybrid model, which phase would typically use predictive/traditional planning?",
+      "options": [
+        "Infrastructure setup with fixed scope and sequential dependencies",
+        "Feature development with evolving requirements",
+        "User acceptance testing with changing criteria",
+        "All phases equally"
+      ],
+      "answerIndex": 0,
+      "explanation": "Predictive planning is best for phases with fixed scope, clear requirements, and sequential dependencies, like infrastructure setup. Feature development typically uses Agile.",
+      "category": "Hybrid Models",
+      "level": "Medium",
+      "tags": ["Hybrid", "Planning", "Phase Management"]
+    },
+    {
+      "question": "What is Scrum?",
+      "options": [
+        "A popular Agile framework with defined roles, artifacts, and ceremonies",
+        "A waterfall-based project management method",
+        "A continuous flow approach without sprints",
+        "A type of risk management technique"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scrum is the most widely used Agile framework, featuring specific roles (Product Owner, Scrum Master, Team), artifacts (backlogs, increments), and ceremonies (standups, planning, reviews).",
+      "category": "Scrum Framework",
+      "level": "Easy",
+      "tags": ["Scrum", "Framework", "Definition"]
+    },
+    {
+      "question": "What is the Product Backlog in Scrum?",
+      "options": [
+        "A prioritized list of all features, enhancements, and fixes for the product",
+        "A list of completed work items from previous sprints",
+        "The work planned for the current sprint",
+        "A list of team members and their skills"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Product Backlog is a dynamic, prioritized list maintained by the Product Owner containing all desired work for the product, ordered by business value.",
+      "category": "Scrum Artifacts",
+      "level": "Easy",
+      "tags": ["Scrum", "Product Backlog", "Artifacts"]
+    },
+    {
+      "question": "What is the Sprint Backlog?",
+      "options": [
+        "The subset of Product Backlog items selected for the current sprint plus the plan to deliver them",
+        "A list of all features that will never be built",
+        "The completed work from all previous sprints",
+        "A document describing the team's vacation schedule"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Sprint Backlog contains the Product Backlog items committed to in the sprint plus the tasks needed to deliver them, created during Sprint Planning.",
+      "category": "Scrum Artifacts",
+      "level": "Easy",
+      "tags": ["Scrum", "Sprint Backlog", "Artifacts"]
+    },
+    {
+      "question": "What is an Increment in Scrum?",
+      "options": [
+        "The sum of all completed Product Backlog items at the end of a sprint",
+        "The amount of money spent in a sprint",
+        "The number of bugs found during testing",
+        "The increase in team size"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Increment is the complete, usable product result of a sprint—the sum of all Product Backlog items completed during the sprint and all previous sprints.",
+      "category": "Scrum Artifacts",
+      "level": "Easy",
+      "tags": ["Scrum", "Increment", "Artifacts"]
+    },
+    {
+      "question": "What happens during Sprint Planning?",
+      "options": [
+        "The team selects items from the Product Backlog and creates a plan to deliver them in the sprint",
+        "The team reviews completed work with stakeholders",
+        "The team identifies improvements for the next sprint",
+        "The team estimates the budget for the project"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sprint Planning is where the Product Owner presents prioritized items, the team selects what they can commit to, and they create a plan for delivering those items.",
+      "category": "Scrum Ceremonies",
+      "level": "Easy",
+      "tags": ["Scrum", "Sprint Planning", "Ceremonies"]
+    },
+    {
+      "question": "What is the purpose of a Sprint Review?",
+      "options": [
+        "To demonstrate completed work to stakeholders and gather feedback",
+        "To identify team improvements for the next sprint",
+        "To plan the work for the upcoming sprint",
+        "To estimate the cost of features"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Sprint Review is where the team demonstrates the completed Increment to stakeholders and gathers feedback to inform future Product Backlog decisions.",
+      "category": "Scrum Ceremonies",
+      "level": "Easy",
+      "tags": ["Scrum", "Sprint Review", "Ceremonies"]
+    },
+    {
+      "question": "What is Kanban?",
+      "options": [
+        "A continuous flow approach that visualizes work and limits work-in-progress",
+        "A time-boxed iterative framework like Scrum",
+        "A traditional waterfall methodology",
+        "A project management tool for budgeting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanban is a pull-based system that visualizes workflow on a board, limits WIP, and enables continuous delivery without fixed sprints.",
+      "category": "Kanban",
+      "level": "Easy",
+      "tags": ["Kanban", "Definition", "Continuous Flow"]
+    },
+    {
+      "question": "How does Kanban differ from Scrum in terms of change management?",
+      "options": [
+        "Kanban allows changes anytime, while Scrum prefers changes between sprints",
+        "Scrum allows changes anytime, while Kanban prevents all changes",
+        "Both prevent changes during execution",
+        "Both allow changes only at the end of the project"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanban's continuous flow allows work items to be added or reprioritized at any time, while Scrum's sprints provide a stable window where changes are minimized.",
+      "category": "Agile vs Kanban",
+      "level": "Medium",
+      "tags": ["Kanban", "Scrum", "Change Management"]
+    },
+    {
+      "question": "When is Kanban most appropriate?",
+      "options": [
+        "For continuous operations, support teams, or maintenance work with varying priorities",
+        "For projects with clear end dates and defined deliverables",
+        "For hardware manufacturing with fixed sequences",
+        "For regulatory compliance projects"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanban excels in environments with continuous work, frequent priority changes, and no clear project endpoint, like support teams and maintenance operations.",
+      "category": "When to Use Kanban",
+      "level": "Medium",
+      "tags": ["Kanban", "Applicability", "Use Cases"]
+    },
+    {
+      "question": "What is Lean methodology?",
+      "options": [
+        "A framework focused on eliminating waste and maximizing value delivery",
+        "A strict hierarchical management approach",
+        "A method that requires extensive documentation",
+        "A project management tool for scheduling"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lean is rooted in manufacturing principles, emphasizing the elimination of waste (muda), continuous improvement (kaizen), and delivering maximum value efficiently.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": ["Lean", "Framework", "Waste Elimination"]
+    },
+    {
+      "question": "What is Extreme Programming (XP)?",
+      "options": [
+        "An engineering-focused Agile framework emphasizing code quality and technical practices",
+        "A high-risk project management approach",
+        "A framework for managing large enterprises",
+        "A method for budgeting and cost control"
+      ],
+      "answerIndex": 0,
+      "explanation": "XP is an Agile framework emphasizing technical excellence through practices like pair programming, test-driven development, continuous integration, and frequent releases.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": ["XP", "Framework", "Technical Excellence"]
+    },
+    {
+      "question": "What is Crystal methodology?",
+      "options": [
+        "A lightweight Agile framework emphasizing people and communication, with variants based on project size",
+        "A rigid framework requiring extensive planning",
+        "A method focused only on large enterprise projects",
+        "A framework that eliminates all documentation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Crystal is a family of lightweight Agile methodologies (Crystal Clear, Yellow, Orange) tailored to different project sizes, emphasizing people and communication.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": ["Crystal", "Framework", "Lightweight"]
+    },
+    {
+      "question": "What is SAFe (Scaled Agile Framework)?",
+      "options": [
+        "An enterprise-scale framework for coordinating multiple Agile teams across large organizations",
+        "A framework for small startup projects",
+        "A traditional waterfall methodology",
+        "A framework that eliminates the need for planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "SAFe is designed for large enterprises, providing structure for multiple teams working on large solutions with portfolio-level planning and governance.",
+      "category": "Agile Frameworks",
+      "level": "Medium",
+      "tags": ["SAFe", "Framework", "Enterprise Scale"]
+    },
+    {
+      "question": "Which framework is best suited for small software development teams?",
+      "options": [
+        "Scrum",
+        "SAFe",
+        "Waterfall",
+        "Six Sigma"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scrum is ideal for small to medium teams, with a relatively easy learning curve and clear roles/ceremonies. SAFe is for large enterprises, and Waterfall is traditional.",
+      "category": "Framework Selection",
+      "level": "Medium",
+      "tags": ["Scrum", "Team Size", "Framework Selection"]
+    },
+    {
+      "question": "What are the key characteristics of Agile?",
+      "options": [
+        "Iterative cycles, continuous feedback, cross-functional teams, frequent deliverables, embraces change",
+        "Detailed upfront planning, sequential phases, minimal customer contact, resistance to change",
+        "Large documentation, fixed scope, single-discipline teams, infrequent releases",
+        "Hierarchical structure, command-and-control management, long feedback cycles"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile is characterized by iterative development, continuous feedback loops, cross-functional collaboration, frequent incremental deliverables, and adaptability to change.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": ["Agile", "Characteristics", "Core Concepts"]
+    },
+    {
+      "question": "What does 'embraces change' mean in the context of Agile?",
+      "options": [
+        "Agile welcomes requirement changes even late in development as a competitive advantage",
+        "Agile resists all changes to maintain project stability",
+        "Agile only accepts changes during planning phases",
+        "Agile treats changes as failures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile views change as inevitable and valuable, using it to improve the product and meet evolving customer needs, even late in the development cycle.",
+      "category": "Agile Fundamentals",
+      "level": "Medium",
+      "tags": ["Agile", "Change Management", "Philosophy"]
+    },
+    {
+      "question": "What is the primary advantage of Agile over traditional project management?",
+      "options": [
+        "Faster feedback, flexibility to adapt, reduced risk of building wrong product",
+        "Comprehensive documentation and detailed planning",
+        "Predictable fixed budgets and timelines",
+        "Minimal customer involvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile's iterative approach enables rapid feedback, quick pivots based on market changes, and reduces the risk of delivering a product that doesn't meet customer needs.",
+      "category": "Agile Benefits",
+      "level": "Medium",
+      "tags": ["Agile", "Advantages", "Benefits"]
+    },
+    {
+      "question": "What is a potential challenge of Agile methodology?",
+      "options": [
+        "Difficulty in predicting final costs and timelines, requires experienced teams and stakeholder commitment",
+        "Excessive documentation requirements",
+        "Inability to adapt to changes",
+        "Lack of customer involvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile challenges include uncertainty in final scope/cost, need for skilled teams, continuous stakeholder availability, and difficulty scaling to large organizations.",
+      "category": "Agile Challenges",
+      "level": "Medium",
+      "tags": ["Agile", "Challenges", "Limitations"]
+    },
+    {
+      "question": "What is the relationship between Agile and DevOps?",
+      "options": [
+        "DevOps extends Agile principles to operations and deployment, enabling continuous delivery",
+        "They are completely unrelated methodologies",
+        "DevOps replaces Agile for all projects",
+        "Agile is only for development, DevOps is only for operations"
+      ],
+      "answerIndex": 0,
+      "explanation": "DevOps builds on Agile principles, extending collaboration and automation to operations and deployment, enabling continuous integration and continuous delivery.",
+      "category": "Agile Extensions",
+      "level": "Hard",
+      "tags": ["Agile", "DevOps", "Integration"]
+    },
+    {
+      "question": "What is a burndown chart used for in Scrum?",
+      "options": [
+        "To visualize the remaining work in a sprint, showing progress toward sprint goals",
+        "To track team member vacation days",
+        "To estimate project costs",
+        "To schedule meetings"
+      ],
+      "answerIndex": 0,
+      "explanation": "A burndown chart shows remaining work (y-axis) over time (x-axis), helping the team track progress and identify if they're on pace to complete the sprint.",
+      "category": "Scrum Metrics",
+      "level": "Medium",
+      "tags": ["Scrum", "Burndown Chart", "Metrics"]
+    },
+    {
+      "question": "What is a burnup chart?",
+      "options": [
+        "A chart showing completed work accumulating over time, complementary to burndown",
+        "A chart showing team member performance ratings",
+        "A chart showing budget expenditure",
+        "A chart showing customer satisfaction"
+      ],
+      "answerIndex": 0,
+      "explanation": "A burnup chart shows completed work accumulating upward over time, providing a positive perspective on progress and making scope changes more visible.",
+      "category": "Scrum Metrics",
+      "level": "Medium",
+      "tags": ["Scrum", "Burnup Chart", "Metrics"]
+    },
+    {
+      "question": "What is story pointing?",
+      "options": [
+        "A technique to estimate relative complexity of work items using a scale (Fibonacci, T-shirt sizes)",
+        "A method to assign blame for project delays",
+        "A way to calculate team member bonuses",
+        "A technique for scheduling meetings"
+      ],
+      "answerIndex": 0,
+      "explanation": "Story pointing uses relative estimation (not time-based) to assess work complexity, using scales like Fibonacci (1,2,3,5,8,13) or T-shirt sizes (S,M,L,XL).",
+      "category": "Scrum Estimation",
+      "level": "Medium",
+      "tags": ["Scrum", "Estimation", "Story Points"]
+    },
+    {
+      "question": "What is the purpose of estimation in Agile?",
+      "options": [
+        "To help the team understand work complexity and plan sprint capacity",
+        "To provide exact time predictions",
+        "To assign blame for delays",
+        "To calculate individual productivity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Estimation in Agile focuses on relative complexity to help teams understand scope and plan realistic sprint commitments, not precise time predictions.",
+      "category": "Agile Estimation",
+      "level": "Medium",
+      "tags": ["Agile", "Estimation", "Planning"]
+    },
+    {
+      "question": "What is a user story?",
+      "options": [
+        "A short description of a feature from the user's perspective, typically in the format 'As a [user], I want [feature] so that [benefit]'",
+        "A detailed technical specification document",
+        "A list of all project requirements",
+        "A narrative of the project's history"
+      ],
+      "answerIndex": 0,
+      "explanation": "User stories are short, simple descriptions of features written from the user's perspective, promoting understanding of user needs and facilitating discussion.",
+      "category": "Agile Artifacts",
+      "level": "Easy",
+      "tags": ["User Story", "Agile", "Requirements"]
+    },
+    {
+      "question": "What are acceptance criteria?",
+      "options": [
+        "Specific conditions that must be met for a user story to be considered complete",
+        "The budget allocated for a feature",
+        "The timeline for project completion",
+        "The team members assigned to a task"
+      ],
+      "answerIndex": 0,
+      "explanation": "Acceptance criteria define the specific, testable conditions that must be satisfied for a user story to be accepted as done, ensuring clarity and quality.",
+      "category": "Agile Artifacts",
+      "level": "Easy",
+      "tags": ["Acceptance Criteria", "User Story", "Definition of Done"]
+    },
+    {
+      "question": "What is the Definition of Done in Scrum?",
+      "options": [
+        "A shared understanding of what 'complete' means for a user story or increment",
+        "The date the project ends",
+        "The final budget report",
+        "The list of team members who completed tasks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Definition of Done is a checklist of criteria (code review, testing, documentation, etc.) that work must meet to be considered truly complete and ready for release.",
+      "category": "Scrum Practices",
+      "level": "Medium",
+      "tags": ["Scrum", "Definition of Done", "Quality"]
+    },
+    {
+      "question": "What is a retrospective in Agile?",
+      "options": [
+        "A meeting where the team reflects on what went well, what didn't, and what to improve",
+        "A review of completed work with customers",
+        "A planning session for the next project",
+        "A training session for new team members"
+      ],
+      "answerIndex": 0,
+      "explanation": "A retrospective is a team reflection meeting focused on continuous improvement, discussing successes, failures, and actionable improvements for future sprints.",
+      "category": "Agile Ceremonies",
+      "level": "Easy",
+      "tags": ["Retrospective", "Agile", "Continuous Improvement"]
+    },
+    {
+      "question": "What is the purpose of the Daily Standup?",
+      "options": [
+        "To synchronize team activities and identify blockers quickly",
+        "To provide detailed status reports to management",
+        "To make major project decisions",
+        "To conduct performance reviews"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Daily Standup is a brief 15-minute meeting where each team member shares what they did, what they'll do, and any obstacles, promoting transparency and quick problem-solving.",
+      "category": "Scrum Ceremonies",
+      "level": "Easy",
+      "tags": ["Daily Standup", "Scrum", "Communication"]
+    },
+    {
+      "question": "What is an impediment in Scrum?",
+      "options": [
+        "Any obstacle or blocker preventing the team from completing work",
+        "A completed task",
+        "A team member's vacation",
+        "A successful sprint"
+      ],
+      "answerIndex": 0,
+      "explanation": "An impediment is any blocker or obstacle (technical, organizational, or personal) that prevents the team from progressing, which the Scrum Master should help remove.",
+      "category": "Scrum Practices",
+      "level": "Easy",
+      "tags": ["Scrum", "Impediment", "Problem Solving"]
+    },
+    {
+      "question": "What is a Kanban board?",
+      "options": [
+        "A visual representation of workflow with columns representing stages (To Do, In Progress, Done)",
+        "A financial budget tracking tool",
+        "A schedule for team meetings",
+        "A list of employee skills"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Kanban board visualizes work items moving through workflow stages, making progress visible and helping limit work-in-progress at each stage.",
+      "category": "Kanban",
+      "level": "Easy",
+      "tags": ["Kanban", "Board", "Visualization"]
+    },
+    {
+      "question": "What does 'pull-based system' mean in Kanban?",
+      "options": [
+        "Team members pull new work only when they have capacity, preventing overload",
+        "Management pushes work to team members regardless of capacity",
+        "All work is assigned at the project start",
+        "Work is randomly distributed"
+      ],
+      "answerIndex": 0,
+      "explanation": "In Kanban's pull system, team members pull new work from the queue only when they have capacity, preventing bottlenecks and overwork.",
+      "category": "Kanban",
+      "level": "Medium",
+      "tags": ["Kanban", "Pull System", "Work Management"]
+    },
+    {
+      "question": "What is lead time in Kanban?",
+      "options": [
+        "The total time from when a work item is requested until it's delivered",
+        "The time a team member takes to complete a task",
+        "The duration of a sprint",
+        "The time between meetings"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lead time measures the entire elapsed time from request to delivery, including waiting time and active work time, helping identify process inefficiencies.",
+      "category": "Kanban Metrics",
+      "level": "Medium",
+      "tags": ["Kanban", "Lead Time", "Metrics"]
+    },
+    {
+      "question": "What is cycle time in Kanban?",
+      "options": [
+        "The time from when work starts until it's completed, excluding waiting time",
+        "The total project duration",
+        "The time between sprint reviews",
+        "The time a team member is on vacation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cycle time measures the active work time from start to completion, excluding waiting periods, helping teams understand actual productivity.",
+      "category": "Kanban Metrics",
+      "level": "Medium",
+      "tags": ["Kanban", "Cycle Time", "Metrics"]
+    },
+    {
+      "question": "What is throughput in Kanban?",
+      "options": [
+        "The number of work items completed in a specific time period",
+        "The total budget of the project",
+        "The number of team members",
+        "The total project scope"
+      ],
+      "answerIndex": 0,
+      "explanation": "Throughput measures how many items are completed per unit of time (e.g., items per week), helping teams predict delivery capacity.",
+      "category": "Kanban Metrics",
+      "level": "Medium",
+      "tags": ["Kanban", "Throughput", "Metrics"]
+    },
+    {
+      "question": "What is the primary benefit of using Kanban for continuous operations?",
+      "options": [
+        "It allows continuous delivery without fixed sprints, adapting to changing priorities",
+        "It requires extensive upfront planning",
+        "It eliminates the need for team communication",
+        "It guarantees fixed delivery dates"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kanban's continuous flow model is ideal for operations with unpredictable work, allowing teams to adapt priorities and deliver continuously without sprint boundaries.",
+      "category": "Kanban Benefits",
+      "level": "Medium",
+      "tags": ["Kanban", "Continuous Operations", "Benefits"]
+    },
+    {
+      "question": "What is a Kanban card?",
+      "options": [
+        "A representation of a work item on the Kanban board, containing relevant information",
+        "A payment method for project expenses",
+        "A team member's identification badge",
+        "A schedule for meetings"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Kanban card represents a single work item on the board, typically containing details like task description, owner, priority, and status.",
+      "category": "Kanban",
+      "level": "Easy",
+      "tags": ["Kanban", "Card", "Work Item"]
+    },
+    {
+      "question": "What is a Kanban swimlane?",
+      "options": [
+        "A horizontal lane on the Kanban board used to categorize work by type, priority, or team",
+        "A vertical column representing workflow stages",
+        "A time period for completing work",
+        "A team member's performance rating"
+      ],
+      "answerIndex": 0,
+      "explanation": "Swimlanes are horizontal divisions on a Kanban board used to organize work by category (e.g., bugs, features, support requests) or team member.",
+      "category": "Kanban",
+      "level": "Medium",
+      "tags": ["Kanban", "Swimlane", "Organization"]
+    },
+    {
+      "question": "What is the relationship between Agile and Lean?",
+      "options": [
+        "Lean principles (waste elimination, value focus) underpin and complement Agile practices",
+        "They are completely separate and incompatible",
+        "Lean is only for manufacturing, Agile is only for software",
+        "Agile replaced Lean as a methodology"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lean principles of eliminating waste and maximizing value align with and strengthen Agile practices, creating a synergistic approach to project management.",
+      "category": "Agile Frameworks",
+      "level": "Hard",
+      "tags": ["Agile", "Lean", "Integration"]
+    },
+    {
+      "question": "What is pair programming in XP?",
+      "options": [
+        "Two developers working together at one computer, taking turns as driver and navigator",
+        "Two teams working on separate projects",
+        "Two managers overseeing one project",
+        "Two sprints run in parallel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pair programming is an XP practice where two developers collaborate at one workstation, improving code quality, knowledge sharing, and reducing defects.",
+      "category": "XP Practices",
+      "level": "Medium",
+      "tags": ["XP", "Pair Programming", "Technical Practice"]
+    },
+    {
+      "question": "What is test-driven development (TDD)?",
+      "options": [
+        "Writing tests before writing code, then writing code to pass those tests",
+        "Testing code after it's completely written",
+        "Eliminating the need for testing",
+        "Having a separate team write all tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "TDD is an XP practice where developers write automated tests first, then write code to satisfy those tests, improving code quality and design.",
+      "category": "XP Practices",
+      "level": "Medium",
+      "tags": ["TDD", "XP", "Testing"]
+    },
+    {
+      "question": "What is continuous integration?",
+      "options": [
+        "Frequently merging code changes into a shared repository and automatically testing them",
+        "Keeping code changes separate until project end",
+        "Testing code only once per month",
+        "Integrating code manually without automation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Integration involves frequently integrating code changes (multiple times daily), automatically building and testing to catch integration issues early.",
+      "category": "DevOps Practices",
+      "level": "Medium",
+      "tags": ["CI", "DevOps", "Automation"]
+    },
+    {
+      "question": "What is continuous delivery?",
+      "options": [
+        "Ensuring code is always in a deployable state and can be released to production at any time",
+        "Delivering software only once per year",
+        "Manual deployment processes",
+        "Eliminating the need for testing before release"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery extends CI by ensuring the codebase is always ready for production release, with automated deployment pipelines enabling rapid, safe releases.",
+      "category": "DevOps Practices",
+      "level": "Hard",
+      "tags": ["CD", "DevOps", "Deployment"]
+    },
+    {
+      "question": "What is a product increment?",
+      "options": [
+        "A potentially shippable product increment created at the end of each sprint",
+        "The budget increase for a project",
+        "The salary increase for team members",
+        "The addition of new team members"
+      ],
+      "answerIndex": 0,
+      "explanation": "A product increment is the sum of all completed Product Backlog items from the current and previous sprints, representing the working product at that point.",
+      "category": "Scrum Artifacts",
+      "level": "Easy",
+      "tags": ["Scrum", "Increment", "Deliverable"]
+    },
+    {
+      "question": "What is the purpose of the Sprint Goal?",
+      "options": [
+        "To provide a cohesive objective that guides the team's work during the sprint",
+        "To list all tasks that must be completed",
+        "To calculate the project budget",
+        "To schedule team vacations"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Sprint Goal is a single objective that guides the team's work, helping them understand the 'why' behind the sprint and make trade-off decisions.",
+      "category": "Scrum Practices",
+      "level": "Medium",
+      "tags": ["Scrum", "Sprint Goal", "Alignment"]
+    },
+    {
+      "question": "What is a spike in Agile?",
+      "options": [
+        "A time-boxed investigation to reduce uncertainty about a technical or business question",
+        "A sudden increase in project costs",
+        "A team member's performance increase",
+        "A rapid deployment to production"
+      ],
+      "answerIndex": 0,
+      "explanation": "A spike is a short investigation (often 1-2 days) to explore a technical challenge or answer a critical question, helping reduce risk before implementation.",
+      "category": "Agile Practices",
+      "level": "Medium",
+      "tags": ["Spike", "Agile", "Risk Reduction"]
+    },
+    {
+      "question": "What is a release in Agile?",
+      "options": [
+        "A deployment of a set of increments to production for end users",
+        "A team member leaving the project",
+        "The end of a sprint",
+        "A budget reduction"
+      ],
+      "answerIndex": 0,
+      "explanation": "A release is when one or more product increments are deployed to production, making new functionality available to end users.",
+      "category": "Agile Practices",
+      "level": "Easy",
+      "tags": ["Release", "Agile", "Deployment"]
+    },
+    {
+      "question": "What is the difference between a release and a sprint?",
+      "options": [
+        "A sprint is a time-boxed development cycle; a release is a deployment of completed work to production",
+        "They are the same thing",
+        "A release is shorter than a sprint",
+        "A sprint happens after a release"
+      ],
+      "answerIndex": 0,
+      "explanation": "A sprint is a 1-4 week development iteration, while a release is a deployment of completed increments to production (which may span multiple sprints).",
+      "category": "Agile Practices",
+      "level": "Medium",
+      "tags": ["Sprint", "Release", "Terminology"]
+    },
+    {
+      "question": "What is stakeholder engagement in Agile?",
+      "options": [
+        "Regular involvement of customers and stakeholders in feedback, reviews, and decision-making",
+        "Minimal communication with stakeholders",
+        "Stakeholder involvement only at project end",
+        "Stakeholders making all technical decisions"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile emphasizes continuous stakeholder engagement through Sprint Reviews, feedback sessions, and ongoing communication to ensure the product meets their needs.",
+      "category": "Agile Practices",
+      "level": "Medium",
+      "tags": ["Stakeholder", "Engagement", "Communication"]
+    },
+    {
+      "question": "What is the role of a Product Owner in prioritizing the backlog?",
+      "options": [
+        "To order items by business value, considering customer needs, market opportunities, and strategic goals",
+        "To randomly order items",
+        "To let the team decide the order",
+        "To order items by technical difficulty"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Product Owner prioritizes the Product Backlog based on business value, customer impact, and strategic alignment, ensuring the team works on the most important items first.",
+      "category": "Scrum Roles",
+      "level": "Medium",
+      "tags": ["Product Owner", "Prioritization", "Backlog"]
+    },
+    {
+      "question": "What is a technical debt?",
+      "options": [
+        "Shortcuts or compromises in code quality that create future maintenance burden",
+        "The cost of project management tools",
+        "Team member salaries",
+        "Project budget overruns"
+      ],
+      "answerIndex": 0,
+      "explanation": "Technical debt refers to the cost of maintaining and fixing code that was developed quickly or with shortcuts, representing future work needed to improve quality.",
+      "category": "Agile Concepts",
+      "level": "Hard",
+      "tags": ["Technical Debt", "Code Quality", "Risk"]
+    },
+    {
+      "question": "How should Agile teams handle technical debt?",
+      "options": [
+        "Include technical debt items in the backlog and allocate time each sprint to address them",
+        "Ignore technical debt and focus only on new features",
+        "Address all technical debt before starting new features",
+        "Assign technical debt to a separate team"
+      ],
+      "answerIndex": 0,
+      "explanation": "Best practice is to balance new features with technical debt reduction by including debt items in the backlog and allocating sprint capacity to address them.",
+      "category": "Agile Practices",
+      "level": "Hard",
+      "tags": ["Technical Debt", "Backlog", "Maintenance"]
+    },
+    {
+      "question": "What is the purpose of a Scrum of Scrums?",
+      "options": [
+        "To coordinate work across multiple Scrum teams working on the same product or initiative",
+        "To replace individual team standups",
+        "To eliminate the need for Scrum Masters",
+        "To reduce the number of sprints"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Scrum of Scrums is a meeting where representatives from multiple Scrum teams synchronize, identify dependencies, and resolve cross-team issues.",
+      "category": "Scaling Agile",
+      "level": "Hard",
+      "tags": ["Scrum of Scrums", "Scaling", "Coordination"]
+    },
+    {
+      "question": "What is an Agile coach?",
+      "options": [
+        "An experienced practitioner who helps teams and organizations adopt and improve Agile practices",
+        "A team member who plays sports",
+        "A manager who assigns tasks",
+        "A person who conducts training only"
+      ],
+      "answerIndex": 0,
+      "explanation": "An Agile coach guides teams and organizations in adopting Agile practices, removing obstacles, improving processes, and fostering a culture of continuous improvement.",
+      "category": "Agile Roles",
+      "level": "Medium",
+      "tags": ["Agile Coach", "Coaching", "Organizational Change"]
+    },
+    {
+      "question": "What is the relationship between Agile and organizational culture?",
+      "options": [
+        "Agile requires a culture of trust, transparency, continuous learning, and empowerment",
+        "Agile works in any organizational culture",
+        "Organizational culture is irrelevant to Agile success",
+        "Agile requires a hierarchical, command-and-control culture"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agile success depends heavily on organizational culture that values trust, transparency, experimentation, continuous improvement, and employee empowerment.",
+      "category": "Agile Culture",
+      "level": "Hard",
+      "tags": ["Culture", "Agile", "Organizational Change"]
+    },
+    {
+      "question": "What is the Agile Manifesto?",
+      "options": [
+        "A foundational document stating four core values and twelve principles of Agile software development",
+        "A list of Agile tools and technologies",
+        "A project management certification",
+        "A book about Agile history"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Agile Manifesto, created in 2001, defines four core values and twelve principles that form the foundation of Agile philosophy and practice.",
+      "category": "Agile Fundamentals",
+      "level": "Easy",
+      "tags": ["Agile Manifesto", "Principles", "Foundation"]
+    }
+  ]
+}
