@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction to Agile & Hybrid Project Management</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #667eea;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.1em;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      padding: 12px 24px;
+      border: none;
+      background: #f0f0f0;
+      color: #333;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1em;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .tab-btn.active {
+      background: #667eea;
+      color: white;
+    }
+
+    .tab-btn:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .content-section {
+      display: none;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      animation: fadeIn 0.3s ease;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      color: #667eea;
+      margin-bottom: 20px;
+      font-size: 2em;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      color: #764ba2;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 1.3em;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 15px;
+      font-size: 1em;
+    }
+
+    .definition-box {
+      background: #f8f9ff;
+      border-left: 4px solid #667eea;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .comparison-table th {
+      background: #667eea;
+      color: white;
+      padding: 15px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .comparison-table td {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .comparison-table tr:hover {
+      background: #f5f5f5;
+    }
+
+    .comparison-table tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    .framework-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .framework-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    }
+
+    .framework-card h4 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .framework-card p {
+      color: white;
+      margin: 0;
+    }
+
+    .pros-cons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .pros, .cons {
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .pros {
+      background: #e8f5e9;
+      border-left: 4px solid #4caf50;
+    }
+
+    .cons {
+      background: #ffebee;
+      border-left: 4px solid #f44336;
+    }
+
+    .pros h4 {
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .cons h4 {
+      color: #c62828;
+      margin-bottom: 10px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      color: #555;
+    }
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .comparison-visual {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .approach-box {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .approach-box h4 {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+    }
+
+    .approach-box p {
+      color: white;
+      font-size: 0.95em;
+    }
+
+    .interactive-toggle {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .interactive-toggle:hover {
+      background: #e0e0e0;
+    }
+
+    .toggle-content {
+      display: none;
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 2px solid #667eea;
+    }
+
+    .toggle-content.show {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .icon {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .pros-cons {
+        grid-template-columns: 1fr;
+      }
+
+      .comparison-visual {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+
+      .nav-tabs {
+        flex-direction: column;
+      }
+
+      .tab-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📊 Introduction to Agile & Hybrid Project Management</h1>
+      <p class="subtitle">Master the key concepts, frameworks, and when to use each approach</p>
+    </header>
+
+    <div class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('objectives')">Objectives</button>
+      <button class="tab-btn" onclick="switchTab('agile-definition')">Agile Definition</button>
+      <button class="tab-btn" onclick="switchTab('comparison')">Agile vs Kanban</button>
+      <button class="tab-btn" onclick="switchTab('when-use')">When to Use</button>
+      <button class="tab-btn" onclick="switchTab('hybrid')">Hybrid Model</button>
+      <button class="tab-btn" onclick="switchTab('frameworks')">Frameworks</button>
+    </div>
+
+    <!-- OBJECTIVES -->
+    <div id="objectives" class="content-section active">
+      <h2>🎯 Learning Objectives</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+        <div class="definition-box">
+          <h3>✓ Define Agile Project Management</h3>
+          <p>Understand the core principles and philosophy behind Agile methodology</p>
+        </div>
+        <div class="definition-box">
+          <h3>✓ Agile vs Kanban</h3>
+          <p>Learn the key differences between Agile and Kanban approaches</p>
+        </div>
+        <div class="definition-box">
+          <h3>✓ When to Use Agile</h3>
+          <p>Identify scenarios where Agile is appropriate and where it's not</p>
+        </div>
+        <div class="definition-box">
+          <h3>✓ Hybrid Models</h3>
+          <p>Understand why organizations adopt hybrid project management approaches</p>
+        </div>
+        <div class="definition-box">
+          <h3>✓ Three Approaches</h3>
+          <p>Compare Predictive/Traditional, Agile, and Hybrid methodologies</p>
+        </div>
+        <div class="definition-box">
+          <h3>✓ Agile Frameworks</h3>
+          <p>Identify common frameworks like Scrum, Kanban, and others</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- AGILE DEFINITION -->
+    <div id="agile-definition" class="content-section">
+      <h2>📖 What is Agile Project Management?</h2>
+      
+      <div class="definition-box">
+        <h3>Definition</h3>
+        <p><strong>Agile Project Management</strong> is an iterative and incremental approach to project management that emphasizes flexibility, continuous improvement, and customer collaboration. It focuses on delivering value in small, manageable increments rather than waiting for a complete final product.</p>
+      </div>
+
+      <h3>Core Principles of Agile</h3>
+      <ol>
+        <li><strong>Individuals and interactions</strong> over processes and tools</li>
+        <li><strong>Working software</strong> over comprehensive documentation</li>
+        <li><strong>Customer collaboration</strong> over contract negotiation</li>
+        <li><strong>Responding to change</strong> over following a plan</li>
+      </ol>
+
+      <h3>Key Characteristics</h3>
+      <ul>
+        <li>✓ Iterative development cycles (sprints)</li>
+        <li>✓ Continuous feedback and adaptation</li>
+        <li>✓ Cross-functional teams</li>
+        <li>✓ Frequent deliverables</li>
+        <li>✓ Embraces change</li>
+        <li>✓ Customer involvement throughout</li>
+      </ul>
+
+      <h3>Agile Values</h3>
+      <div class="comparison-visual">
+        <div class="approach-box">
+          <div class="icon">🤝</div>
+          <h4>Collaboration</h4>
+          <p>Teams work closely with stakeholders</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">⚡</div>
+          <h4>Speed</h4>
+          <p>Quick iterations and fast feedback loops</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">🎯</div>
+          <h4>Flexibility</h4>
+          <p>Adapt to changing requirements</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARISON: AGILE VS KANBAN -->
+    <div id="comparison" class="content-section">
+      <h2>⚖️ Agile vs Kanban: Key Differences</h2>
+
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>Agile</th>
+            <th>Kanban</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Iterations</strong></td>
+            <td>Fixed time-boxed sprints (1-4 weeks)</td>
+            <td>Continuous flow, no fixed sprints</td>
+          </tr>
+          <tr>
+            <td><strong>Planning</strong></td>
+            <td>Sprint planning at the beginning</td>
+            <td>Continuous planning as work flows</td>
+          </tr>
+          <tr>
+            <td><strong>Work Items</strong></td>
+            <td>Defined before sprint starts</td>
+            <td>Added continuously as needed</td>
+          </tr>
+          <tr>
+            <td><strong>Team Structure</strong></td>
+            <td>Dedicated cross-functional teams</td>
+            <td>Can be more flexible team composition</td>
+          </tr>
+          <tr>
+            <td><strong>Metrics</strong></td>
+            <td>Velocity, burndown charts</td>
+            <td>Lead time, cycle time, throughput</td>
+          </tr>
+          <tr>
+            <td><strong>Change Management</strong></td>
+            <td>Changes between sprints preferred</td>
+            <td>Changes can happen anytime</td>
+          </tr>
+          <tr>
+            <td><strong>Best For</strong></td>
+            <td>Complex projects with clear goals</td>
+            <td>Continuous operations, support teams</td>
+          </tr>
+          <tr>
+            <td><strong>Roles</strong></td>
+            <td>Product Owner, Scrum Master, Team</td>
+            <td>No specific roles required</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Visual Comparison</h3>
+      <div class="comparison-visual">
+        <div class="approach-box">
+          <div class="icon">📅</div>
+          <h4>Agile (Scrum)</h4>
+          <p><strong>Time-boxed</strong><br>Fixed sprints with defined start and end</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">🌊</div>
+          <h4>Kanban</h4>
+          <p><strong>Continuous Flow</strong><br>Work moves through stages continuously</p>
+        </div>
+      </div>
+
+      <div class="interactive-toggle" onclick="toggleContent(this)">
+        <strong>📌 Click to see: When to choose Agile vs Kanban?</strong>
+        <div class="toggle-content">
+          <h4 style="color: #667eea; margin-top: 0;">Choose Agile (Scrum) when:</h4>
+          <ul>
+            <li>You have a defined project scope with clear end date</li>
+            <li>Team needs structured sprints and ceremonies</li>
+            <li>You want to measure velocity and predict timelines</li>
+            <li>Project has distinct phases or releases</li>
+          </ul>
+          <h4 style="color: #667eea;">Choose Kanban when:</h4>
+          <ul>
+            <li>Work is continuous with no clear end date</li>
+            <li>Priorities change frequently</li>
+            <li>You want to optimize flow and minimize wait time</li>
+            <li>Team handles support or maintenance work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHEN TO USE AGILE -->
+    <div id="when-use" class="content-section">
+      <h2>✅ When to Use Agile (and When NOT to)</h2>
+
+      <h3>✓ Agile is APPROPRIATE when:</h3>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Good Fit</h4>
+          <ul>
+            <li>Requirements are unclear or evolving</li>
+            <li>Frequent customer feedback is available</li>
+            <li>Team is co-located or has good communication</li>
+            <li>Innovation and speed are priorities</li>
+            <li>Project is complex and uncertain</li>
+            <li>Stakeholders embrace change</li>
+            <li>Software/digital products</li>
+            <li>Smaller to medium-sized teams</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ NOT Appropriate</h4>
+          <ul>
+            <li>Requirements are fixed and well-defined</li>
+            <li>Limited customer availability</li>
+            <li>Distributed teams with poor communication</li>
+            <li>Predictability is critical</li>
+            <li>Large-scale infrastructure projects</li>
+            <li>Regulatory compliance is strict</li>
+            <li>Hardware-dependent projects</li>
+            <li>Fixed budget/timeline with no flexibility</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Real-World Scenarios</h3>
+      <div class="interactive-toggle" onclick="toggleContent(this)">
+        <strong>📌 Click to see: Real-world examples</strong>
+        <div class="toggle-content">
+          <h4 style="color: #4caf50;">✓ Agile Works Well:</h4>
+          <ul>
+            <li>Mobile app development with frequent updates</li>
+            <li>SaaS platform with evolving features</li>
+            <li>Startup MVP development</li>
+            <li>Digital transformation initiatives</li>
+          </ul>
+          <h4 style="color: #f44336;">✗ Agile Struggles:</h4>
+          <ul>
+            <li>Building a bridge or highway</li>
+            <li>Pharmaceutical drug development (strict regulations)</li>
+            <li>Aircraft manufacturing</li>
+            <li>Government contracts with fixed scope</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- HYBRID MODEL -->
+    <div id="hybrid" class="content-section">
+      <h2>🔄 Hybrid Project Management</h2>
+
+      <div class="definition-box">
+        <h3>What is Hybrid Project Management?</h3>
+        <p><strong>Hybrid Project Management</strong> combines elements of traditional/predictive and Agile approaches. It uses predictive planning for stable elements and Agile practices for uncertain, evolving components.</p>
+      </div>
+
+      <h3>Why Organizations Use Hybrid Models</h3>
+      <ol>
+        <li><strong>Risk Management:</strong> Predictive planning for known risks, Agile for unknowns</li>
+        <li><strong>Stakeholder Satisfaction:</strong> Some stakeholders need predictability, others need flexibility</li>
+        <li><strong>Complex Projects:</strong> Different phases require different approaches</li>
+        <li><strong>Regulatory Requirements:</strong> Some areas need documentation, others need flexibility</li>
+        <li><strong>Team Diversity:</strong> Mix of traditional and Agile-experienced team members</li>
+        <li><strong>Organizational Maturity:</strong> Gradual transition from traditional to Agile</li>
+      </ol>
+
+      <h3>Three Project Management Approaches</h3>
+      <div class="comparison-visual">
+        <div class="approach-box">
+          <div class="icon">📋</div>
+          <h4>Predictive/Traditional</h4>
+          <p><strong>Waterfall</strong><br>Plan everything upfront, execute sequentially</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">🚀</div>
+          <h4>Agile</h4>
+          <p><strong>Iterative</strong><br>Adapt continuously, deliver incrementally</p>
+        </div>
+        <div class="approach-box">
+          <div class="icon">⚙️</div>
+          <h4>Hybrid</h4>
+          <p><strong>Balanced</strong><br>Combine predictive and Agile as needed</p>
+        </div>
+      </div>
+
+      <h3>Hybrid Model Example</h3>
+      <div class="definition-box">
+        <p><strong>Project:</strong> Enterprise Software Implementation</p>
+        <ul>
+          <li><strong>Infrastructure Setup (Predictive):</strong> Fixed scope, detailed planning, sequential phases</li>
+          <li><strong>Feature Development (Agile):</strong> Sprints, iterative feedback, evolving requirements</li>
+          <li><strong>Training & Rollout (Predictive):</strong> Scheduled phases, documented procedures</li>
+        </ul>
+      </div>
+
+      <h3>Hybrid Approach Benefits</h3>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Advantages</h4>
+          <ul>
+            <li>Flexibility where needed</li>
+            <li>Predictability where required</li>
+            <li>Better risk management</li>
+            <li>Stakeholder alignment</li>
+            <li>Scalability</li>
+            <li>Organizational fit</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ Challenges</h4>
+          <ul>
+            <li>Complexity in execution</li>
+            <li>Requires clear boundaries</li>
+            <li>Team training needed</li>
+            <li>Potential conflicts</li>
+            <li>Harder to measure</li>
+            <li>Change management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- FRAMEWORKS -->
+    <div id="frameworks" class="content-section">
+      <h2>🎯 Common Agile Frameworks</h2>
+
+      <h3>Popular Agile Frameworks</h3>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🔵 Scrum</h4>
+        <p>Most popular Agile framework with defined roles and ceremonies</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Roles:</strong> Product Owner, Scrum Master, Development Team</li>
+            <li><strong>Artifacts:</strong> Product Backlog, Sprint Backlog, Increment</li>
+            <li><strong>Ceremonies:</strong> Sprint Planning, Daily Standup, Sprint Review, Sprint Retrospective</li>
+            <li><strong>Sprint Duration:</strong> 1-4 weeks</li>
+            <li><strong>Best For:</strong> Software development, product teams</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🌊 Kanban</h4>
+        <p>Continuous flow approach focusing on work-in-progress limits</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Visualization:</strong> Kanban board with columns (To Do, In Progress, Done)</li>
+            <li><strong>WIP Limits:</strong> Maximum items in each column</li>
+            <li><strong>Continuous Flow:</strong> No fixed sprints</li>
+            <li><strong>Metrics:</strong> Lead time, cycle time, throughput</li>
+            <li><strong>Best For:</strong> Support teams, maintenance, continuous operations</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🎨 Lean</h4>
+        <p>Focuses on eliminating waste and maximizing value</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Principles:</strong> Eliminate waste, amplify learning, deliver fast</li>
+            <li><strong>Focus:</strong> Value stream, efficiency</li>
+            <li><strong>Approach:</strong> Continuous improvement (Kaizen)</li>
+            <li><strong>Best For:</strong> Manufacturing, process optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🔄 XP (Extreme Programming)</h4>
+        <p>Engineering-focused framework emphasizing code quality</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Practices:</strong> Pair programming, test-driven development, continuous integration</li>
+            <li><strong>Focus:</strong> Code quality, technical excellence</li>
+            <li><strong>Releases:</strong> Frequent, small releases</li>
+            <li><strong>Best For:</strong> Software development teams with high quality requirements</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🎯 Crystal</h4>
+        <p>Lightweight framework emphasizing people and communication</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Variants:</strong> Crystal Clear, Crystal Yellow, Crystal Orange (based on project size)</li>
+            <li><strong>Focus:</strong> People, communication, feedback</li>
+            <li><strong>Approach:</strong> Tailored to project characteristics</li>
+            <li><strong>Best For:</strong> Teams seeking flexibility in Agile approach</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="framework-card" onclick="toggleContent(this)">
+        <h4>🚀 SAFe (Scaled Agile Framework)</h4>
+        <p>Enterprise-scale framework for large organizations</p>
+        <div class="toggle-content" style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <p style="color: white;"><strong>Key Elements:</strong></p>
+          <ul style="color: white;">
+            <li><strong>Levels:</strong> Team, Program, Large Solution, Portfolio</li>
+            <li><strong>Focus:</strong> Alignment, scalability, enterprise governance</li>
+            <li><strong>Ceremonies:</strong> PI Planning, Iteration Planning, Demos, Retrospectives</li>
+            <li><strong>Best For:</strong> Large enterprises with multiple teams</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Framework Comparison</h3>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Framework</th>
+            <th>Team Size</th>
+            <th>Complexity</th>
+            <th>Learning Curve</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Scrum</strong></td>
+            <td>Small to Medium</td>
+            <td>Medium</td>
+            <td>Easy</td>
+          </tr>
+          <tr>
+            <td><strong>Kanban</strong></td>
+            <td>Any</td>
+            <td>Low</td>
+            <td>Very Easy</td>
+          </tr>
+          <tr>
+            <td><strong>Lean</strong></td>
+            <td>Any</td>
+            <td>Medium</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td><strong>XP</strong></td>
+            <td>Small</td>
+            <td>High</td>
+            <td>Hard</td>
+          </tr>
+          <tr>
+            <td><strong>Crystal</strong></td>
+            <td>Variable</td>
+            <td>Medium</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td><strong>SAFe</strong></td>
+            <td>Large</td>
+            <td>High</td>
+            <td>Hard</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    function switchTab(tabName) {
+      // Hide all sections
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => section.classList.remove('active'));
+
+      // Show selected section
+      document.getElementById(tabName).classList.add('active');
+
+      // Update button styles
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      // Scroll to top
+      window.scrollTo(0, 0);
+    }
+
+    function toggleContent(element) {
+      const content = element.querySelector('.toggle-content');
+      content.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
